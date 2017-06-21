@@ -1,5 +1,5 @@
 EESchema Schematic File Version 2
-LIBS:mmdvm-dongle-rescue
+LIBS:mmdvm_hs-hat-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,13 +29,11 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ft232rl
 LIBS:stm32f103c8t6
 LIBS:switches
 LIBS:adf7021
 LIBS:Oscillators
-LIBS:RPI-Zero
-LIBS:mmdvm-dongle-cache
+LIBS:mmdvm_hs-hat-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -254,7 +252,7 @@ F 3 "" H 1650 4050 50  0000 C CNN
 	1    1650 4050
 	1    0    0    -1  
 $EndComp
-Text GLabel 2050 3850 2    49   Input ~ 0
+Text GLabel 2400 3850 2    49   Input ~ 0
 BOOT0
 $Comp
 L CONN_01X04 P4
@@ -355,12 +353,12 @@ SWCLK
 $Comp
 L R R1
 U 1 1 58963296
-P 1800 3850
-F 0 "R1" V 1880 3850 50  0000 C CNN
-F 1 "10k" V 1800 3850 50  0000 C CNN
-F 2 "Resistors_SMD:R_0402" V 1730 3850 50  0001 C CNN
-F 3 "" H 1800 3850 50  0000 C CNN
-	1    1800 3850
+P 2150 3850
+F 0 "R1" V 2230 3850 50  0000 C CNN
+F 1 "10k" V 2150 3850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 2080 3850 50  0001 C CNN
+F 3 "" H 2150 3850 50  0000 C CNN
+	1    2150 3850
 	0    1    -1   0   
 $EndComp
 Text GLabel 10000 2100 2    49   Input ~ 0
@@ -572,7 +570,7 @@ F 3 "" H 7050 6100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D1
+L LED-RESCUE-mmdvm_hs-hat D1
 U 1 1 5896A578
 P 10450 4400
 F 0 "D1" H 10450 4500 50  0000 C CNN
@@ -583,7 +581,7 @@ F 3 "" H 10450 4400 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D2
+L LED-RESCUE-mmdvm_hs-hat D2
 U 1 1 5896A71F
 P 10450 4700
 F 0 "D2" H 10450 4800 50  0000 C CNN
@@ -594,7 +592,7 @@ F 3 "" H 10450 4700 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D3
+L LED-RESCUE-mmdvm_hs-hat D3
 U 1 1 5896A7A2
 P 10450 5000
 F 0 "D3" H 10450 5100 50  0000 C CNN
@@ -605,7 +603,7 @@ F 3 "" H 10450 5000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D4
+L LED-RESCUE-mmdvm_hs-hat D4
 U 1 1 5896A826
 P 10450 5300
 F 0 "D4" H 10450 5400 50  0000 C CNN
@@ -616,7 +614,7 @@ F 3 "" H 10450 5300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D5
+L LED-RESCUE-mmdvm_hs-hat D5
 U 1 1 5896A8AF
 P 10450 5600
 F 0 "D5" H 10450 5700 50  0000 C CNN
@@ -627,7 +625,7 @@ F 3 "" H 10450 5600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D6
+L LED-RESCUE-mmdvm_hs-hat D6
 U 1 1 5896A939
 P 10450 5900
 F 0 "D6" H 10450 6000 50  0000 C CNN
@@ -638,7 +636,7 @@ F 3 "" H 10450 5900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D7
+L LED-RESCUE-mmdvm_hs-hat D7
 U 1 1 5896A9C6
 P 10450 6200
 F 0 "D7" H 10450 6300 50  0000 C CNN
@@ -1590,7 +1588,7 @@ Wire Wire Line
 Wire Wire Line
 	1650 3950 1550 3950
 Wire Wire Line
-	1550 3850 1650 3850
+	1550 3850 2000 3850
 Wire Wire Line
 	6800 850  6900 850 
 Wire Wire Line
@@ -1626,7 +1624,7 @@ Wire Wire Line
 Wire Wire Line
 	9350 950  9350 1050
 Wire Wire Line
-	1950 3850 2050 3850
+	2300 3850 2400 3850
 Wire Wire Line
 	9900 2100 10000 2100
 Wire Wire Line
@@ -1991,7 +1989,7 @@ Wire Wire Line
 Wire Wire Line
 	950  2800 650  2800
 Wire Wire Line
-	650  2100 650  2850
+	650  2000 650  2850
 Wire Wire Line
 	600  1300 600  1350
 Wire Wire Line
@@ -2100,4 +2098,25 @@ Wire Wire Line
 Wire Wire Line
 	4600 2650 4650 2650
 Connection ~ 5050 2200
+Wire Wire Line
+	2850 2700 3200 2700
+Wire Wire Line
+	950  2700 650  2700
+Connection ~ 650  2700
+Wire Wire Line
+	950  2000 650  2000
+Connection ~ 650  2100
+Text GLabel 3200 2800 2    49   Input ~ 0
+NRST
+Wire Wire Line
+	2850 2800 3200 2800
+Text GLabel 2400 3600 2    49   Input ~ 0
+BOOT_GPIO
+Wire Wire Line
+	2400 3600 1800 3600
+Wire Wire Line
+	1800 3600 1800 3850
+Connection ~ 1800 3850
+Text GLabel 3200 2700 2    49   Input ~ 0
+BOOT_GPIO
 $EndSCHEMATC
