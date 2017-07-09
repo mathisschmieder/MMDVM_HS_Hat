@@ -2393,7 +2393,6 @@ NoConn ~ 5400 5200
 NoConn ~ 5500 5200
 NoConn ~ 6000 6100
 NoConn ~ 6350 4650
-NoConn ~ 7700 1800
 NoConn ~ 7700 1900
 NoConn ~ 9900 1900
 NoConn ~ 9900 2000
@@ -2401,8 +2400,9 @@ Text GLabel 5650 7600 2    49   Input ~ 0
 CE
 Wire Wire Line
 	5500 7600 5650 7600
-Text GLabel 8450 950  1    49   Input ~ 0
+Text GLabel 7650 1800 0    49   Input ~ 0
 CE
 Wire Wire Line
-	8450 950  8450 1050
+	7650 1800 7700 1800
+NoConn ~ 8450 1050
 $EndSCHEMATC
