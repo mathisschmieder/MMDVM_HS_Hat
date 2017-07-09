@@ -9,7 +9,7 @@ First revisions of the board have been built successfully!
 
 The PCB is designed in KiCad and the necessary libraries are included. The supplied Gerber files can be used to order PCBs, for example at Elecrow or DirtyPCBs. The board's dimensions are 65x30mm.
 
-You can order 3 beautiful, purple Revision 1 PCBs at [OSHPark](https://oshpark.com/shared_projects/SfNkEo26)! 
+You can order 3 beautiful, purple Revision 1 PCBs for $15 at [OSHPark](https://oshpark.com/shared_projects/SfNkEo26)! 
 
 ## Revisions
 ### Revision 0
