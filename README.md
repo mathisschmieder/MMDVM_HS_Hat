@@ -9,6 +9,8 @@ First revisions of the board have been built successfully!
 
 The PCB is designed in KiCad and the necessary libraries are included. The supplied Gerber files can be used to order PCBs, for example at Elecrow or DirtyPCBs. The board's dimensions are 65x30mm.
 
+You can order 3 beautiful, purple Revision 1 PCBs at [OSHPark](https://oshpark.com/shared_projects/SfNkEo26)! 
+
 ## Revisions
 ### Revision 0
 This was the first released version that still contains a couple of errors. There is a trace missing between L1 and C1 that needs to be fixed with a small blob of solder or magnet wire. Otherwise the RF connector is not connected to the ADF7021. The GND side of C20 and C22 is not connected to the rest of the board's GND, this needs to be fixed with a little wire to any other GND. CE is connected directly to +3.3V which disallows mode scanning to work. If you just use one mode this is fine, otherwise the connection to the CE pin has to be cut and connected to PC14 on the STM32.
@@ -23,7 +25,7 @@ These boards have "Revision 1" written on them. All bugs found in revision 0 are
 Component placement did not change between revisions 0 and 1, therefore any stencils for revision 0 should work for revision 1 boards, too.
 
 ## BOM
-~~All necessary parts can be ordered at Mouser using the following~~ [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=9075204188)
+~~All necessary parts can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=9075204188)~~
 
 There are a couple of errors in the shopping cart. For now, don't use it, or replace the ADF7021-N with the non-N variant and replace the 0201 parts with their 0402 counterparts. Will be fixed soon!
 
