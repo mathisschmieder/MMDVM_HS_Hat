@@ -25,11 +25,10 @@ These boards have "Revision 1" written on them. All bugs found in revision 0 are
 Component placement did not change between revisions 0 and 1, therefore any stencils for revision 0 should work for revision 1 boards, too.
 
 ## BOM
-~~All necessary parts can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=9075204188)~~
+All necessary parts for the Revision 1 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.de/ProjectManager/ProjectDetail.aspx?AccessID=4530b1db40
+)
 
-There are a couple of errors in the shopping cart. For now, don't use it, or replace the ADF7021-N with the non-N variant and replace the 0201 parts with their 0402 counterparts. Will be fixed soon!
-
-The BOM Excel sheet is not updated to Revision 1. This will be fixed, soon, too. If you're eager to order now, extract the components and values from the schematics or the KiCad file. A current BOM would be welcome and such pull requests would surely be accepted. :)
+Right now, the usage of the ADF7021-N IC is untested. It should work and will be tested in the future. For now, stick to the non-N version.
 
 ## License
 This project is released under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 (CC-BY-NC-SA 3.0, https://creativecommons.org/licenses/by-nc-sa/3.0/) license. You may edit and share it as you like, as long as credit is given and the license is not changed. You can build as many boards for you and your friends as you like and you can even sell it to them to cover your costs, **however it is strictly forbidden to turn this into a commercial product! You are not allowed to build and sell these boards for profit!**
