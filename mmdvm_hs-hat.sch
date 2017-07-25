@@ -39,9 +39,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
+Title "MMDVM_HS_Hat"
+Date "25.07.2017"
+Rev "1.1"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -1670,12 +1670,12 @@ $EndComp
 $Comp
 L GND #PWR058
 U 1 1 591C9684
-P 3100 900
-F 0 "#PWR058" H 3100 650 50  0001 C CNN
-F 1 "GND" H 3100 750 50  0000 C CNN
-F 2 "" H 3100 900 50  0000 C CNN
-F 3 "" H 3100 900 50  0000 C CNN
-	1    3100 900 
+P 3450 900
+F 0 "#PWR058" H 3450 650 50  0001 C CNN
+F 1 "GND" H 3450 750 50  0000 C CNN
+F 2 "" H 3450 900 50  0000 C CNN
+F 3 "" H 3450 900 50  0000 C CNN
+	1    3450 900 
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1720,17 +1720,6 @@ F 7 "571-826629-4" H 0   0   50  0001 C CNN "SPN"
 F 8 "" H 0   0   50  0001 C CNN "SPURL"
 	1    4600 1000
 	-1   0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR060
-U 1 1 591D25FC
-P 4850 800
-F 0 "#PWR060" H 4850 650 50  0001 C CNN
-F 1 "+3.3V" H 4850 940 50  0000 C CNN
-F 2 "" H 4850 800 50  0000 C CNN
-F 3 "" H 4850 800 50  0000 C CNN
-	1    4850 800 
-	1    0    0    -1  
 $EndComp
 Text GLabel 7650 2200 0    49   Input ~ 0
 NRST
@@ -1832,6 +1821,49 @@ Text GLabel 2400 3600 2    49   Input ~ 0
 BOOT_GPIO
 Text GLabel 3200 2700 2    49   Input ~ 0
 BOOT_GPIO
+NoConn ~ 7700 2500
+NoConn ~ 7700 2600
+NoConn ~ 7700 1700
+NoConn ~ 8350 3250
+NoConn ~ 8450 3250
+NoConn ~ 8550 3250
+NoConn ~ 8650 3250
+NoConn ~ 9900 2300
+NoConn ~ 6000 6400
+NoConn ~ 5400 7450
+NoConn ~ 5200 7450
+NoConn ~ 5100 7450
+NoConn ~ 4900 7450
+NoConn ~ 4800 7450
+NoConn ~ 4700 7450
+NoConn ~ 4600 7450
+NoConn ~ 4500 7450
+NoConn ~ 4400 7450
+NoConn ~ 4600 5200
+NoConn ~ 4800 5200
+NoConn ~ 5400 5200
+NoConn ~ 5500 5200
+NoConn ~ 6000 6100
+NoConn ~ 6350 4650
+NoConn ~ 7700 1900
+NoConn ~ 9900 1900
+NoConn ~ 9900 2000
+Text GLabel 5650 7600 2    49   Input ~ 0
+CE
+Text GLabel 7650 1800 0    49   Input ~ 0
+CE
+NoConn ~ 8450 1050
+$Comp
+L +5V #PWR?
+U 1 1 59771B8A
+P 3100 850
+F 0 "#PWR?" H 3100 700 50  0001 C CNN
+F 1 "+5V" H 3100 990 50  0000 C CNN
+F 2 "" H 3100 850 50  0000 C CNN
+F 3 "" H 3100 850 50  0000 C CNN
+	1    3100 850 
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
 	6450 2000 6450 2400
 Wire Wire Line
@@ -2271,14 +2303,6 @@ Wire Wire Line
 Wire Wire Line
 	2850 1300 3350 1300
 Wire Wire Line
-	2850 1100 2950 1100
-Wire Wire Line
-	2950 1100 2950 850 
-Wire Wire Line
-	2950 850  3100 850 
-Wire Wire Line
-	3100 850  3100 900 
-Wire Wire Line
 	2850 2300 3250 2300
 Wire Wire Line
 	2850 1800 3100 1800
@@ -2295,9 +2319,9 @@ Wire Wire Line
 Wire Wire Line
 	4600 2200 4650 2200
 Wire Wire Line
-	4800 850  4850 850 
+	4850 850  4800 850 
 Wire Wire Line
-	4850 850  4850 800 
+	4850 750  4850 850 
 Wire Wire Line
 	8850 1050 8850 950 
 Wire Wire Line
@@ -2369,40 +2393,34 @@ Connection ~ 5050 2200
 Connection ~ 650  2700
 Connection ~ 650  2100
 Connection ~ 1800 3850
-NoConn ~ 7700 2500
-NoConn ~ 7700 2600
-NoConn ~ 7700 1700
-NoConn ~ 8350 3250
-NoConn ~ 8450 3250
-NoConn ~ 8550 3250
-NoConn ~ 8650 3250
-NoConn ~ 9900 2300
-NoConn ~ 6000 6400
-NoConn ~ 5400 7450
-NoConn ~ 5200 7450
-NoConn ~ 5100 7450
-NoConn ~ 4900 7450
-NoConn ~ 4800 7450
-NoConn ~ 4700 7450
-NoConn ~ 4600 7450
-NoConn ~ 4500 7450
-NoConn ~ 4400 7450
-NoConn ~ 4600 5200
-NoConn ~ 4800 5200
-NoConn ~ 5400 5200
-NoConn ~ 5500 5200
-NoConn ~ 6000 6100
-NoConn ~ 6350 4650
-NoConn ~ 7700 1900
-NoConn ~ 9900 1900
-NoConn ~ 9900 2000
-Text GLabel 5650 7600 2    49   Input ~ 0
-CE
 Wire Wire Line
 	5500 7600 5650 7600
-Text GLabel 7650 1800 0    49   Input ~ 0
-CE
 Wire Wire Line
 	7650 1800 7700 1800
-NoConn ~ 8450 1050
+Wire Wire Line
+	2850 1100 3300 1100
+Wire Wire Line
+	3300 1100 3300 800 
+Wire Wire Line
+	3300 800  3450 800 
+Wire Wire Line
+	3450 800  3450 900 
+Wire Wire Line
+	2850 900  3100 900 
+Wire Wire Line
+	3100 850  3100 1000
+Wire Wire Line
+	3100 1000 2850 1000
+Connection ~ 3100 900 
+$Comp
+L +5V #PWR?
+U 1 1 597720CE
+P 4850 750
+F 0 "#PWR?" H 4850 600 50  0001 C CNN
+F 1 "+5V" H 4850 890 50  0000 C CNN
+F 2 "" H 4850 750 50  0000 C CNN
+F 3 "" H 4850 750 50  0000 C CNN
+	1    4850 750 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
