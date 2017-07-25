@@ -24,9 +24,11 @@ These boards have "Revision 1" written on them. All bugs found in revision 0 are
 
 Component placement did not change between revisions 0 and 1, therefore any stencils for revision 0 should work for revision 1 boards, too.
 
+### Revision 1.1
+Rewired 3v3 line for Nextion display connector to 5v0. Added SERVICE LED for visual heartbeat. Fixed improper labelling on P25 and YSF LEDs. Due to added LEDs this revision requires a new stencil.
+
 ## BOM
-All necessary parts for the Revision 1 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.de/ProjectManager/ProjectDetail.aspx?AccessID=4530b1db40
-)
+All necessary parts for the Revision 1.1 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=d56e210002)
 
 Right now, the usage of the ADF7021-N IC is untested. It should work and will be tested in the future. For now, stick to the non-N version.
 
