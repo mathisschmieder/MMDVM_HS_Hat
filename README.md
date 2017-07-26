@@ -28,7 +28,7 @@ Component placement did not change between revisions 0 and 1, therefore any sten
 Rewired 3v3 line for Nextion display connector to 5v0. Added SERVICE LED for visual heartbeat. Fixed improper labelling on P25 and YSF LEDs. Due to added LEDs this revision requires a new stencil.
 
 ## BOM
-All necessary parts for the Revision 1.1 board can be ordered at Mouser using the following [shopping cart](git@github.com:mathisschmieder/MMDVM_HS_Hat.git)
+All necessary parts for the Revision 1.1 board can be ordered at Mouser using the following [shopping cart](https://www.mouser.de/ProjectManager/ProjectDetail.aspx?AccessID=a8d30ab53e)
 
 Right now, the usage of the ADF7021-N IC is untested. It should work and will be tested in the future. For now, stick to the non-N version.
 
