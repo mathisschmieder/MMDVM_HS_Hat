@@ -27,6 +27,9 @@ Component placement did not change between revisions 0 and 1, therefore any sten
 ### Revision 1.1
 Rewired 3v3 line for Nextion display connector to 5v0. Added SERVICE LED for visual heartbeat. Fixed improper labelling on P25 and YSF LEDs. Due to added LEDs this revision requires a new stencil.
 
+### Revision 1.2
+This Revision adds support for an optional AN1603-443 ceramic antenna. Insert C27 or C28, depending on what kind of antenna you want to use.
+
 ## BOM
 All necessary parts for the Revision 1.1 board can be ordered at Mouser using the following [shopping cart]( http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=e901010d06)
 
