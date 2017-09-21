@@ -1,4 +1,4 @@
-update=Tue 25 Jul 2017 11:56:55 AM CEST
+update=Thu 21 Sep 2017 04:49:34 PM CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,6 +25,16 @@ version=1
 NetIExt=net
 [general]
 version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=/opt/MMDVM_HS_Hat/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [eeschema]
 version=1
 LibDir=
@@ -65,14 +75,5 @@ LibName33=stm32f103c8t6
 LibName34=switches
 LibName35=adf7021
 LibName36=Oscillators
-LibName37=RPI-Zero
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=/opt/MMDVM_HS_Hat/
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
+LibName37=cc1101-430mhz-module
+LibName38=RPI-Zero
