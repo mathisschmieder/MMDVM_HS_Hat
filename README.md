@@ -32,8 +32,8 @@ This Revision adds support for an optional AN1603-443 ceramic antenna. Insert C2
 
 ## BOM
 All necessary parts for the Revision 1.1 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=e901010d06)
-All necessary parts for the Revision 1.2 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=86bc1ffa59)
-There is also a light version of revision 1.2 without the reset switch, 2.54mm headers and SMA connector [Link](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=bbe92ecc57)
+All necessary parts for the Revision 1.2 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=53baf9964c)
+There is also a light version of revision 1.2 without the reset switch, 2.54mm headers and SMA connector [Link](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=e614da8523)
 Please note that the onboard ceramic antenna is not supplied by Mouser and therefore missing in the carts.
 
 Either the ADF7021 or the ADF7021-N can be used. Define the proper version in the firmware!
