@@ -31,10 +31,10 @@ Rewired 3v3 line for Nextion display connector to 5v0. Added SERVICE LED for vis
 This Revision adds support for an optional AN1603-443 ceramic antenna. Insert C27 or C28, depending on what kind of antenna you want to use.
 
 ## BOM
-All necessary parts for the Revision 1.1 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=e901010d06)
-All necessary parts for the Revision 1.2 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=035e777242)
-There is also a light version of revision 1.2 without the reset switch, 2.54mm headers and SMA connector [Link](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=3f7d0256e1)
-Please note that the onboard ceramic antenna is not supplied by Mouser and therefore missing in the carts.
+* All necessary parts for the Revision 1.1 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=780b8eac44)
+* All necessary parts for the Revision 1.2 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=035e777242)
+* There is also a light version of revision 1.2 without the reset switch, 2.54mm headers and SMA connector [Link](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=3f7d0256e1)
+Please note that the onboard ceramic antenna is not supplied by Mouser and therefore missing in the carts.  
 
 Either the ADF7021 or the ADF7021-N can be used. Define the proper version in the firmware!
 
