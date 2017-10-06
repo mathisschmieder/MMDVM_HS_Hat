@@ -2609,9 +2609,9 @@ L Antenna AE1
 U 1 1 59D75795
 P 6500 650
 F 0 "AE1" H 6425 725 50  0000 R CNN
-F 1 "Antenna" H 6425 650 50  0000 R CNN
+F 1 "433 MHz" H 6425 650 50  0000 R CNN
 F 2 "MMDVM:AN1603" H 6500 650 50  0001 C CNN
-F 3 "" H 6500 650 50  0001 C CNN
+F 3 "http://www.compotek.com/fileadmin/Datenblaetter/Antennen/9_SMD/RainSun_AN1603-433_ds_1.4.pdf" H 6500 650 50  0001 C CNN
 	1    6500 650 
 	1    0    0    -1  
 $EndComp
