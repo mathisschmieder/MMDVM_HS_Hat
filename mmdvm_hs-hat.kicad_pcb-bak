@@ -1,14 +1,14 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.5)
+(kicad_pcb (version 4) (host pcbnew 4.0.2+dfsg1-stable)
 
   (general
-    (links 258)
+    (links 260)
     (no_connects 0)
-    (area 155.374999 105.524999 220.575001 135.826695)
+    (area 155.0107 105.41 226.17062 137.246)
     (thickness 1.6)
     (drawings 29)
     (tracks 446)
     (zones 0)
-    (modules 144)
+    (modules 147)
     (nets 62)
   )
 
@@ -37,7 +37,7 @@
   )
 
   (setup
-    (last_trace_width 1)
+    (last_trace_width 0.25)
     (user_trace_width 0.4)
     (user_trace_width 0.6)
     (user_trace_width 1)
@@ -233,6 +233,42 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+  )
+
+  (module MMDVM:VIA-0.6mm (layer F.Cu) (tedit 59D72D24) (tstamp 59D747B0)
+    (at 199.517 135.001)
+    (fp_text reference REF** (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module MMDVM:VIA-0.6mm (layer F.Cu) (tedit 59D72D24) (tstamp 59D747AB)
+    (at 173.863 115.189)
+    (fp_text reference REF** (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module MMDVM:VIA-0.6mm (layer F.Cu) (tedit 59D72D24) (tstamp 59D747A7)
+    (at 170.561 119.126)
+    (fp_text reference REF** (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
   )
 
   (module MMDVM:VIA-0.6mm (layer F.Cu) (tedit 59D72D24) (tstamp 59D7479B)
@@ -4204,24 +4240,6 @@
       (net 1 GND) (zone_connect 2))
   )
 
-  (module MMDVM:AN1603 (layer F.Cu) (tedit 59D74624) (tstamp 59D74677)
-    (at 159.004 120.778 270)
-    (path /59D75795)
-    (fp_text reference AE1 (at 0 0 270) (layer F.SilkS) hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_text value Antenna (at 0 -2.54 270) (layer F.Fab)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (fp_line (start -8 -1.55) (end 8 -1.55) (layer F.SilkS) (width 0.15))
-    (fp_line (start -8 1.55) (end -8 -1.55) (layer F.SilkS) (width 0.15))
-    (fp_line (start 8 1.55) (end 8 -1.55) (layer F.SilkS) (width 0.15))
-    (fp_line (start -8 1.55) (end 8 1.55) (layer F.SilkS) (width 0.15))
-    (pad 1 smd rect (at -8 0 270) (size 2 3) (layers F.Cu F.Paste F.Mask)
-      (net 60 "Net-(AE1-Pad1)"))
-    (pad 2 smd rect (at 8 0 270) (size 2 3) (layers F.Cu F.Paste F.Mask))
-  )
-
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 59D74522) (tstamp 59D7467D)
     (at 164.973 125.222)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
@@ -4294,6 +4312,24 @@
     )
   )
 
+  (module MMDVM:AN1603 (layer F.Cu) (tedit 59D74CC5) (tstamp 59D74D3F)
+    (at 159.004 120.778 270)
+    (path /59D75795)
+    (fp_text reference AE1 (at -5.2969 -2.4003 270) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value Antenna (at 0 -2.54 270) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_line (start -8 -1.55) (end 8 -1.55) (layer F.SilkS) (width 0.15))
+    (fp_line (start -8 1.55) (end -8 -1.55) (layer F.SilkS) (width 0.15))
+    (fp_line (start 8 1.55) (end 8 -1.55) (layer F.SilkS) (width 0.15))
+    (fp_line (start -8 1.55) (end 8 1.55) (layer F.SilkS) (width 0.15))
+    (pad 1 smd rect (at -8 0 270) (size 2 3) (layers F.Cu F.Paste F.Mask)
+      (net 60 "Net-(AE1-Pad1)"))
+    (pad 2 smd rect (at 8 0 270) (size 2 3) (layers F.Cu F.Paste F.Mask))
+  )
+
   (gr_text AN1603 (at 159.004 120.777 90) (layer F.SilkS) (tstamp 59D7477E)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
@@ -4306,7 +4342,7 @@
   (gr_text CLK (at 201.422 118.999) (layer F.SilkS) (tstamp 59D7269E)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
-  (gr_text GND (at 203.962 118.999 360) (layer F.SilkS) (tstamp 59D7269D)
+  (gr_text GND (at 203.962 118.999) (layer F.SilkS) (tstamp 59D7269D)
     (effects (font (size 0.5 0.5) (thickness 0.125)))
   )
   (gr_text STLink (at 194.056 117.348 90) (layer F.SilkS) (tstamp 59D694E3)
@@ -5278,16 +5314,6 @@
     )
     (filled_polygon
       (pts
-        (xy 195 128.263464) (xy 195.447872 128.263464) (xy 196.736536 129.552128) (xy 196.736536 130) (xy 196.763103 130.14119)
-        (xy 196.846546 130.270865) (xy 196.973866 130.357859) (xy 197.125 130.388464) (xy 197.375 130.388464) (xy 197.400798 130.38361)
-        (xy 197.226408 130.558) (xy 194.687076 130.558) (xy 194.736882 130.438054) (xy 194.737118 130.167135) (xy 194.633661 129.916748)
-        (xy 194.442259 129.725013) (xy 194.192054 129.621118) (xy 193.921135 129.620882) (xy 193.678829 129.721) (xy 193.609 129.721)
-        (xy 193.609 129.23528) (xy 193.698865 129.177454) (xy 193.785859 129.050134) (xy 193.789936 129.03) (xy 193.976 129.03)
-        (xy 194.169638 128.991483) (xy 194.333796 128.881796) (xy 194.959592 128.256) (xy 194.963141 128.256)
-      )
-    )
-    (filled_polygon
-      (pts
         (xy 184.739118 128.387946) (xy 184.738882 128.658865) (xy 184.842339 128.909252) (xy 185.033741 129.100987) (xy 185.283946 129.204882)
         (xy 185.554865 129.205118) (xy 185.805252 129.101661) (xy 185.877038 129.03) (xy 186.001686 129.03) (xy 186.003603 129.04019)
         (xy 186.087046 129.169865) (xy 186.214366 129.256859) (xy 186.3655 129.287464) (xy 187.1655 129.287464) (xy 187.30669 129.260897)
@@ -5304,6 +5330,16 @@
         (xy 192.054309 129.534) (xy 192.287698 129.437327) (xy 192.447 129.278026) (xy 192.447 130.036) (xy 192.491226 130.258339)
         (xy 192.617171 130.446829) (xy 192.728342 130.558) (xy 184.613592 130.558) (xy 184.04975 129.994158) (xy 184.04975 128.680609)
         (xy 184.057214 128.64375) (xy 184.057214 128.157214) (xy 184.54375 128.157214) (xy 184.583417 128.14975) (xy 184.838026 128.14975)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 195 128.263464) (xy 195.447872 128.263464) (xy 196.736536 129.552128) (xy 196.736536 130) (xy 196.763103 130.14119)
+        (xy 196.846546 130.270865) (xy 196.973866 130.357859) (xy 197.125 130.388464) (xy 197.375 130.388464) (xy 197.400798 130.38361)
+        (xy 197.226408 130.558) (xy 194.687076 130.558) (xy 194.736882 130.438054) (xy 194.737118 130.167135) (xy 194.633661 129.916748)
+        (xy 194.442259 129.725013) (xy 194.192054 129.621118) (xy 193.921135 129.620882) (xy 193.678829 129.721) (xy 193.609 129.721)
+        (xy 193.609 129.23528) (xy 193.698865 129.177454) (xy 193.785859 129.050134) (xy 193.789936 129.03) (xy 193.976 129.03)
+        (xy 194.169638 128.991483) (xy 194.333796 128.881796) (xy 194.959592 128.256) (xy 194.963141 128.256)
       )
     )
     (filled_polygon
