@@ -1,14 +1,14 @@
 (kicad_pcb (version 4) (host pcbnew 4.0.5)
 
   (general
-    (links 258)
+    (links 259)
     (no_connects 0)
     (area 155.374999 105.524999 220.575001 135.826695)
     (thickness 1.6)
     (drawings 29)
     (tracks 446)
     (zones 0)
-    (modules 144)
+    (modules 147)
     (nets 62)
   )
 
@@ -233,6 +233,42 @@
     (via_drill 0.4)
     (uvia_dia 0.3)
     (uvia_drill 0.1)
+  )
+
+  (module MMDVM:VIA-0.6mm (layer F.Cu) (tedit 59D72D24) (tstamp 59D747B0)
+    (at 199.517 135.001)
+    (fp_text reference REF** (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module MMDVM:VIA-0.6mm (layer F.Cu) (tedit 59D72D24) (tstamp 59D747AB)
+    (at 173.863 115.189)
+    (fp_text reference REF** (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
+  )
+
+  (module MMDVM:VIA-0.6mm (layer F.Cu) (tedit 59D72D24) (tstamp 59D747A7)
+    (at 170.561 119.126)
+    (fp_text reference REF** (at 0 1.27) (layer F.SilkS) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value VIA-0.6mm (at 0 -1.27) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu)
+      (net 1 GND) (zone_connect 2))
   )
 
   (module MMDVM:VIA-0.6mm (layer F.Cu) (tedit 59D72D24) (tstamp 59D7479B)
