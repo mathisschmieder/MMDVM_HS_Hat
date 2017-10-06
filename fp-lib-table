@@ -1,4 +1,4 @@
 (fp_lib_table
   (lib (name MMDVM)(type KiCad)(uri "$(KIPRJMOD)/libraries")(options "")(descr ""))
-  (lib (name pizero)(type KiCad)(uri "$(KIPRJMOD)/pizero.pretty")(options "")(descr ""))
+  (lib (name pizero)(type KiCad)(uri "$(KIPRJMOD)/pizero.pretty")(options "")(descr RPI-Zero))
 )

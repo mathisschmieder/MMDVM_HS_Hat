@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/opt/MMDVM_HS_Hat/mmdvm_hs-hat.sch</source>
-    <date>Do 31 Aug 2017 22:09:08 CEST</date>
+    <date>So 01 Okt 2017 21:11:49 CEST</date>
     <tool>Eeschema 4.0.2+dfsg1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -782,7 +782,7 @@
       <fields>
         <field name="MFR">Murata Electronics</field>
         <field name="MPN">GRM155R60J105KE19D</field>
-        <field name="SPR">Murata Electronics</field>
+        <field name="SPR">Mouser</field>
         <field name="SPN">81-GRM155R60J105KE19</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -1318,11 +1318,8 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="adf7021">
-      <uri>/opt/MMDVM_HS_Hat/adf7021.lib</uri>
-    </library>
-    <library logical="stm32f103c8t6">
-      <uri>/opt/MMDVM_HS_Hat/stm32f103c8t6.lib</uri>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
     <library logical="mmdvm_hs-hat-rescue">
       <uri>/opt/MMDVM_HS_Hat/mmdvm_hs-hat-rescue.lib</uri>
@@ -1330,8 +1327,11 @@
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
     </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
+    <library logical="stm32f103c8t6">
+      <uri>/opt/MMDVM_HS_Hat/stm32f103c8t6.lib</uri>
+    </library>
+    <library logical="adf7021">
+      <uri>/opt/MMDVM_HS_Hat/adf7021.lib</uri>
     </library>
     <library logical="Oscillators">
       <uri>/usr/share/kicad/library/Oscillators.lib</uri>
