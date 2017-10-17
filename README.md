@@ -38,5 +38,24 @@ Please note that the onboard ceramic antenna is not supplied by Mouser and there
 
 Either the ADF7021 or the ADF7021-N can be used. Define the proper version in the firmware!
 
+## Firmware Installation
+For specific details about the firmware installation, check [these](https://github.com/juribeparada/MMDVM_HS#build-de-firmware-and-upload-to-zumspot-rpi) instructions. The process is similar to the installation on the ZumSpot Pi. 
+
+Enable the following settings in Config.h:
+
+    #define MMDVM_HS_HAT_REV12
+    #define ENABLE_ADF7021
+    #define ADF7021_14_7456
+    #define STM32_USART1_HOST
+    #define ENABLE_SCAN_MODE
+
+Build the firmware:
+
+    make
+
+And finally upload the firmware to the MMDVM_HS_Hat:
+
+    sudo make mmdvm_hs_hat
+
 ## License
 This project is released under the Creative Commons Attribution-NonCommercial-ShareAlike 3.0 (CC-BY-NC-SA 3.0, https://creativecommons.org/licenses/by-nc-sa/3.0/) license. You may edit and share it as you like, as long as credit is given and the license is not changed. You can build as many boards for you and your friends as you like and you can even sell it to them to cover your costs, **however it is strictly forbidden to turn this into a commercial product! You are not allowed to build and sell these boards for profit!**
