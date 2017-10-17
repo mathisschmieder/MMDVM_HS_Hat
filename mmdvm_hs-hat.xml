@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/opt/MMDVM_HS_Hat/mmdvm_hs-hat.sch</source>
-    <date>So 01 Okt 2017 21:11:49 CEST</date>
+    <date>Tue 17 Oct 2017 02:42:26 PM CEST</date>
     <tool>Eeschema 4.0.2+dfsg1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>MMDVM_HS_Hat</title>
         <company/>
-        <rev>1.1</rev>
-        <date>2017-08-16</date>
+        <rev>1.3</rev>
+        <date>2017-10-06</date>
         <source>mmdvm_hs-hat.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -49,13 +49,13 @@
     </comp>
     <comp ref="C21">
       <value>20p</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GJM1555C1H200FB01D</field>
+        <field name="MPN">GRM1885C2A200JA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GJM1555C1H200FB1D</field>
+        <field name="SPN">81-GRM1885C2A200JA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -63,55 +63,27 @@
     </comp>
     <comp ref="C23">
       <value>20p</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GJM1555C1H200FB01D</field>
+        <field name="MPN">GRM1885C2A200JA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GJM1555C1H200FB1D</field>
+        <field name="SPN">81-GRM1885C2A200JA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5895F2BF</tstamp>
     </comp>
-    <comp ref="P1">
-      <value>BOOT0</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm</footprint>
-      <datasheet>http://www.mouser.com/ds/2/418/NG_CD_826629_AA_baseFilename-692251.pdf</datasheet>
-      <fields>
-        <field name="MFR">TE Connectivity / AMP</field>
-        <field name="MPN">826629-3</field>
-        <field name="SPR">Mouser</field>
-        <field name="SPN">571-826629-3</field>
-      </fields>
-      <libsource lib="conn" part="CONN_01X03"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>589603E4</tstamp>
-    </comp>
-    <comp ref="P4">
-      <value>STLINK</value>
-      <footprint>Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm</footprint>
-      <datasheet>http://www.mouser.com/ds/2/418/NG_CD_826629_AA_baseFilename-683270.pdf</datasheet>
-      <fields>
-        <field name="MFR">TE Connectivity / AMP</field>
-        <field name="MPN">826629-4</field>
-        <field name="SPR">Mouser</field>
-        <field name="SPN">571-826629-4</field>
-      </fields>
-      <libsource lib="conn" part="CONN_01X04"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5896079D</tstamp>
-    </comp>
     <comp ref="C24">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -119,13 +91,13 @@
     </comp>
     <comp ref="C25">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -133,13 +105,13 @@
     </comp>
     <comp ref="C26">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -147,13 +119,13 @@
     </comp>
     <comp ref="R1">
       <value>10k</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
       <fields>
-        <field name="MFR">Vishay</field>
-        <field name="MPN">CRCW040210K0FKED</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0710KL</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">71-CRCW0402-10K-E3</field>
+        <field name="SPN">603-RC0603FR-0710KL</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -161,13 +133,13 @@
     </comp>
     <comp ref="R7">
       <value>10k</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
       <fields>
-        <field name="MFR">Vishay</field>
-        <field name="MPN">CRCW040210K0FKED</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-0710KL</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">71-CRCW0402-10K-E3</field>
+        <field name="SPN">603-RC0603FR-0710KL</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -175,41 +147,27 @@
     </comp>
     <comp ref="C16">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589656C1</tstamp>
     </comp>
-    <comp ref="R8">
-      <value>1k</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf</datasheet>
-      <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERJ-PA2D1001X</field>
-        <field name="SPR">Mouser</field>
-        <field name="SPN">667-ERJ-PA2D1001X</field>
-      </fields>
-      <libsource lib="device" part="R"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>58968523</tstamp>
-    </comp>
     <comp ref="R9">
       <value>1k</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
       <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERJ-PA2D1001X</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">667-ERJ-PA2D1001X</field>
+        <field name="SPN">603-RC0603FR-071KL</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -217,13 +175,13 @@
     </comp>
     <comp ref="R10">
       <value>1k</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
       <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERJ-PA2D1001X</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">667-ERJ-PA2D1001X</field>
+        <field name="SPN">603-RC0603FR-071KL</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -231,13 +189,13 @@
     </comp>
     <comp ref="C20">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -245,13 +203,13 @@
     </comp>
     <comp ref="C22">
       <value>10n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM155R71H103KA88D</field>
+        <field name="MPN">GRM188R70J103KA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM155R71H103KA8D</field>
+        <field name="SPN">81-GRM188R70J103KA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -259,111 +217,111 @@
     </comp>
     <comp ref="D2">
       <value>green</value>
-      <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/348/sml-p1-471200.pdf</datasheet>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/Lite-On-LTST-C190GKT-187204.pdf</datasheet>
       <fields>
-        <field name="MFR">ROHM Semiconductor</field>
-        <field name="MPN">SML-P13PTT86R</field>
+        <field name="MFR">Lite-On</field>
+        <field name="MPN">LTST-C190GKT</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">755-SML-P13PTT86R</field>
+        <field name="SPN">859-LTST-C190GKT</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-rescue" part="LED-RESCUE-mmdvm_hs-hat"/>
+      <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896A578</tstamp>
     </comp>
     <comp ref="D3">
       <value>yellow</value>
-      <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/348/sml-p1-471200.pdf</datasheet>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/ltstc190yktliteon-194900.pdf</datasheet>
       <fields>
-        <field name="MFR">ROHM Semiconductor</field>
-        <field name="MPN">SML-P12WTT86R</field>
+        <field name="MFR">Lite-On</field>
+        <field name="MPN">LTST-C190YKT</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">755-SML-P12WTT86R</field>
+        <field name="SPN">859-LTST-C190YKT</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-rescue" part="LED-RESCUE-mmdvm_hs-hat"/>
+      <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896A71F</tstamp>
     </comp>
     <comp ref="D4">
       <value>red</value>
-      <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/348/sml-p1-471200.pdf</datasheet>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/LTST-C190KRKT-1141828.pdf</datasheet>
       <fields>
-        <field name="MFR">ROHM Semiconductor</field>
-        <field name="MPN">SML-P12U2TT86R</field>
+        <field name="MFR">Lite-On</field>
+        <field name="MPN">LTST-C190KRKT</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">755-SML-P12U2TT86R</field>
+        <field name="SPN">859-LTST-C190KRKT</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-rescue" part="LED-RESCUE-mmdvm_hs-hat"/>
+      <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896A7A2</tstamp>
     </comp>
     <comp ref="D5">
       <value>yellow</value>
-      <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/348/sml-p1-471200.pdf</datasheet>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/ltstc190yktliteon-194900.pdf</datasheet>
       <fields>
-        <field name="MFR">ROHM Semiconductor</field>
-        <field name="MPN">SML-P12WTT86R</field>
+        <field name="MFR">Lite-On</field>
+        <field name="MPN">LTST-C190YKT</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">755-SML-P12WTT86R</field>
+        <field name="SPN">859-LTST-C190YKT</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-rescue" part="LED-RESCUE-mmdvm_hs-hat"/>
+      <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896A826</tstamp>
     </comp>
     <comp ref="D6">
       <value>green</value>
-      <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/348/sml-p1-471200.pdf</datasheet>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/Lite-On-LTST-C190GKT-187204.pdf</datasheet>
       <fields>
-        <field name="MFR">ROHM Semiconductor</field>
-        <field name="MPN">SML-P13PTT86R</field>
+        <field name="MFR">Lite-On</field>
+        <field name="MPN">LTST-C190GKT</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">755-SML-P13PTT86R</field>
+        <field name="SPN">859-LTST-C190GKT</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-rescue" part="LED-RESCUE-mmdvm_hs-hat"/>
+      <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896A8AF</tstamp>
     </comp>
     <comp ref="D7">
       <value>amber</value>
-      <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/348/sml-p1-471200.pdf</datasheet>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/ltstc190aktliteon-201844.pdf</datasheet>
       <fields>
-        <field name="MFR">ROHM Semiconductor</field>
-        <field name="MPN">SML-P12DTT86R</field>
+        <field name="MFR">Lite-On</field>
+        <field name="MPN">LTST-C190AKT</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">755-SML-P12DTT86R</field>
+        <field name="SPN">859-LTST-C190AKT</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-rescue" part="LED-RESCUE-mmdvm_hs-hat"/>
+      <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896A939</tstamp>
     </comp>
     <comp ref="D8">
       <value>red</value>
-      <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/348/sml-p1-471200.pdf</datasheet>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/LTST-C190KRKT-1141828.pdf</datasheet>
       <fields>
-        <field name="MFR">ROHM Semiconductor</field>
-        <field name="MPN">SML-P12U2TT86R</field>
+        <field name="MFR">Lite-On</field>
+        <field name="MPN">LTST-C190KRKT</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">755-SML-P12U2TT86R</field>
+        <field name="SPN">859-LTST-C190KRKT</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-rescue" part="LED-RESCUE-mmdvm_hs-hat"/>
+      <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896A9C6</tstamp>
     </comp>
     <comp ref="R11">
       <value>1k</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
       <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERJ-PA2D1001X</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">667-ERJ-PA2D1001X</field>
+        <field name="SPN">603-RC0603FR-071KL</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -371,13 +329,13 @@
     </comp>
     <comp ref="R12">
       <value>1k</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
       <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERJ-PA2D1001X</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">667-ERJ-PA2D1001X</field>
+        <field name="SPN">603-RC0603FR-071KL</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -385,13 +343,13 @@
     </comp>
     <comp ref="R13">
       <value>1k</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
       <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERJ-PA2D1001X</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">667-ERJ-PA2D1001X</field>
+        <field name="SPN">603-RC0603FR-071KL</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -399,13 +357,13 @@
     </comp>
     <comp ref="R14">
       <value>1k</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
       <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERJ-PA2D1001X</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">667-ERJ-PA2D1001X</field>
+        <field name="SPN">603-RC0603FR-071KL</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -413,13 +371,13 @@
     </comp>
     <comp ref="R15">
       <value>1k</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
       <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERJ-PA2D1001X</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">667-ERJ-PA2D1001X</field>
+        <field name="SPN">603-RC0603FR-071KL</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -427,13 +385,13 @@
     </comp>
     <comp ref="R16">
       <value>1k</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
       <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERJ-PA2D1001X</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">667-ERJ-PA2D1001X</field>
+        <field name="SPN">603-RC0603FR-071KL</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -441,13 +399,13 @@
     </comp>
     <comp ref="R17">
       <value>1k</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
       <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERJ-PA2D1001X</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">667-ERJ-PA2D1001X</field>
+        <field name="SPN">603-RC0603FR-071KL</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -455,13 +413,13 @@
     </comp>
     <comp ref="C10">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -469,13 +427,13 @@
     </comp>
     <comp ref="R3">
       <value>3k8</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-358748.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
       <fields>
-        <field name="MFR">Susumu</field>
-        <field name="MPN">RR0510P-3831-D</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073K83L</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">754-RR0510P-3831D</field>
+        <field name="SPN">603-RC0603FR-073K83L</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -483,13 +441,13 @@
     </comp>
     <comp ref="C7">
       <value>10n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM155R71H103KA88D</field>
+        <field name="MPN">GRM188R70J103KA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM155R71H103KA8D</field>
+        <field name="SPN">81-GRM188R70J103KA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -497,13 +455,13 @@
     </comp>
     <comp ref="R2">
       <value>1k1</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-358748.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
       <fields>
-        <field name="MFR">Susumu</field>
-        <field name="MPN">RR0510P-112-D</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-071K1L</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">754-RR0510P-112D</field>
+        <field name="SPN">603-RC0603FR-071K1L</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -525,13 +483,13 @@
     </comp>
     <comp ref="C6">
       <value>6p8</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GJM1555C1H6R8BB01D</field>
+        <field name="MPN">GRM1885C1H6R8DA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GJM1555C1H6R8BB1D</field>
+        <field name="SPN">81-GRM1885C1H6R8DA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -539,13 +497,13 @@
     </comp>
     <comp ref="L4">
       <value>27n</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/597/0402cs-253326.pdf</datasheet>
+      <footprint>Inductors_SMD:L_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/murata_inductors-1115352.pdf</datasheet>
       <fields>
-        <field name="MFR">Coilcraft</field>
-        <field name="MPN">0402CS-27NXJLU</field>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">LQW18AN27NG10D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">994-0402CS-27NXJLU</field>
+        <field name="SPN">81-LQW18AN27NG10D</field>
       </fields>
       <libsource lib="mmdvm_hs-hat-cache" part="L"/>
       <sheetpath names="/" tstamps="/"/>
@@ -553,13 +511,13 @@
     </comp>
     <comp ref="C5">
       <value>4p7</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM1555C1H4R7CA01D</field>
+        <field name="MPN">GRM1885C1H4R7BA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM1555C1H4R7CA1D</field>
+        <field name="SPN">81-GRM1885C1H4R7BA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -567,13 +525,13 @@
     </comp>
     <comp ref="C4">
       <value>10p</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM0225C1C100JA03L</field>
+        <field name="MPN">GRM1885C1H100JA01J</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM0225C1C100JA3L</field>
+        <field name="SPN">81-GRM185C1H100JA01J</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -581,13 +539,13 @@
     </comp>
     <comp ref="L2">
       <value>20n</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/418/NG_CD_1624112_BA1-656883.pdf</datasheet>
+      <footprint>Inductors_SMD:L_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/murata_inductors-1115352.pdf</datasheet>
       <fields>
-        <field name="MFR">TE Connectivity / Sigma Inductors</field>
-        <field name="MPN">36501E20NJTDG</field>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">LQW18AN20NG00D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">279-36501E20NJTDG</field>
+        <field name="SPN">81-LQW18AN20NG00D</field>
       </fields>
       <libsource lib="mmdvm_hs-hat-cache" part="L"/>
       <sheetpath names="/" tstamps="/"/>
@@ -595,13 +553,13 @@
     </comp>
     <comp ref="C1">
       <value>6p8</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GJM1555C1H6R8BB01D</field>
+        <field name="MPN">GRM1885C1H6R8DA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GJM1555C1H6R8BB1D</field>
+        <field name="SPN">81-GRM1885C1H6R8DA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -609,13 +567,13 @@
     </comp>
     <comp ref="L1">
       <value>22n</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/597/0402af-270718.pdf</datasheet>
+      <footprint>Inductors_SMD:L_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/murata_inductors-1115352.pdf</datasheet>
       <fields>
-        <field name="MFR">Coilcraft</field>
-        <field name="MPN">0402AF-220XJLU</field>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">LQW18AN22NG10D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">994-0402AF-220XJLU</field>
+        <field name="SPN">81-LQW18AN22NG10D</field>
       </fields>
       <libsource lib="mmdvm_hs-hat-cache" part="L"/>
       <sheetpath names="/" tstamps="/"/>
@@ -623,13 +581,13 @@
     </comp>
     <comp ref="L3">
       <value>13n</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/597/0402cs-253326.pdf</datasheet>
+      <footprint>Inductors_SMD:L_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/murata_inductors-1115352.pdf</datasheet>
       <fields>
-        <field name="MFR">Coilcraft</field>
-        <field name="MPN">0402CS-13NXJLU</field>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">LQW18AN13NG00D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">994-0402CS-13NXJLU</field>
+        <field name="SPN">81-LQW18AN13NG00D</field>
       </fields>
       <libsource lib="mmdvm_hs-hat-cache" part="L"/>
       <sheetpath names="/" tstamps="/"/>
@@ -637,13 +595,13 @@
     </comp>
     <comp ref="C3">
       <value>220p</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM1555C1H221JA01D</field>
+        <field name="MPN">GCM1885C2A221JA16D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM1555C1H221JA01</field>
+        <field name="SPN">81-GCM1885C2A221J16D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -651,13 +609,13 @@
     </comp>
     <comp ref="C9">
       <value>10n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM155R71H103KA88D</field>
+        <field name="MPN">GRM188R70J103KA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM155R71H103KA8D</field>
+        <field name="SPN">81-GRM188R70J103KA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -665,13 +623,13 @@
     </comp>
     <comp ref="C11">
       <value>22n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GCM155R71E223KA55D</field>
+        <field name="MPN">GRM188R71H223JA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GCM155R71E223KA5D</field>
+        <field name="SPN">81-GRM188R71H223JA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -679,13 +637,13 @@
     </comp>
     <comp ref="R4">
       <value>3r9</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
       <fields>
-        <field name="MFR">Vishay</field>
-        <field name="MPN">CRCW04023R90FKED</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-073R9L</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">71-CRCW04023R90FKED</field>
+        <field name="SPN">603-RC0603FR-073R9L</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -693,13 +651,13 @@
     </comp>
     <comp ref="C8">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -707,13 +665,13 @@
     </comp>
     <comp ref="C2">
       <value>10n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM155R71H103KA88D</field>
+        <field name="MPN">GRM188R70J103KA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM155R71H103KA8D</field>
+        <field name="SPN">81-GRM188R70J103KA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -721,13 +679,13 @@
     </comp>
     <comp ref="R5">
       <value>560</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/315/AOA0000C237-1100991.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdfhttp://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
       <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERA-2AEB561X</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-07560RL</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">667-ERA-2AEB561X</field>
+        <field name="SPN">603-RC0603FR-07560RL</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -735,13 +693,13 @@
     </comp>
     <comp ref="R6">
       <value>270</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/315/AOA0000C237-1100991.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
       <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERA-2AEB271X</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-07270RL</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">667-ERA-2AEB271X</field>
+        <field name="SPN">603-RC0603FR-07270RL</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -749,13 +707,13 @@
     </comp>
     <comp ref="C12">
       <value>470p</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM155R71H471KA01D</field>
+        <field name="MPN">GCM1885C1H471JA16D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM36X471K50</field>
+        <field name="SPN">81-GCM1885C1H471J16D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -763,13 +721,13 @@
     </comp>
     <comp ref="C13">
       <value>15n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM155R71C153KA01D</field>
+        <field name="MPN">GRM188R71C153KA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM155R71C153KA1D</field>
+        <field name="SPN">81-GRM188R71C153KA</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -777,13 +735,13 @@
     </comp>
     <comp ref="C14">
       <value>1n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM155R60J105KE19D</field>
+        <field name="MPN">GRM188R72A102JA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM155R60J105KE19</field>
+        <field name="SPN">81-GRM188R72A102JA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -791,13 +749,13 @@
     </comp>
     <comp ref="C17">
       <value>10n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM155R71H103KA88D</field>
+        <field name="MPN">GRM188R70J103KA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM155R71H103KA8D</field>
+        <field name="SPN">81-GRM188R70J103KA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -805,13 +763,13 @@
     </comp>
     <comp ref="C15">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -833,13 +791,13 @@
     </comp>
     <comp ref="C19">
       <value>10n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM155R71H103KA88D</field>
+        <field name="MPN">GRM188R70J103KA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM155R71H103KA8D</field>
+        <field name="SPN">81-GRM188R70J103KA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -847,13 +805,13 @@
     </comp>
     <comp ref="C18">
       <value>22p</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/40/C0GNP0-Dielectric-951274.pdf</datasheet>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
-        <field name="MFR">AVX</field>
-        <field name="MPN">04025A220GAT2A</field>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM1885C1H220JA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">581-04025A220G</field>
+        <field name="SPN">81-GRM39C220J50</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -883,23 +841,9 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">855-M20-7832046</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-cache" part="RPI-ZERO"/>
+      <libsource lib="RPI-Zero" part="RPI-ZERO"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591C168B</tstamp>
-    </comp>
-    <comp ref="SW1">
-      <value>SW_DIP_x01</value>
-      <footprint>Buttons_Switches_SMD:SW_SPST_B3U-1000P</footprint>
-      <datasheet>http://www.mouser.com/ds/2/307/en-b3u-3615.pdf</datasheet>
-      <fields>
-        <field name="MFR">Omron Electronics</field>
-        <field name="MPN">B3U-1000P</field>
-        <field name="SPR">Mouser</field>
-        <field name="SPN">653-B3U-1000P</field>
-      </fields>
-      <libsource lib="mmdvm_hs-hat-cache" part="SW_DIP_x01"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>591CFDC5</tstamp>
     </comp>
     <comp ref="P2">
       <value>DISPLAY</value>
@@ -917,72 +861,182 @@
     </comp>
     <comp ref="D1">
       <value>red</value>
-      <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/348/sml-p1-471200.pdf</datasheet>
+      <footprint>LEDs:LED_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/239/LTST-C190KRKT-1141828.pdf</datasheet>
       <fields>
-        <field name="MFR">ROHM Semiconductor</field>
-        <field name="MPN">SML-P12U2TT86R</field>
+        <field name="MFR">Lite-On</field>
+        <field name="MPN">LTST-C190KRKT</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">755-SML-P12U2TT86R</field>
+        <field name="SPN">859-LTST-C190KRKT</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-rescue" part="LED-RESCUE-mmdvm_hs-hat"/>
+      <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59773D22</tstamp>
     </comp>
     <comp ref="R18">
       <value>1k</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf</datasheet>
+      <footprint>Resistors_SMD:R_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/447/RC0603-272842.pdf</datasheet>
       <fields>
-        <field name="MFR">Panasonic</field>
-        <field name="MPN">ERJ-PA2D1001X</field>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0603FR-071KL</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">667-ERJ-PA2D1001X</field>
+        <field name="SPN">603-RC0603FR-071KL</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5977B735</tstamp>
     </comp>
-    <comp ref="AE1">
-      <value>AN1603_433</value>
-      <footprint>pizero:AN1603</footprint>
-      <datasheet>http://www.compotek.com/fileadmin/Datenblaetter/Antennen/9_SMD/RainSun_AN1603-433_ds_1.4.pdf</datasheet>
-      <fields>
-        <field name="MFR">RainSun</field>
-        <field name="MPN">AN1603-433</field>
-        <field name="SPR">AliExpress</field>
-      </fields>
-      <libsource lib="mmdvm_hs-hat-cache" part="Antenna_Dipole"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>599D9A2D</tstamp>
-    </comp>
     <comp ref="C27">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>599DA57E</tstamp>
+      <tstamp>59D6A192</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>10u</value>
+      <footprint>Inductors_SMD:L_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/597/0603ls-270606.pdf</datasheet>
+      <fields>
+        <field name="MFR">Coilcraft</field>
+        <field name="MPN">0603LS-103XGLC</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">994-0603LS-103XGLC</field>
+      </fields>
+      <libsource lib="device" part="L_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D6AAD6</tstamp>
     </comp>
     <comp ref="C28">
-      <value>100n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
+      <value>10u/10V</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <fields/>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D6ADDD</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GRM188R60J106KE47J</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GRM188R60J106KE7J</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D6AF5E</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D6BBD6</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>10u</value>
+      <footprint>Inductors_SMD:L_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/597/0603ls-270606.pdf</datasheet>
+      <fields>
+        <field name="MFR">Coilcraft</field>
+        <field name="MPN">0603LS-103XGLC</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">994-0603LS-103XGLC</field>
+      </fields>
+      <libsource lib="device" part="L_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D6BBEA</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>10u/10V</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-A_EIA-3216-18_Reflow</footprint>
+      <fields/>
+      <libsource lib="device" part="CP1_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D6BBF2</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>10u</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R60J106KE47J</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R60J106KE7J</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D6BBF8</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>STLINK</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/418/NG_CD_826629_AA_baseFilename-683270.pdf</datasheet>
+      <fields>
+        <field name="MFR">TE Connectivity / AMP</field>
+        <field name="MPN">826629-4</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">571-826629-4</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D69983</tstamp>
+    </comp>
+    <comp ref="AE1">
+      <value>433 MHz</value>
+      <footprint>MMDVM:AN1603</footprint>
+      <datasheet>http://www.compotek.com/fileadmin/Datenblaetter/Antennen/9_SMD/RainSun_AN1603-433_ds_1.4.pdf</datasheet>
+      <fields/>
+      <libsource lib="mmdvm_hs-hat-cache" part="Antenna"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D75795</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>599DAB88</tstamp>
+      <tstamp>59D759CC</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>100n</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRM188R70J104KA01D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRM188R70J104KA1D</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D75F2F</tstamp>
     </comp>
   </components>
   <libparts>
@@ -1043,14 +1097,13 @@
         <pin num="49" name="EPAD" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="mmdvm_hs-hat-cache" part="Antenna_Dipole">
+    <libpart lib="mmdvm_hs-hat-cache" part="Antenna">
       <fields>
         <field name="Reference">AE</field>
-        <field name="Value">Antenna_Dipole</field>
+        <field name="Value">Antenna</field>
       </fields>
       <pins>
-        <pin num="1" name="~" type="input"/>
-        <pin num="2" name="~" type="input"/>
+        <pin num="1" name="A" type="input"/>
       </pins>
     </libpart>
     <libpart lib="device" part="C">
@@ -1088,24 +1141,6 @@
         <pin num="2" name="P2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="CONN_01X03">
-      <description>Connector 01x03</description>
-      <footprints>
-        <fp>Pin_Header_Straight_1X03</fp>
-        <fp>Pin_Header_Angled_1X03</fp>
-        <fp>Socket_Strip_Straight_1X03</fp>
-        <fp>Socket_Strip_Angled_1X03</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_01X03</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="P2" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="conn" part="CONN_01X04">
       <description>Connector 01x04</description>
       <footprints>
@@ -1123,6 +1158,43 @@
         <pin num="2" name="P2" type="passive"/>
         <pin num="3" name="P3" type="passive"/>
         <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1_Small">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>Elko*</fp>
+        <fp>TantalC*</fp>
+        <fp>C*elec</fp>
+        <fp>c_elec*</fp>
+        <fp>SMD*_Pol</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="device" part="Crystal">
@@ -1143,8 +1215,6 @@
       <footprints>
         <fp>Choke_*</fp>
         <fp>*Coil*</fp>
-        <fp>Inductor_*</fp>
-        <fp>L_*</fp>
       </footprints>
       <fields>
         <field name="Reference">L</field>
@@ -1155,7 +1225,7 @@
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="mmdvm_hs-hat-rescue" part="LED-RESCUE-mmdvm_hs-hat">
+    <libpart lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat">
       <footprints>
         <fp>LED*</fp>
       </footprints>
@@ -1166,6 +1236,21 @@
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="L_Small">
+      <description>Inductor</description>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="device" part="R">
@@ -1183,7 +1268,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="mmdvm_hs-hat-cache" part="RPI-ZERO">
+    <libpart lib="RPI-Zero" part="RPI-ZERO">
       <footprints>
         <fp>*RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL*</fp>
       </footprints>
@@ -1291,19 +1376,6 @@
         <pin num="48" name="VDD_3" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="mmdvm_hs-hat-cache" part="SW_DIP_x01">
-      <footprints>
-        <fp>SW?DIP?x1*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">SW</field>
-        <field name="Value">SW_DIP_x01</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="input"/>
-        <pin num="2" name="~" type="input"/>
-      </pins>
-    </libpart>
     <libpart lib="Oscillators" part="TCXO_DFAS11">
       <fields>
         <field name="Reference">X</field>
@@ -1318,14 +1390,14 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
-    <library logical="mmdvm_hs-hat-rescue">
-      <uri>/opt/MMDVM_HS_Hat/mmdvm_hs-hat-rescue.lib</uri>
-    </library>
     <library logical="conn">
       <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="Oscillators">
+      <uri>/usr/share/kicad/library/Oscillators.lib</uri>
+    </library>
+    <library logical="RPI-Zero">
+      <uri>/opt/MMDVM_HS_Hat/RPI-Zero.lib</uri>
     </library>
     <library logical="stm32f103c8t6">
       <uri>/opt/MMDVM_HS_Hat/stm32f103c8t6.lib</uri>
@@ -1333,515 +1405,525 @@
     <library logical="adf7021">
       <uri>/opt/MMDVM_HS_Hat/adf7021.lib</uri>
     </library>
-    <library logical="Oscillators">
-      <uri>/usr/share/kicad/library/Oscillators.lib</uri>
-    </library>
     <library logical="mmdvm_hs-hat-cache">
       <uri>/opt/MMDVM_HS_Hat/mmdvm_hs-hat-cache.lib</uri>
     </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(R10-Pad2)">
-      <node ref="U1" pin="34"/>
-      <node ref="R10" pin="2"/>
+    <net code="1" name="NRST">
+      <node ref="C16" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="PI1" pin="40"/>
     </net>
-    <net code="2" name="DISP_TXD">
-      <node ref="P2" pin="2"/>
-      <node ref="U2" pin="12"/>
-    </net>
-    <net code="3" name="DISP_RXD">
-      <node ref="U2" pin="13"/>
-      <node ref="P2" pin="3"/>
-    </net>
-    <net code="4" name="SREAD">
-      <node ref="U2" pin="43"/>
-      <node ref="U1" pin="27"/>
-    </net>
-    <net code="5" name="DATAOUT">
-      <node ref="R10" pin="1"/>
-      <node ref="U2" pin="40"/>
-    </net>
-    <net code="6" name="DATAIN">
-      <node ref="U2" pin="39"/>
-      <node ref="R9" pin="1"/>
-    </net>
-    <net code="7" name="CLKOUT">
-      <node ref="U2" pin="38"/>
-      <node ref="R8" pin="1"/>
-    </net>
-    <net code="8" name="Net-(R8-Pad2)">
-      <node ref="R8" pin="2"/>
-      <node ref="U1" pin="36"/>
-    </net>
-    <net code="9" name="Net-(R9-Pad2)">
-      <node ref="R9" pin="2"/>
-      <node ref="U1" pin="35"/>
-    </net>
-    <net code="10" name="SCLK">
-      <node ref="U1" pin="28"/>
-      <node ref="U2" pin="41"/>
-    </net>
-    <net code="11" name="SDATA">
-      <node ref="U2" pin="42"/>
-      <node ref="U1" pin="26"/>
-    </net>
-    <net code="12" name="SLE">
+    <net code="2" name="SLE">
       <node ref="U2" pin="45"/>
       <node ref="U1" pin="25"/>
     </net>
-    <net code="13" name="Net-(C20-Pad2)">
+    <net code="3" name="DATAOUT">
+      <node ref="R10" pin="1"/>
+      <node ref="U2" pin="40"/>
+    </net>
+    <net code="4" name="DATAIN">
+      <node ref="R9" pin="1"/>
+      <node ref="U2" pin="39"/>
+    </net>
+    <net code="5" name="Net-(R9-Pad2)">
+      <node ref="R9" pin="2"/>
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="6" name="Net-(R10-Pad2)">
+      <node ref="U1" pin="34"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="7" name="SCLK">
+      <node ref="U2" pin="41"/>
+      <node ref="U1" pin="28"/>
+    </net>
+    <net code="8" name="SDATA">
+      <node ref="U2" pin="43"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="9" name="Net-(C20-Pad2)">
       <node ref="C20" pin="2"/>
       <node ref="U1" pin="31"/>
     </net>
-    <net code="14" name="DSTAR_LED">
+    <net code="10" name="VDD">
+      <node ref="P1" pin="1"/>
+      <node ref="U2" pin="48"/>
+      <node ref="C24" pin="1"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="9"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U2" pin="36"/>
+      <node ref="U2" pin="24"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="L5" pin="2"/>
+      <node ref="C28" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="11" name="DISP_TXD">
+      <node ref="U2" pin="12"/>
+      <node ref="P2" pin="3"/>
+    </net>
+    <net code="12" name="SWCLK">
+      <node ref="P1" pin="3"/>
+      <node ref="U2" pin="37"/>
+    </net>
+    <net code="13" name="RXD">
+      <node ref="PI1" pin="8"/>
+      <node ref="U2" pin="31"/>
+    </net>
+    <net code="14" name="TXD">
+      <node ref="PI1" pin="10"/>
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="15" name="DISP_RXD">
+      <node ref="U2" pin="13"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="16" name="COS_LED">
+      <node ref="R12" pin="2"/>
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="17" name="PTT_LED">
+      <node ref="U2" pin="27"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="18" name="DMR_LED">
+      <node ref="R14" pin="2"/>
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="19" name="DSTAR_LED">
       <node ref="R15" pin="2"/>
       <node ref="U2" pin="25"/>
     </net>
-    <net code="15" name="Net-(C6-Pad1)">
-      <node ref="U1" pin="7"/>
-      <node ref="C6" pin="1"/>
-      <node ref="L4" pin="1"/>
+    <net code="20" name="P25_LED">
+      <node ref="U2" pin="18"/>
+      <node ref="R17" pin="2"/>
     </net>
-    <net code="16" name="Net-(C5-Pad1)">
-      <node ref="L4" pin="2"/>
-      <node ref="C5" pin="1"/>
-      <node ref="U1" pin="6"/>
+    <net code="21" name="YSF_LED">
+      <node ref="U2" pin="19"/>
+      <node ref="R16" pin="2"/>
     </net>
-    <net code="17" name="Net-(C4-Pad2)">
-      <node ref="L2" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C4" pin="2"/>
-    </net>
-    <net code="18" name="Net-(C1-Pad1)">
+    <net code="22" name="Net-(C1-Pad1)">
+      <node ref="L2" pin="1"/>
       <node ref="L1" pin="2"/>
       <node ref="C1" pin="1"/>
-      <node ref="L2" pin="1"/>
     </net>
-    <net code="19" name="Net-(C4-Pad1)">
-      <node ref="C4" pin="1"/>
-      <node ref="L3" pin="1"/>
+    <net code="23" name="Net-(C4-Pad2)">
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="24" name="Net-(C4-Pad1)">
       <node ref="U1" pin="4"/>
+      <node ref="L3" pin="1"/>
+      <node ref="C4" pin="1"/>
     </net>
-    <net code="20" name="Net-(C10-Pad1)">
-      <node ref="C10" pin="1"/>
+    <net code="25" name="Net-(C11-Pad1)">
+      <node ref="U1" pin="48"/>
+      <node ref="C11" pin="1"/>
+    </net>
+    <net code="26" name="Net-(C11-Pad2)">
+      <node ref="R4" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="27" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="28" name="Net-(C10-Pad1)">
       <node ref="U1" pin="11"/>
+      <node ref="C10" pin="1"/>
     </net>
-    <net code="21" name="+3V3">
-      <node ref="C7" pin="1"/>
-      <node ref="R7" pin="2"/>
-      <node ref="R11" pin="2"/>
-      <node ref="R18" pin="1"/>
-      <node ref="C22" pin="2"/>
-      <node ref="PI1" pin="1"/>
-      <node ref="C17" pin="1"/>
-      <node ref="X1" pin="4"/>
-      <node ref="C19" pin="1"/>
-      <node ref="U2" pin="1"/>
-      <node ref="PI1" pin="17"/>
-      <node ref="U1" pin="40"/>
-      <node ref="U1" pin="32"/>
-      <node ref="U1" pin="43"/>
-      <node ref="C2" pin="1"/>
-      <node ref="L3" pin="2"/>
-      <node ref="P4" pin="1"/>
-      <node ref="U1" pin="3"/>
-      <node ref="U1" pin="9"/>
-      <node ref="U2" pin="24"/>
-      <node ref="U2" pin="36"/>
-      <node ref="U2" pin="48"/>
-      <node ref="U2" pin="9"/>
-      <node ref="C9" pin="1"/>
-      <node ref="P1" pin="3"/>
-      <node ref="C24" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="C25" pin="1"/>
-      <node ref="C26" pin="1"/>
-    </net>
-    <net code="22" name="GND">
-      <node ref="C16" pin="2"/>
-      <node ref="R3" pin="2"/>
-      <node ref="R2" pin="2"/>
-      <node ref="D3" pin="1"/>
-      <node ref="D4" pin="1"/>
-      <node ref="C20" pin="1"/>
-      <node ref="C22" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="D5" pin="1"/>
-      <node ref="D6" pin="1"/>
-      <node ref="D7" pin="1"/>
-      <node ref="D8" pin="1"/>
-      <node ref="C21" pin="1"/>
-      <node ref="C26" pin="2"/>
-      <node ref="C25" pin="2"/>
-      <node ref="C24" pin="2"/>
-      <node ref="C23" pin="1"/>
-      <node ref="P1" pin="1"/>
-      <node ref="P4" pin="4"/>
-      <node ref="U2" pin="23"/>
-      <node ref="PI1" pin="9"/>
-      <node ref="PI1" pin="20"/>
-      <node ref="P3" pin="2"/>
-      <node ref="PI1" pin="6"/>
-      <node ref="U2" pin="20"/>
-      <node ref="U1" pin="5"/>
-      <node ref="C19" pin="2"/>
-      <node ref="U2" pin="47"/>
-      <node ref="PI1" pin="30"/>
-      <node ref="U2" pin="8"/>
-      <node ref="C17" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="C15" pin="1"/>
-      <node ref="U2" pin="35"/>
-      <node ref="X1" pin="2"/>
+    <net code="29" name="GND">
       <node ref="C10" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U2" pin="35"/>
+      <node ref="U1" pin="22"/>
+      <node ref="U2" pin="8"/>
+      <node ref="PI1" pin="30"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U2" pin="47"/>
+      <node ref="PI1" pin="23"/>
+      <node ref="C19" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="X1" pin="2"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U1" pin="49"/>
+      <node ref="U1" pin="29"/>
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="12"/>
+      <node ref="U1" pin="19"/>
+      <node ref="U1" pin="47"/>
       <node ref="U1" pin="45"/>
+      <node ref="P3" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="PI1" pin="39"/>
+      <node ref="PI1" pin="37"/>
+      <node ref="PI1" pin="25"/>
+      <node ref="PI1" pin="34"/>
+      <node ref="PI1" pin="14"/>
       <node ref="C8" pin="2"/>
       <node ref="C2" pin="2"/>
       <node ref="C12" pin="2"/>
       <node ref="C13" pin="2"/>
-      <node ref="C14" pin="2"/>
-      <node ref="U1" pin="12"/>
-      <node ref="U1" pin="22"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C31" pin="2"/>
       <node ref="C1" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="U1" pin="29"/>
-      <node ref="P2" pin="4"/>
-      <node ref="PI1" pin="39"/>
-      <node ref="PI1" pin="37"/>
-      <node ref="PI1" pin="23"/>
-      <node ref="PI1" pin="25"/>
-      <node ref="PI1" pin="34"/>
-      <node ref="PI1" pin="14"/>
-      <node ref="C6" pin="2"/>
-      <node ref="U1" pin="49"/>
-      <node ref="U1" pin="19"/>
-      <node ref="U1" pin="47"/>
-    </net>
-    <net code="23" name="Net-(R3-Pad1)">
-      <node ref="U1" pin="10"/>
-      <node ref="R3" pin="1"/>
-    </net>
-    <net code="24" name="Net-(R2-Pad1)">
-      <node ref="U1" pin="8"/>
-      <node ref="R2" pin="1"/>
-    </net>
-    <net code="25" name="COS_LED">
-      <node ref="R12" pin="2"/>
-      <node ref="U2" pin="28"/>
-    </net>
-    <net code="26" name="PTT_LED">
-      <node ref="U2" pin="27"/>
-      <node ref="R13" pin="2"/>
-    </net>
-    <net code="27" name="DMR_LED">
-      <node ref="U2" pin="26"/>
-      <node ref="R14" pin="2"/>
-    </net>
-    <net code="28" name="P25_LED">
-      <node ref="U2" pin="18"/>
-      <node ref="R17" pin="2"/>
-    </net>
-    <net code="29" name="YSF_LED">
-      <node ref="R16" pin="2"/>
-      <node ref="U2" pin="19"/>
-    </net>
-    <net code="30" name="RXD">
-      <node ref="U2" pin="31"/>
-      <node ref="PI1" pin="8"/>
-    </net>
-    <net code="31" name="SWCLK">
-      <node ref="P4" pin="3"/>
-      <node ref="U2" pin="37"/>
-    </net>
-    <net code="32" name="Net-(D1-Pad2)">
-      <node ref="D1" pin="2"/>
-      <node ref="R18" pin="2"/>
-    </net>
-    <net code="33" name="Net-(AE1-Pad2)">
-      <node ref="AE1" pin="2"/>
-    </net>
-    <net code="34" name="Net-(C27-Pad1)">
-      <node ref="P3" pin="1"/>
-      <node ref="C27" pin="1"/>
-    </net>
-    <net code="35" name="RF">
-      <node ref="L1" pin="1"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="PI1" pin="20"/>
+      <node ref="U2" pin="23"/>
       <node ref="C27" pin="2"/>
-      <node ref="C28" pin="1"/>
+      <node ref="P2" pin="4"/>
+      <node ref="C26" pin="2"/>
+      <node ref="U2" pin="20"/>
+      <node ref="C25" pin="2"/>
+      <node ref="PI1" pin="6"/>
+      <node ref="C24" pin="2"/>
+      <node ref="PI1" pin="9"/>
+      <node ref="P1" pin="4"/>
     </net>
-    <net code="36" name="Net-(AE1-Pad1)">
+    <net code="30" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="31" name="Net-(C6-Pad1)">
+      <node ref="L4" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="32" name="Net-(C5-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="C5" pin="1"/>
+      <node ref="L4" pin="2"/>
+    </net>
+    <net code="33" name="SREAD">
+      <node ref="U2" pin="42"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="34" name="Net-(AE1-Pad1)">
       <node ref="AE1" pin="1"/>
-      <node ref="C28" pin="2"/>
+      <node ref="C34" pin="1"/>
     </net>
-    <net code="37" name="BOOT0">
-      <node ref="U2" pin="44"/>
+    <net code="35" name="Net-(C33-Pad2)">
+      <node ref="P3" pin="1"/>
+      <node ref="C33" pin="2"/>
+    </net>
+    <net code="36" name="BOOT0">
       <node ref="R1" pin="1"/>
+      <node ref="U2" pin="44"/>
     </net>
-    <net code="38" name="SWDIO">
-      <node ref="P4" pin="2"/>
+    <net code="37" name="SWDIO">
+      <node ref="P1" pin="2"/>
       <node ref="U2" pin="34"/>
     </net>
-    <net code="39" name="TXD">
-      <node ref="PI1" pin="10"/>
-      <node ref="U2" pin="30"/>
+    <net code="38" name="RF">
+      <node ref="L1" pin="1"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C33" pin="1"/>
     </net>
-    <net code="40" name="SDA">
+    <net code="39" name="SDA">
       <node ref="U2" pin="21"/>
     </net>
-    <net code="41" name="SCL">
+    <net code="40" name="SCL">
       <node ref="U2" pin="22"/>
     </net>
-    <net code="42" name="BOOT_GPIO">
-      <node ref="PI1" pin="38"/>
-      <node ref="P1" pin="2"/>
-      <node ref="R1" pin="2"/>
-    </net>
-    <net code="43" name="CE">
-      <node ref="U1" pin="24"/>
-      <node ref="U2" pin="3"/>
-    </net>
-    <net code="44" name="SERVICE">
+    <net code="41" name="SERVICE">
       <node ref="D1" pin="1"/>
       <node ref="U2" pin="2"/>
     </net>
-    <net code="45" name="Net-(C21-Pad2)">
+    <net code="42" name="Net-(C21-Pad2)">
       <node ref="C21" pin="2"/>
       <node ref="U2" pin="5"/>
       <node ref="Y1" pin="1"/>
     </net>
-    <net code="46" name="Net-(C23-Pad2)">
+    <net code="43" name="Net-(C23-Pad2)">
       <node ref="C23" pin="2"/>
       <node ref="U2" pin="6"/>
       <node ref="Y1" pin="2"/>
     </net>
-    <net code="47" name="Net-(D2-Pad2)">
+    <net code="44" name="Net-(D2-Pad2)">
       <node ref="D2" pin="2"/>
       <node ref="R11" pin="1"/>
     </net>
-    <net code="48" name="Net-(D3-Pad2)">
-      <node ref="D3" pin="2"/>
-      <node ref="R12" pin="1"/>
+    <net code="45" name="Net-(PI1-Pad38)">
+      <node ref="PI1" pin="38"/>
+      <node ref="R1" pin="2"/>
     </net>
-    <net code="49" name="Net-(D8-Pad2)">
-      <node ref="D8" pin="2"/>
-      <node ref="R17" pin="1"/>
+    <net code="46" name="+3V3">
+      <node ref="PI1" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="PI1" pin="17"/>
+      <node ref="L5" pin="1"/>
+      <node ref="L6" pin="1"/>
+      <node ref="C30" pin="1"/>
     </net>
-    <net code="50" name="Net-(D7-Pad2)">
-      <node ref="D7" pin="2"/>
-      <node ref="R16" pin="1"/>
+    <net code="47" name="VDDA">
+      <node ref="C2" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="L3" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="X1" pin="4"/>
+      <node ref="U1" pin="32"/>
+      <node ref="L6" pin="2"/>
+      <node ref="C31" pin="1"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="40"/>
+      <node ref="U1" pin="43"/>
     </net>
-    <net code="51" name="Net-(D5-Pad2)">
-      <node ref="D5" pin="2"/>
-      <node ref="R14" pin="1"/>
-    </net>
-    <net code="52" name="Net-(D6-Pad2)">
-      <node ref="D6" pin="2"/>
-      <node ref="R15" pin="1"/>
-    </net>
-    <net code="53" name="Net-(D4-Pad2)">
-      <node ref="D4" pin="2"/>
-      <node ref="R13" pin="1"/>
-    </net>
-    <net code="54" name="Net-(U1-Pad13)">
-      <node ref="U1" pin="13"/>
-    </net>
-    <net code="55" name="Net-(U2-Pad16)">
-      <node ref="U2" pin="16"/>
-    </net>
-    <net code="56" name="Net-(U2-Pad17)">
-      <node ref="U2" pin="17"/>
-    </net>
-    <net code="57" name="Net-(U2-Pad29)">
-      <node ref="U2" pin="29"/>
-    </net>
-    <net code="58" name="Net-(U1-Pad30)">
-      <node ref="U1" pin="30"/>
-    </net>
-    <net code="59" name="Net-(U1-Pad23)">
-      <node ref="U1" pin="23"/>
-    </net>
-    <net code="60" name="Net-(U1-Pad21)">
-      <node ref="U1" pin="21"/>
-    </net>
-    <net code="61" name="Net-(U1-Pad20)">
-      <node ref="U1" pin="20"/>
-    </net>
-    <net code="62" name="Net-(U1-Pad18)">
-      <node ref="U1" pin="18"/>
-    </net>
-    <net code="63" name="Net-(U1-Pad17)">
-      <node ref="U1" pin="17"/>
-    </net>
-    <net code="64" name="Net-(U1-Pad16)">
-      <node ref="U1" pin="16"/>
-    </net>
-    <net code="65" name="Net-(U1-Pad15)">
-      <node ref="U1" pin="15"/>
-    </net>
-    <net code="66" name="Net-(U1-Pad14)">
-      <node ref="U1" pin="14"/>
-    </net>
-    <net code="67" name="Net-(U2-Pad15)">
-      <node ref="U2" pin="15"/>
-    </net>
-    <net code="68" name="Net-(U1-Pad46)">
+    <net code="48" name="Net-(U1-Pad46)">
       <node ref="U1" pin="46"/>
     </net>
-    <net code="69" name="Net-(U1-Pad44)">
+    <net code="49" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="50" name="Net-(U2-Pad29)">
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="51" name="Net-(U1-Pad30)">
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="52" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="53" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="54" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="55" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="56" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="57" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="58" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="59" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="60" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="61" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="62" name="Net-(U1-Pad44)">
       <node ref="U1" pin="44"/>
     </net>
-    <net code="70" name="Net-(U1-Pad38)">
+    <net code="63" name="Net-(U1-Pad38)">
       <node ref="U1" pin="38"/>
     </net>
-    <net code="71" name="Net-(U1-Pad37)">
+    <net code="64" name="Net-(U1-Pad37)">
       <node ref="U1" pin="37"/>
     </net>
-    <net code="72" name="Net-(U1-Pad33)">
+    <net code="65" name="Net-(U1-Pad33)">
       <node ref="U1" pin="33"/>
     </net>
-    <net code="73" name="Net-(X1-Pad1)">
+    <net code="66" name="Net-(X1-Pad1)">
       <node ref="X1" pin="1"/>
     </net>
-    <net code="74" name="Net-(U2-Pad4)">
+    <net code="67" name="Net-(U2-Pad4)">
       <node ref="U2" pin="4"/>
     </net>
-    <net code="75" name="Net-(U2-Pad33)">
+    <net code="68" name="Net-(U2-Pad33)">
       <node ref="U2" pin="33"/>
     </net>
-    <net code="76" name="Net-(U2-Pad32)">
+    <net code="69" name="Net-(U2-Pad32)">
       <node ref="U2" pin="32"/>
     </net>
-    <net code="77" name="Net-(U2-Pad46)">
+    <net code="70" name="Net-(U2-Pad46)">
       <node ref="U2" pin="46"/>
     </net>
-    <net code="78" name="Net-(C12-Pad1)">
+    <net code="71" name="Net-(U2-Pad38)">
+      <node ref="U2" pin="38"/>
+    </net>
+    <net code="72" name="Net-(U1-Pad36)">
+      <node ref="U1" pin="36"/>
+    </net>
+    <net code="73" name="Net-(C12-Pad1)">
       <node ref="U1" pin="1"/>
-      <node ref="C12" pin="1"/>
       <node ref="R5" pin="2"/>
+      <node ref="C12" pin="1"/>
     </net>
-    <net code="79" name="NRST">
-      <node ref="SW1" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="C16" pin="1"/>
-      <node ref="U2" pin="7"/>
-      <node ref="PI1" pin="40"/>
+    <net code="74" name="Net-(D3-Pad2)">
+      <node ref="R12" pin="1"/>
+      <node ref="D3" pin="2"/>
     </net>
-    <net code="80" name="+5V">
-      <node ref="P2" pin="1"/>
-      <node ref="PI1" pin="4"/>
-      <node ref="PI1" pin="2"/>
-    </net>
-    <net code="81" name="Net-(U2-Pad10)">
+    <net code="75" name="Net-(U2-Pad10)">
       <node ref="U2" pin="10"/>
     </net>
-    <net code="82" name="Net-(U2-Pad11)">
+    <net code="76" name="Net-(U2-Pad11)">
       <node ref="U2" pin="11"/>
     </net>
-    <net code="83" name="Net-(U2-Pad14)">
+    <net code="77" name="Net-(U2-Pad14)">
       <node ref="U2" pin="14"/>
     </net>
-    <net code="84" name="Net-(C15-Pad2)">
+    <net code="78" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="79" name="Net-(C18-Pad2)">
+      <node ref="U1" pin="39"/>
+      <node ref="C18" pin="2"/>
+    </net>
+    <net code="80" name="Net-(C18-Pad1)">
+      <node ref="X1" pin="3"/>
+      <node ref="C18" pin="1"/>
+    </net>
+    <net code="81" name="CE">
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="82" name="Net-(C8-Pad1)">
+      <node ref="R4" pin="2"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="83" name="Net-(C14-Pad1)">
+      <node ref="U1" pin="42"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C14" pin="1"/>
+    </net>
+    <net code="84" name="Net-(C13-Pad1)">
+      <node ref="R6" pin="2"/>
+      <node ref="C13" pin="1"/>
+    </net>
+    <net code="85" name="Net-(C15-Pad2)">
       <node ref="C15" pin="2"/>
       <node ref="U1" pin="41"/>
     </net>
-    <net code="85" name="Net-(C18-Pad2)">
-      <node ref="C18" pin="2"/>
-      <node ref="U1" pin="39"/>
+    <net code="86" name="Net-(D1-Pad2)">
+      <node ref="R18" pin="2"/>
+      <node ref="D1" pin="2"/>
     </net>
-    <net code="86" name="Net-(C18-Pad1)">
-      <node ref="C18" pin="1"/>
-      <node ref="X1" pin="3"/>
+    <net code="87" name="Net-(D8-Pad2)">
+      <node ref="R17" pin="1"/>
+      <node ref="D8" pin="2"/>
     </net>
-    <net code="87" name="Net-(C8-Pad1)">
-      <node ref="C8" pin="1"/>
-      <node ref="R4" pin="2"/>
+    <net code="88" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="R16" pin="1"/>
     </net>
-    <net code="88" name="Net-(C11-Pad1)">
-      <node ref="U1" pin="48"/>
-      <node ref="C11" pin="1"/>
+    <net code="89" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="R14" pin="1"/>
     </net>
-    <net code="89" name="Net-(C11-Pad2)">
-      <node ref="C11" pin="2"/>
-      <node ref="U1" pin="2"/>
-      <node ref="R4" pin="1"/>
+    <net code="90" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="R15" pin="1"/>
     </net>
-    <net code="90" name="Net-(C14-Pad1)">
-      <node ref="U1" pin="42"/>
-      <node ref="C14" pin="1"/>
-      <node ref="R5" pin="1"/>
-      <node ref="R6" pin="1"/>
+    <net code="91" name="Net-(D4-Pad2)">
+      <node ref="D4" pin="2"/>
+      <node ref="R13" pin="1"/>
     </net>
-    <net code="91" name="Net-(C13-Pad1)">
-      <node ref="C13" pin="1"/>
-      <node ref="R6" pin="2"/>
+    <net code="92" name="+5V">
+      <node ref="PI1" pin="4"/>
+      <node ref="PI1" pin="2"/>
+      <node ref="P2" pin="1"/>
     </net>
-    <net code="92" name="Net-(PI1-Pad3)">
-      <node ref="PI1" pin="3"/>
-    </net>
-    <net code="93" name="Net-(PI1-Pad5)">
-      <node ref="PI1" pin="5"/>
-    </net>
-    <net code="94" name="Net-(PI1-Pad7)">
-      <node ref="PI1" pin="7"/>
-    </net>
-    <net code="95" name="Net-(PI1-Pad11)">
-      <node ref="PI1" pin="11"/>
-    </net>
-    <net code="96" name="Net-(PI1-Pad21)">
-      <node ref="PI1" pin="21"/>
-    </net>
-    <net code="97" name="Net-(PI1-Pad31)">
-      <node ref="PI1" pin="31"/>
-    </net>
-    <net code="98" name="Net-(PI1-Pad12)">
-      <node ref="PI1" pin="12"/>
-    </net>
-    <net code="99" name="Net-(PI1-Pad22)">
-      <node ref="PI1" pin="22"/>
-    </net>
-    <net code="100" name="Net-(PI1-Pad26)">
-      <node ref="PI1" pin="26"/>
-    </net>
-    <net code="101" name="Net-(PI1-Pad32)">
-      <node ref="PI1" pin="32"/>
-    </net>
-    <net code="102" name="Net-(PI1-Pad13)">
-      <node ref="PI1" pin="13"/>
-    </net>
-    <net code="103" name="Net-(PI1-Pad33)">
-      <node ref="PI1" pin="33"/>
-    </net>
-    <net code="104" name="Net-(PI1-Pad24)">
-      <node ref="PI1" pin="24"/>
-    </net>
-    <net code="105" name="Net-(PI1-Pad15)">
-      <node ref="PI1" pin="15"/>
-    </net>
-    <net code="106" name="Net-(PI1-Pad35)">
-      <node ref="PI1" pin="35"/>
-    </net>
-    <net code="107" name="Net-(PI1-Pad16)">
-      <node ref="PI1" pin="16"/>
-    </net>
-    <net code="108" name="Net-(PI1-Pad36)">
-      <node ref="PI1" pin="36"/>
-    </net>
-    <net code="109" name="Net-(PI1-Pad27)">
-      <node ref="PI1" pin="27"/>
-    </net>
-    <net code="110" name="Net-(PI1-Pad18)">
+    <net code="93" name="Net-(PI1-Pad18)">
       <node ref="PI1" pin="18"/>
     </net>
-    <net code="111" name="Net-(PI1-Pad28)">
+    <net code="94" name="Net-(PI1-Pad24)">
+      <node ref="PI1" pin="24"/>
+    </net>
+    <net code="95" name="Net-(PI1-Pad15)">
+      <node ref="PI1" pin="15"/>
+    </net>
+    <net code="96" name="Net-(PI1-Pad35)">
+      <node ref="PI1" pin="35"/>
+    </net>
+    <net code="97" name="Net-(PI1-Pad16)">
+      <node ref="PI1" pin="16"/>
+    </net>
+    <net code="98" name="Net-(PI1-Pad26)">
+      <node ref="PI1" pin="26"/>
+    </net>
+    <net code="99" name="Net-(PI1-Pad36)">
+      <node ref="PI1" pin="36"/>
+    </net>
+    <net code="100" name="Net-(PI1-Pad27)">
+      <node ref="PI1" pin="27"/>
+    </net>
+    <net code="101" name="Net-(PI1-Pad28)">
       <node ref="PI1" pin="28"/>
     </net>
-    <net code="112" name="Net-(PI1-Pad19)">
+    <net code="102" name="Net-(PI1-Pad19)">
       <node ref="PI1" pin="19"/>
     </net>
-    <net code="113" name="Net-(PI1-Pad29)">
+    <net code="103" name="Net-(PI1-Pad29)">
       <node ref="PI1" pin="29"/>
+    </net>
+    <net code="104" name="Net-(PI1-Pad33)">
+      <node ref="PI1" pin="33"/>
+    </net>
+    <net code="105" name="Net-(PI1-Pad3)">
+      <node ref="PI1" pin="3"/>
+    </net>
+    <net code="106" name="Net-(PI1-Pad5)">
+      <node ref="PI1" pin="5"/>
+    </net>
+    <net code="107" name="Net-(PI1-Pad7)">
+      <node ref="PI1" pin="7"/>
+    </net>
+    <net code="108" name="Net-(PI1-Pad11)">
+      <node ref="PI1" pin="11"/>
+    </net>
+    <net code="109" name="Net-(PI1-Pad21)">
+      <node ref="PI1" pin="21"/>
+    </net>
+    <net code="110" name="Net-(PI1-Pad31)">
+      <node ref="PI1" pin="31"/>
+    </net>
+    <net code="111" name="Net-(PI1-Pad12)">
+      <node ref="PI1" pin="12"/>
+    </net>
+    <net code="112" name="Net-(PI1-Pad22)">
+      <node ref="PI1" pin="22"/>
+    </net>
+    <net code="113" name="Net-(PI1-Pad32)">
+      <node ref="PI1" pin="32"/>
+    </net>
+    <net code="114" name="Net-(PI1-Pad13)">
+      <node ref="PI1" pin="13"/>
     </net>
   </nets>
 </export>
