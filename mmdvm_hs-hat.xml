@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/opt/MMDVM_HS_Hat/mmdvm_hs-hat.sch</source>
-    <date>So 01 Okt 2017 21:11:49 CEST</date>
+    <date>Sun 22 Oct 2017 12:56:40 PM CEST</date>
     <tool>Eeschema 4.0.2+dfsg1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -106,12 +106,12 @@
     <comp ref="C24">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GCM155R71C104JA55D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GCM155R71C104JA5D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -120,12 +120,12 @@
     <comp ref="C25">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GCM155R71C104JA55D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GCM155R71C104JA5D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -134,12 +134,12 @@
     <comp ref="C26">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GCM155R71C104JA55D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GCM155R71C104JA5D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -176,12 +176,12 @@
     <comp ref="C16">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GCM155R71C104JA55D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GCM155R71C104JA5D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -232,12 +232,12 @@
     <comp ref="C20">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GCM155R71C104JA55D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GCM155R71C104JA5D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -456,12 +456,12 @@
     <comp ref="C10">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GCM155R71C104JA55D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GCM155R71C104JA5D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -571,9 +571,9 @@
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM0225C1C100JA03L</field>
+        <field name="MPN">GRM1555C1E100GA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM0225C1C100JA3L</field>
+        <field name="SPN">81-GRM1555C1E100GA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -694,12 +694,12 @@
     <comp ref="C8">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GCM155R71C104JA55D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GCM155R71C104JA5D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -781,9 +781,9 @@
       <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM155R60J105KE19D</field>
+        <field name="MPN">GRM155R60J102KA01D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM155R60J105KE19</field>
+        <field name="SPN">81-GRM155R60J102KA1D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -806,12 +806,12 @@
     <comp ref="C15">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GCM155R71C104JA55D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GCM155R71C104JA5D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -883,7 +883,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">855-M20-7832046</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-cache" part="RPI-ZERO"/>
+      <libsource lib="RPI-Zero" part="RPI-ZERO"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591C168B</tstamp>
     </comp>
@@ -945,7 +945,7 @@
     </comp>
     <comp ref="AE1">
       <value>AN1603_433</value>
-      <footprint>pizero:AN1603</footprint>
+      <footprint>MMDVM:AN1603</footprint>
       <datasheet>http://www.compotek.com/fileadmin/Datenblaetter/Antennen/9_SMD/RainSun_AN1603-433_ds_1.4.pdf</datasheet>
       <fields>
         <field name="MFR">RainSun</field>
@@ -958,13 +958,13 @@
     </comp>
     <comp ref="C27">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GCM155R71C104JA55D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GCM155R71C104JA5D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -972,13 +972,13 @@
     </comp>
     <comp ref="C28">
       <value>100n</value>
-      <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
       <fields>
         <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM022R60J104KE15L</field>
+        <field name="MPN">GCM155R71C104JA55D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM022R60J104KE5L</field>
+        <field name="SPN">81-GCM155R71C104JA5D</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1183,7 +1183,7 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="mmdvm_hs-hat-cache" part="RPI-ZERO">
+    <libpart lib="RPI-Zero" part="RPI-ZERO">
       <footprints>
         <fp>*RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL*</fp>
       </footprints>
@@ -1318,26 +1318,29 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
     <library logical="mmdvm_hs-hat-rescue">
       <uri>/opt/MMDVM_HS_Hat/mmdvm_hs-hat-rescue.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="stm32f103c8t6">
-      <uri>/opt/MMDVM_HS_Hat/stm32f103c8t6.lib</uri>
-    </library>
-    <library logical="adf7021">
-      <uri>/opt/MMDVM_HS_Hat/adf7021.lib</uri>
     </library>
     <library logical="Oscillators">
       <uri>/usr/share/kicad/library/Oscillators.lib</uri>
     </library>
+    <library logical="RPI-Zero">
+      <uri>/opt/MMDVM_HS_Hat/RPI-Zero.lib</uri>
+    </library>
     <library logical="mmdvm_hs-hat-cache">
       <uri>/opt/MMDVM_HS_Hat/mmdvm_hs-hat-cache.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="adf7021">
+      <uri>/opt/MMDVM_HS_Hat/adf7021.lib</uri>
+    </library>
+    <library logical="stm32f103c8t6">
+      <uri>/opt/MMDVM_HS_Hat/stm32f103c8t6.lib</uri>
     </library>
   </libraries>
   <nets>

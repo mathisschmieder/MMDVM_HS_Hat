@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /opt/MMDVM_HS_Hat/mmdvm_hs-hat.sch)
-    (date "Fr 06 Okt 2017 12:05:17 CEST")
+    (date "Sun 22 Oct 2017 12:54:54 PM CEST")
     (tool "Eeschema 4.0.2+dfsg1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -756,7 +756,7 @@
         (field (name MPN) M20-7832046)
         (field (name SPR) Mouser)
         (field (name SPN) 855-M20-7832046))
-      (libsource (lib mmdvm_hs-hat-cache) (part RPI-ZERO))
+      (libsource (lib RPI-Zero) (part RPI-ZERO))
       (sheetpath (names /) (tstamps /))
       (tstamp 591C168B))
     (comp (ref SW1)
@@ -820,7 +820,7 @@
       (tstamp 599D9A2D))
     (comp (ref C27)
       (value 100n)
-      (footprint Capacitors_SMD:C_0402)
+      (footprint Capacitors_SMD:C_0603)
       (datasheet http://www.mouser.com/ds/2/281/c03e-806517.pdf)
       (fields
         (field (name MFR) "Murata Electronics")
@@ -832,7 +832,7 @@
       (tstamp 599DA57E))
     (comp (ref C28)
       (value 100n)
-      (footprint Capacitors_SMD:C_0402)
+      (footprint Capacitors_SMD:C_0603)
       (datasheet http://www.mouser.com/ds/2/281/c03e-806517.pdf)
       (fields
         (field (name MFR) "Murata Electronics")
@@ -1002,7 +1002,7 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib mmdvm_hs-hat-cache) (part RPI-ZERO)
+    (libpart (lib RPI-Zero) (part RPI-ZERO)
       (footprints
         (fp *RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL*))
       (fields
@@ -1124,18 +1124,20 @@
   (libraries
     (library (logical mmdvm_hs-hat-rescue)
       (uri /opt/MMDVM_HS_Hat/mmdvm_hs-hat-rescue.lib))
-    (library (logical mmdvm_hs-hat-cache)
-      (uri /opt/MMDVM_HS_Hat/mmdvm_hs-hat-cache.lib))
-    (library (logical adf7021)
-      (uri /opt/MMDVM_HS_Hat/adf7021.lib))
+    (library (logical device)
+      (uri /usr/share/kicad/library/device.lib))
     (library (logical conn)
       (uri /usr/share/kicad/library/conn.lib))
-    (library (logical Oscillators)
-      (uri /usr/share/kicad/library/Oscillators.lib))
     (library (logical stm32f103c8t6)
       (uri /opt/MMDVM_HS_Hat/stm32f103c8t6.lib))
-    (library (logical device)
-      (uri /usr/share/kicad/library/device.lib)))
+    (library (logical adf7021)
+      (uri /opt/MMDVM_HS_Hat/adf7021.lib))
+    (library (logical Oscillators)
+      (uri /usr/share/kicad/library/Oscillators.lib))
+    (library (logical RPI-Zero)
+      (uri /opt/MMDVM_HS_Hat/RPI-Zero.lib))
+    (library (logical mmdvm_hs-hat-cache)
+      (uri /opt/MMDVM_HS_Hat/mmdvm_hs-hat-cache.lib)))
   (nets
     (net (code 1) (name "Net-(R10-Pad2)")
       (node (ref U1) (pin 34))
