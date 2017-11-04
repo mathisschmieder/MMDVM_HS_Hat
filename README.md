@@ -30,6 +30,9 @@ Rewired 3v3 line for Nextion display connector to 5v0. Added SERVICE LED for vis
 ### Revision 1.2
 This Revision adds support for an optional AN1603-443 ceramic antenna. Insert C27 or C28, depending on what kind of antenna you want to use.
 
+### Revision 1.3
+The boot jumper was removed and the STlink header moved to its position. This gave space for another 4-pin header allowing to connect I²C OLED displays. No new stencil needed
+
 ## BOM
 * All necessary parts for the Revision 1.1 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=780b8eac44)
 * All necessary parts for the Revision 1.2 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=035e777242)
