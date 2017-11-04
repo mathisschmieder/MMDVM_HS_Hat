@@ -23,9 +23,9 @@ D2;D6,green,LEDs:LED_0402,2,ROHM Semiconductor,SML-P13PTT86R,Mouser,755-SML-P13P
 D4;D8;D1,red,LEDs:LED_0402,3,ROHM Semiconductor,SML-P12U2TT86R,Mouser,755-SML-P12U2TT86R
 D3;D5,yellow,LEDs:LED_0402,2,ROHM Semiconductor,SML-P12WTT86R,Mouser,755-SML-P12WTT86R
 AE1,AN1603_433,MMDVM:AN1603,1,RainSun,AN1603-433,AliExpress,
-P1,BOOT0,Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm,1,TE Connectivity / AMP,826629-3,Mouser,571-826629-3
-P2,DISPLAY,Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm,1,TE Connectivity / AMP,826629-4,Mouser,571-826629-4
-P4,STLINK,Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm,1,TE Connectivity / AMP,826629-4,Mouser,571-826629-4
+P2,DISPLAY,Pin_Headers:Pin_Header_Straight_1x04,1,TE Connectivity / AMP,826629-4,Mouser,571-826629-4
+P1,I2C,Pin_Headers:Pin_Header_Straight_1x04,1,TE Connectivity / AMP,826629-4,Mouser,571-826629-4
+P4,STLINK,Pin_Headers:Pin_Header_Straight_1x04,1,TE Connectivity / AMP,826629-4,Mouser,571-826629-4
 R1;R7,10k,Resistors_SMD:R_0402,2,Vishay,CRCW040210K0FKED,Mouser,71-CRCW0402-10K-E3
 L3,13n,Resistors_SMD:R_0402,1,Coilcraft,0402CS-13NXJLU,Mouser,994-0402CS-13NXJLU
 R8;R9;R10;R11;R12;R13;R14;R15;R16;R17;R18,1k,Resistors_SMD:R_0402,11,Panasonic,ERJ-PA2D1001X,Mouser,667-ERJ-PA2D1001X
