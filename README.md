@@ -33,13 +33,17 @@ This Revision adds support for an optional AN1603-443 ceramic antenna. Insert C2
 ### Revision 1.3
 The boot jumper was removed and the STlink header moved to its position. This gave space for another 4-pin header allowing to connect I²C OLED displays. No new stencil needed
 
+### Revision 1.4
+The SVC LED has been rotated and thus aligned to the layout of all other LEDs. The RainSun ceramic antenna has been replaced by a model that can be ordered at Mouser. DC line filtering has been added to 3v3 line.
+
 ## BOM
 * All necessary parts for the Revision 1.1 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=780b8eac44)
 * All necessary parts for the Revision 1.2 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=035e777242)
 * There is also a light version of revision 1.2 without the reset switch, 2.54mm headers and SMA connector [Link](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=3f7d0256e1)
 * The parts for Revision 1.3 board are in this [Mouser cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=250d76339b) and the light version is [here](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=2d533ac53d)
+* [Mouser project](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=49d03966ee) for MMDVM_HS_Hat revision 1.4
 
-Please note that the onboard ceramic antenna is not supplied by Mouser and therefore missing in the carts.  
+Please note that the onboard ceramic antenna is not supplied by Mouser and therefore missing in the carts for revisions up to 1.3.
 
 Either the ADF7021 or the ADF7021-N can be used. Define the proper version in the firmware!
 
