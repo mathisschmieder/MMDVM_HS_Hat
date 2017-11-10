@@ -3545,12 +3545,12 @@
     (pad "" np_thru_hole circle (at 61.49848 -26.49982) (size 2.74828 2.74828) (drill 2.74828) (layers *.Cu *.Mask))
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 0) (tstamp 59FCDCD5)
+  (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 5A05753E) (tstamp 59FCDCD5)
     (at 210.42 123.4186 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /59FCFBE9)
-    (fp_text reference P1 (at 0 -5.1 90) (layer F.SilkS)
+    (fp_text reference P1 (at 0 -5.1 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value I2C (at 0 -3.1 90) (layer F.Fab)
@@ -3582,12 +3582,12 @@
     )
   )
 
-  (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 0) (tstamp 59FE2DCB)
+  (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 5A05753B) (tstamp 59FE2DCB)
     (at 210.42 127 90)
     (descr "Through hole pin header")
     (tags "pin header")
     (path /591D2179)
-    (fp_text reference P2 (at 0 -5.1 90) (layer F.SilkS)
+    (fp_text reference P2 (at 0 -5.1 90) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value DISPLAY (at 0 -3.1 90) (layer F.Fab)
