@@ -41,8 +41,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "MMDVM_HS_Hat"
-Date "2017-11-04"
-Rev "1.3"
+Date "2017-11-10"
+Rev "1.4"
 Comp "DB9MAT+DF2ET"
 Comment1 ""
 Comment2 ""

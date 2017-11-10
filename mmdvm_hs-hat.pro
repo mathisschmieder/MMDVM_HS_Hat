@@ -1,4 +1,4 @@
-update=10.11.2017 10:33:00
+update=Fr 10 Nov 2017 11:02:55 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -67,7 +67,7 @@ LibName35=RPI-Zero
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=/opt/MMDVM_HS_Hat/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=Pcbnew
