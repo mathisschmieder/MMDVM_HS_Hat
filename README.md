@@ -11,6 +11,12 @@ The PCB is designed in KiCad and the necessary libraries are included. The suppl
 
 You can order 3 beautiful, purple Revision 1.2 PCBs for $15 at [OSHPark](https://oshpark.com/shared_projects/WaiMw5XE)! 
 
+## 3D printed Case
+
+![Case](https://pbs.twimg.com/media/DNj-LUiXcAEf-Xt.jpg)
+
+Thanks to Toufik, F0DEI we added the sources for a shiny case that you can print with your 3D printer. It may require a little upscaling depending on your printer model. It can carry a Raspberry Pi Zero (W) with MMDVM_HS_Hat (SMA) on top.
+
 ## Revisions
 ### Revision 0
 This was the first released version that still contains a couple of errors. There is a trace missing between L1 and C1 that needs to be fixed with a small blob of solder or magnet wire. Otherwise the RF connector is not connected to the ADF7021. The GND side of C20 and C22 is not connected to the rest of the board's GND, this needs to be fixed with a little wire to any other GND. CE is connected directly to +3.3V which disallows mode scanning to work. If you just use one mode this is fine, otherwise the connection to the CE pin has to be cut and connected to PC14 on the STM32.
