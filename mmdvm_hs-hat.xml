@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/opt/MMDVM_HS_Hat/mmdvm_hs-hat.sch</source>
-    <date>Fr 10 Nov 2017 11:51:07 CET</date>
+    <date>Tue 02 Jan 2018 03:18:53 PM CET</date>
     <tool>Eeschema 4.0.2+dfsg1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -92,12 +92,12 @@
     <comp ref="C24">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
       <fields>
-        <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GCM155R71C104JA55D</field>
+        <field name="MFR">Vishay / Vitramon</field>
+        <field name="MPN">VJ0402V104ZXJCW1BC</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GCM155R71C104JA5D</field>
+        <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -106,12 +106,12 @@
     <comp ref="C25">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
       <fields>
-        <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GCM155R71C104JA55D</field>
+        <field name="MFR">Vishay / Vitramon</field>
+        <field name="MPN">VJ0402V104ZXJCW1BC</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GCM155R71C104JA5D</field>
+        <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -120,12 +120,12 @@
     <comp ref="C26">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
       <fields>
-        <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GCM155R71C104JA55D</field>
+        <field name="MFR">Vishay / Vitramon</field>
+        <field name="MPN">VJ0402V104ZXJCW1BC</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GCM155R71C104JA5D</field>
+        <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -162,12 +162,12 @@
     <comp ref="C16">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
       <fields>
-        <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GCM155R71C104JA55D</field>
+        <field name="MFR">Vishay / Vitramon</field>
+        <field name="MPN">VJ0402V104ZXJCW1BC</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GCM155R71C104JA5D</field>
+        <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -218,12 +218,12 @@
     <comp ref="C20">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
       <fields>
-        <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GCM155R71C104JA55D</field>
+        <field name="MFR">Vishay / Vitramon</field>
+        <field name="MPN">VJ0402V104ZXJCW1BC</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GCM155R71C104JA5D</field>
+        <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -232,12 +232,12 @@
     <comp ref="C22">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
       <fields>
-        <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM155R71H103KA88D</field>
+        <field name="MFR">Vishay / Vitramon</field>
+        <field name="MPN">VJ0402Y103KXJCW1BC</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM155R71H103KA8D</field>
+        <field name="SPN">77-VJ0402Y103KXJCBC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -246,12 +246,12 @@
     <comp ref="D2">
       <value>green</value>
       <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/348/sml-p1-471200.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/216/APHHS1005CGCK-38896.pdf</datasheet>
       <fields>
-        <field name="MFR">ROHM Semiconductor</field>
-        <field name="MPN">SML-P13PTT86R</field>
+        <field name="MFR">Kingbright</field>
+        <field name="MPN">APHHS1005CGCK</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">755-SML-P13PTT86R</field>
+        <field name="SPN">604-APHHS1005CGCK</field>
       </fields>
       <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
@@ -260,12 +260,12 @@
     <comp ref="D3">
       <value>yellow</value>
       <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/348/sml-p1-471200.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/216/APHHS1005SYCK-76875.pdf</datasheet>
       <fields>
-        <field name="MFR">ROHM Semiconductor</field>
-        <field name="MPN">SML-P12WTT86R</field>
+        <field name="MFR">Kingbright</field>
+        <field name="MPN">APHHS1005SYCK</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">755-SML-P12WTT86R</field>
+        <field name="SPN">604-APHHS1005SYCK</field>
       </fields>
       <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
@@ -274,12 +274,12 @@
     <comp ref="D4">
       <value>red</value>
       <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/348/sml-p1-471200.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/216/APHHS1005SURCK-32322.pdf</datasheet>
       <fields>
-        <field name="MFR">ROHM Semiconductor</field>
-        <field name="MPN">SML-P12U2TT86R</field>
+        <field name="MFR">Kingbright</field>
+        <field name="MPN">APHHS1005SURCK</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">755-SML-P12U2TT86R</field>
+        <field name="SPN">604-APHHS1005SURCK</field>
       </fields>
       <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
@@ -288,12 +288,12 @@
     <comp ref="D5">
       <value>yellow</value>
       <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/348/sml-p1-471200.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/216/APHHS1005SYCK-76875.pdf</datasheet>
       <fields>
-        <field name="MFR">ROHM Semiconductor</field>
-        <field name="MPN">SML-P12WTT86R</field>
+        <field name="MFR">Kingbright</field>
+        <field name="MPN">APHHS1005SYCK</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">755-SML-P12WTT86R</field>
+        <field name="SPN">604-APHHS1005SYCK</field>
       </fields>
       <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
@@ -302,12 +302,12 @@
     <comp ref="D6">
       <value>green</value>
       <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/348/sml-p1-471200.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/216/APHHS1005CGCK-38896.pdf</datasheet>
       <fields>
-        <field name="MFR">ROHM Semiconductor</field>
-        <field name="MPN">SML-P13PTT86R</field>
+        <field name="MFR">Kingbright</field>
+        <field name="MPN">APHHS1005CGCK</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">755-SML-P13PTT86R</field>
+        <field name="SPN">604-APHHS1005CGCK</field>
       </fields>
       <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
@@ -316,12 +316,12 @@
     <comp ref="D7">
       <value>amber</value>
       <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/348/sml-p1-471200.pdf</datasheet>
+      <datasheet>https://www.mouser.de/kingbright-minikin-air-leds</datasheet>
       <fields>
-        <field name="MFR">ROHM Semiconductor</field>
-        <field name="MPN">SML-P12DTT86R</field>
+        <field name="MFR">Kingbright</field>
+        <field name="MPN">APG1005SEC-T</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">755-SML-P12DTT86R</field>
+        <field name="SPN">604-APG1005SECT</field>
       </fields>
       <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
@@ -330,12 +330,12 @@
     <comp ref="D8">
       <value>red</value>
       <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/348/sml-p1-471200.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/216/APHHS1005SURCK-32322.pdf</datasheet>
       <fields>
-        <field name="MFR">ROHM Semiconductor</field>
-        <field name="MPN">SML-P12U2TT86R</field>
+        <field name="MFR">Kingbright</field>
+        <field name="MPN">APHHS1005SURCK</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">755-SML-P12U2TT86R</field>
+        <field name="SPN">604-APHHS1005SURCK</field>
       </fields>
       <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
@@ -442,12 +442,12 @@
     <comp ref="C10">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
       <fields>
-        <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GCM155R71C104JA55D</field>
+        <field name="MFR">Vishay / Vitramon</field>
+        <field name="MPN">VJ0402V104ZXJCW1BC</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GCM155R71C104JA5D</field>
+        <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -470,12 +470,12 @@
     <comp ref="C7">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
       <fields>
-        <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM155R71H103KA88D</field>
+        <field name="MFR">Vishay / Vitramon</field>
+        <field name="MPN">VJ0402Y103KXJCW1BC</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM155R71H103KA8D</field>
+        <field name="SPN">77-VJ0402Y103KXJCBC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -525,13 +525,13 @@
     </comp>
     <comp ref="L4">
       <value>27n</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/597/0402cs-253326.pdf</datasheet>
+      <footprint>Inductors_SMD:L_0402</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/murata_inductors-1186262.pdf</datasheet>
       <fields>
-        <field name="MFR">Coilcraft</field>
-        <field name="MPN">0402CS-27NXJLU</field>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">LQW15AN27NG80D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">994-0402CS-27NXJLU</field>
+        <field name="SPN">81-LQW15AN27NG80D</field>
       </fields>
       <libsource lib="mmdvm_hs-hat-cache" part="L"/>
       <sheetpath names="/" tstamps="/"/>
@@ -567,7 +567,7 @@
     </comp>
     <comp ref="L2">
       <value>20n</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
+      <footprint>Inductors_SMD:L_0402</footprint>
       <datasheet>http://www.mouser.com/ds/2/418/NG_CD_1624112_BA1-656883.pdf</datasheet>
       <fields>
         <field name="MFR">TE Connectivity / Sigma Inductors</field>
@@ -595,13 +595,13 @@
     </comp>
     <comp ref="L1">
       <value>22n</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/597/0402af-270718.pdf</datasheet>
+      <footprint>Inductors_SMD:L_0402</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/JELF243A-0140-937123.pdf</datasheet>
       <fields>
-        <field name="MFR">Coilcraft</field>
-        <field name="MPN">0402AF-220XJLU</field>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">LQW15CA22NJ00D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">994-0402AF-220XJLU</field>
+        <field name="SPN">81-LQW15CA22NJ00D</field>
       </fields>
       <libsource lib="mmdvm_hs-hat-cache" part="L"/>
       <sheetpath names="/" tstamps="/"/>
@@ -609,13 +609,13 @@
     </comp>
     <comp ref="L3">
       <value>13n</value>
-      <footprint>Resistors_SMD:R_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/597/0402cs-253326.pdf</datasheet>
+      <footprint>Inductors_SMD:L_0402</footprint>
+      <datasheet>http://www.mouser.com/ds/2/281/murata_inductors-1186262.pdf</datasheet>
       <fields>
-        <field name="MFR">Coilcraft</field>
-        <field name="MPN">0402CS-13NXJLU</field>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">LQW15AN13NG80D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">994-0402CS-13NXJLU</field>
+        <field name="SPN">81-LQW15AN13NG80D</field>
       </fields>
       <libsource lib="mmdvm_hs-hat-cache" part="L"/>
       <sheetpath names="/" tstamps="/"/>
@@ -638,12 +638,12 @@
     <comp ref="C9">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
       <fields>
-        <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM155R71H103KA88D</field>
+        <field name="MFR">Vishay / Vitramon</field>
+        <field name="MPN">VJ0402Y103KXJCW1BC</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM155R71H103KA8D</field>
+        <field name="SPN">77-VJ0402Y103KXJCBC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -669,9 +669,9 @@
       <datasheet>http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf</datasheet>
       <fields>
         <field name="MFR">Vishay</field>
-        <field name="MPN">CRCW04023R90FKED</field>
+        <field name="MPN">CRCW04023R90JNED</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">71-CRCW04023R90FKED</field>
+        <field name="SPN">71-CRCW0402J-3.9-E3</field>
       </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
@@ -680,12 +680,12 @@
     <comp ref="C8">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
       <fields>
-        <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GCM155R71C104JA55D</field>
+        <field name="MFR">Vishay / Vitramon</field>
+        <field name="MPN">VJ0402V104ZXJCW1BC</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GCM155R71C104JA5D</field>
+        <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -694,12 +694,12 @@
     <comp ref="C2">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
       <fields>
-        <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM155R71H103KA88D</field>
+        <field name="MFR">Vishay / Vitramon</field>
+        <field name="MPN">VJ0402Y103KXJCW1BC</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM155R71H103KA8D</field>
+        <field name="SPN">77-VJ0402Y103KXJCBC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -778,12 +778,12 @@
     <comp ref="C17">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
       <fields>
-        <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM155R71H103KA88D</field>
+        <field name="MFR">Vishay / Vitramon</field>
+        <field name="MPN">VJ0402Y103KXJCW1BC</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM155R71H103KA8D</field>
+        <field name="SPN">77-VJ0402Y103KXJCBC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -792,12 +792,12 @@
     <comp ref="C15">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
       <fields>
-        <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GCM155R71C104JA55D</field>
+        <field name="MFR">Vishay / Vitramon</field>
+        <field name="MPN">VJ0402V104ZXJCW1BC</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GCM155R71C104JA5D</field>
+        <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -820,12 +820,12 @@
     <comp ref="C19">
       <value>10n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
       <fields>
-        <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GRM155R71H103KA88D</field>
+        <field name="MFR">Vishay / Vitramon</field>
+        <field name="MPN">VJ0402Y103KXJCW1BC</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GRM155R71H103KA8D</field>
+        <field name="SPN">77-VJ0402Y103KXJCBC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -904,12 +904,12 @@
     <comp ref="D1">
       <value>red</value>
       <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/348/sml-p1-471200.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/216/APHHS1005SURCK-32322.pdf</datasheet>
       <fields>
-        <field name="MFR">ROHM Semiconductor</field>
-        <field name="MPN">SML-P12U2TT86R</field>
+        <field name="MFR">Kingbright</field>
+        <field name="MPN">APHHS1005SURCK</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">755-SML-P12U2TT86R</field>
+        <field name="SPN">604-APHHS1005SURCK</field>
       </fields>
       <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
@@ -946,12 +946,12 @@
     <comp ref="C27">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
       <fields>
-        <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GCM155R71C104JA55D</field>
+        <field name="MFR">Vishay / Vitramon</field>
+        <field name="MPN">VJ0402V104ZXJCW1BC</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GCM155R71C104JA5D</field>
+        <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -960,12 +960,12 @@
     <comp ref="C28">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
       <fields>
-        <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GCM155R71C104JA55D</field>
+        <field name="MFR">Vishay / Vitramon</field>
+        <field name="MPN">VJ0402V104ZXJCW1BC</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GCM155R71C104JA5D</field>
+        <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -988,12 +988,12 @@
     <comp ref="C29">
       <value>100n</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/281/c03e-806517.pdf</datasheet>
+      <datasheet>http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf</datasheet>
       <fields>
-        <field name="MFR">Murata Electronics</field>
-        <field name="MPN">GCM155R71C104JA55D</field>
+        <field name="MFR">Vishay / Vitramon</field>
+        <field name="MPN">VJ0402V104ZXJCW1BC</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">81-GCM155R71C104JA5D</field>
+        <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -1030,7 +1030,13 @@
     <comp ref="C31">
       <value>10u</value>
       <footprint>Capacitors_SMD:C_0402</footprint>
-      <fields/>
+      <datasheet>http://www.mouser.com/ds/2/281/c02e-2905.pdf</datasheet>
+      <fields>
+        <field name="MFR">Murata Electronics</field>
+        <field name="MPN">GRJ155R60J106ME11D</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">81-GRJ155R60J106ME1D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A056AA4</tstamp>
@@ -1370,29 +1376,29 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="RPI-Zero">
-      <uri>/opt/MMDVM_HS_Hat/RPI-Zero.lib</uri>
-    </library>
-    <library logical="Oscillators">
-      <uri>/usr/share/kicad/library/Oscillators.lib</uri>
-    </library>
-    <library logical="mmdvm_hs-hat-cache">
-      <uri>/opt/MMDVM_HS_Hat/mmdvm_hs-hat-cache.lib</uri>
-    </library>
-    <library logical="adf7021">
-      <uri>/opt/MMDVM_HS_Hat/adf7021.lib</uri>
-    </library>
-    <library logical="stm32f103c8t6">
-      <uri>/opt/MMDVM_HS_Hat/stm32f103c8t6.lib</uri>
+    <library logical="mmdvm_hs-hat-rescue">
+      <uri>/opt/MMDVM_HS_Hat/mmdvm_hs-hat-rescue.lib</uri>
     </library>
     <library logical="device">
       <uri>/usr/share/kicad/library/device.lib</uri>
     </library>
-    <library logical="mmdvm_hs-hat-rescue">
-      <uri>/opt/MMDVM_HS_Hat/mmdvm_hs-hat-rescue.lib</uri>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="stm32f103c8t6">
+      <uri>/opt/MMDVM_HS_Hat/stm32f103c8t6.lib</uri>
+    </library>
+    <library logical="adf7021">
+      <uri>/opt/MMDVM_HS_Hat/adf7021.lib</uri>
+    </library>
+    <library logical="Oscillators">
+      <uri>/usr/share/kicad/library/Oscillators.lib</uri>
+    </library>
+    <library logical="RPI-Zero">
+      <uri>/opt/MMDVM_HS_Hat/RPI-Zero.lib</uri>
+    </library>
+    <library logical="mmdvm_hs-hat-cache">
+      <uri>/opt/MMDVM_HS_Hat/mmdvm_hs-hat-cache.lib</uri>
     </library>
   </libraries>
   <nets>

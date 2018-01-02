@@ -47,7 +47,7 @@ The SVC LED has been rotated and thus aligned to the layout of all other LEDs. T
 * All necessary parts for the Revision 1.2 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=035e777242)
 * There is also a light version of revision 1.2 without the reset switch, 2.54mm headers and SMA connector [Link](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=3f7d0256e1)
 * The parts for Revision 1.3 board are in this [Mouser cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=250d76339b) and the light version is [here](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=2d533ac53d)
-* [Mouser project](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=49d03966ee) for MMDVM_HS_Hat revision 1.4
+* [Mouser project](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=5cab954f40) for MMDVM_HS_Hat revision 1.4
 
 Please note that the onboard ceramic antenna is not supplied by Mouser and therefore missing in the carts for revisions up to 1.3.
 
