@@ -84,7 +84,7 @@ And finally upload the firmware to the MMDVM_HS_Hat:
 Andy, MW0MWZ was so kind as to add a script which allows for updating the firmware of the MMDVM_HS_Hat within the running Pi-Star system. It uses the pre-compiled binaries from Andy's (CA6JAU) github repository. The update can be done with:
 
 ```
-$ pistar zumspotflash hs_hat
+$ pistar-zumspotflash hs_hat
 ```
 
 on the command line.
