@@ -58,6 +58,9 @@ Please note that the onboard ceramic antenna is not supplied by Mouser and there
 Either the ADF7021 or the ADF7021-N can be used. Define the proper version in the firmware!
 
 ## Firmware Installation
+
+### Compile and upload manually
+
 For specific details about the firmware installation, check [these](https://github.com/juribeparada/MMDVM_HS#build-de-firmware-and-upload-to-zumspot-rpi) instructions. The process is similar to the installation on the ZumSpot Pi. 
 
 Enable the following settings in Config.h:
@@ -75,6 +78,16 @@ Build the firmware:
 And finally upload the firmware to the MMDVM_HS_Hat:
 
     sudo make mmdvm_hs_hat
+
+### Update within Pi-Star
+
+Andy, MW0MWZ was so kind as to add a script which allows for updating the firmware of the MMDVM_HS_Hat within the running Pi-Star system. It uses the pre-compiled binaries from Andy's (CA6JAU) github repository. The update can be done with:
+
+```
+$ pistar-zumspotflash hs_hat
+```
+
+on the command line.
 
 ## Accessoires
 
