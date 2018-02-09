@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 35)
+    (drawings 36)
     (tracks 590)
     (zones 0)
     (modules 142)
@@ -68,7 +68,7 @@
     (pad_size 0.4 0.6)
     (pad_drill 0)
     (pad_to_mask_clearance 0.2)
-    (aux_axis_origin 165.2 118.5)
+    (aux_axis_origin 169.6 112.9)
     (visible_elements 7FFFFF7F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
@@ -4912,6 +4912,7 @@
       (solder_mask_margin 0.77) (clearance 0.77))
   )
 
+  (target plus (at 169.6 112.9) (size 5) (width 0.15) (layer Edge.Cuts))
   (gr_text NXDN (at 216.35 122.2) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)))
   )
