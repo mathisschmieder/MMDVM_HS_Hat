@@ -45,6 +45,9 @@ The SVC LED has been rotated and thus aligned to the layout of all other LEDs. T
 ### Revision 1.5
 A fith mode LED has been added to the board to show NXDN activity. The two pin headers moved downwards a little. The rev1.4 stencil can be re-used if you manually add solder paste to R19 and D9 afterwards.
 
+### Revision 1.6
+Inner RX/TX pins of Nextion connector have been swapped. External VCO inductor L6 was added. This is optional for VHF use.
+
 ## BOM
 * All necessary parts for the Revision 1.1 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=780b8eac44)
 * All necessary parts for the Revision 1.2 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=035e777242)
@@ -52,6 +55,7 @@ A fith mode LED has been added to the board to show NXDN activity. The two pin h
 * The parts for Revision 1.3 board are in this [Mouser cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=250d76339b) and the light version is [here](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=2d533ac53d)
 * [Mouser project](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=5cab954f40) for MMDVM_HS_Hat revision 1.4
 * There is another [Mouser cart for rev 1.5](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=5a3e4ae018).
+* And this is the [rev1.6 cart](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=48302f4221) and its [light version](https://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=ac888de33a).
 
 Please note that the onboard ceramic antenna is not supplied by Mouser and therefore missing in the carts for revisions up to 1.3.
 

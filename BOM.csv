@@ -21,6 +21,7 @@ U1,ADF7021,Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm,1,Analog Devices,ADF7021
 U2,STM32F103C8T6,Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm,1,STMicroelectronics,STM32F103C8T6,Mouser,511-STM32F103C8T6
 L5,10u,Inductors_SMD:L_0402,1,Wurth Electronics,74279277,Mouser,710-74279277
 L3,13n,Inductors_SMD:L_0402,1,Murata Electronics,LQW15AN13NG80D,Mouser,81-LQW15AN13NG80D
+L6,18n,Inductors_SMD:L_0402,1,TE Connectivity / Sigma Inductors,36501E18NJTDG,Mouser,279-36501E18NJTDG
 L2,20n,Inductors_SMD:L_0402,1,TE Connectivity / Sigma Inductors,36501E20NJTDG,Mouser,279-36501E20NJTDG
 L1,22n,Inductors_SMD:L_0402,1,Murata Electronics,LQW15CA22NJ00D,Mouser,81-LQW15CA22NJ00D
 L4,27n,Inductors_SMD:L_0402,1,Murata Electronics,LQW15AN27NG80D,Mouser,81-LQW15AN27NG80D

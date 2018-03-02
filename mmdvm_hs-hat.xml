@@ -2,14 +2,14 @@
 <export version="D">
   <design>
     <source>/opt/MMDVM_HS_Hat/mmdvm_hs-hat.sch</source>
-    <date>Thu 25 Jan 2018 09:12:12 AM CET</date>
-    <tool>Eeschema 4.0.2+dfsg1-stable</tool>
+    <date>Fr 02 Mär 2018 21:38:55 CET</date>
+    <tool>Eeschema 5.0.0-rc2-dev-unknown-ce1bd4c~62~ubuntu17.10.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>MMDVM_HS_Hat</title>
         <company>DB9MAT+DF2ET</company>
-        <rev>1.5</rev>
-        <date>2018-01-25</date>
+        <rev>1.6</rev>
+        <date>2018-03-02</date>
         <source>mmdvm_hs-hat.sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
@@ -43,7 +43,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">815-ABM3-8-D2Y-T</field>
       </fields>
-      <libsource lib="device" part="Crystal"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="Crystal-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5895F2AD</tstamp>
     </comp>
@@ -57,7 +57,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">81-GJM1555C1H200FB1D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5895F2B9</tstamp>
     </comp>
@@ -71,7 +71,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">81-GJM1555C1H200FB1D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5895F2BF</tstamp>
     </comp>
@@ -85,7 +85,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">571-826629-4</field>
       </fields>
-      <libsource lib="conn" part="CONN_01X04"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="CONN_01X04-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896079D</tstamp>
     </comp>
@@ -99,7 +99,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58962122</tstamp>
     </comp>
@@ -113,7 +113,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589621B5</tstamp>
     </comp>
@@ -127,7 +127,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58962208</tstamp>
     </comp>
@@ -141,7 +141,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">71-CRCW0402-10K-E3</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58963296</tstamp>
     </comp>
@@ -155,7 +155,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">71-CRCW0402-10K-E3</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58965445</tstamp>
     </comp>
@@ -169,7 +169,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589656C1</tstamp>
     </comp>
@@ -183,7 +183,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">667-ERJ-PA2D1001X</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58968523</tstamp>
     </comp>
@@ -197,7 +197,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">667-ERJ-PA2D1001X</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589685C3</tstamp>
     </comp>
@@ -211,7 +211,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">667-ERJ-PA2D1001X</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58968631</tstamp>
     </comp>
@@ -225,7 +225,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58969AA4</tstamp>
     </comp>
@@ -239,7 +239,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">77-VJ0402Y103KXJCBC</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58969E8F</tstamp>
     </comp>
@@ -253,7 +253,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">604-APHHS1005CGCK</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896A578</tstamp>
     </comp>
@@ -267,7 +267,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">604-APG1005SYCT</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896A71F</tstamp>
     </comp>
@@ -281,7 +281,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">604-APHHS1005SURCK</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896A7A2</tstamp>
     </comp>
@@ -295,7 +295,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">604-APG1005SYCT</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896A826</tstamp>
     </comp>
@@ -309,7 +309,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">604-APHHS1005CGCK</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896A8AF</tstamp>
     </comp>
@@ -323,7 +323,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">604-APG1005SECT</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896A939</tstamp>
     </comp>
@@ -337,7 +337,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">604-APHHS1005SURCK</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896A9C6</tstamp>
     </comp>
@@ -351,7 +351,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">667-ERJ-PA2D1001X</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896AA58</tstamp>
     </comp>
@@ -365,7 +365,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">667-ERJ-PA2D1001X</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896ABAD</tstamp>
     </comp>
@@ -379,7 +379,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">667-ERJ-PA2D1001X</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896AC48</tstamp>
     </comp>
@@ -393,7 +393,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">667-ERJ-PA2D1001X</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896ACE3</tstamp>
     </comp>
@@ -407,7 +407,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">667-ERJ-PA2D1001X</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896AD81</tstamp>
     </comp>
@@ -421,7 +421,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">667-ERJ-PA2D1001X</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896AE20</tstamp>
     </comp>
@@ -435,7 +435,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">667-ERJ-PA2D1001X</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896AEC4</tstamp>
     </comp>
@@ -449,7 +449,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896DEF7</tstamp>
     </comp>
@@ -463,7 +463,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">754-RR0510P-3831D</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896E5F8</tstamp>
     </comp>
@@ -477,7 +477,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">77-VJ0402Y103KXJCBC</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896E97E</tstamp>
     </comp>
@@ -491,23 +491,9 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">754-RR0510P-112D</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5896F75D</tstamp>
-    </comp>
-    <comp ref="U1">
-      <value>ADF7021</value>
-      <footprint>Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm</footprint>
-      <datasheet>http://www.mouser.com/ds/2/609/ADF7021-878461.pdf</datasheet>
-      <fields>
-        <field name="MFR">Analog Devices</field>
-        <field name="MPN">ADF7021BCPZ</field>
-        <field name="SPR">Mouser</field>
-        <field name="SPN">584-ADF7021BCPZ</field>
-      </fields>
-      <libsource lib="adf7021" part="ADF7021"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5896FF14</tstamp>
     </comp>
     <comp ref="C6">
       <value>6p8</value>
@@ -519,7 +505,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">81-GJM1555C1H6R8BB1D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589705E1</tstamp>
     </comp>
@@ -533,7 +519,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">81-LQW15AN27NG80D</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-cache" part="L"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="L-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589706C7</tstamp>
     </comp>
@@ -547,7 +533,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">81-GRM1555C1H4R7CA1D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58971A8F</tstamp>
     </comp>
@@ -561,7 +547,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">81-GRM1555C1E100GA1D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58971E4D</tstamp>
     </comp>
@@ -575,7 +561,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">279-36501E20NJTDG</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-cache" part="L"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="L-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58972852</tstamp>
     </comp>
@@ -589,7 +575,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">81-GJM1555C1H6R8BB1D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58972AD9</tstamp>
     </comp>
@@ -603,7 +589,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">81-LQW15CA22NJ00D</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-cache" part="L"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="L-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58972EEA</tstamp>
     </comp>
@@ -617,7 +603,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">81-LQW15AN13NG80D</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-cache" part="L"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="L-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58973BF8</tstamp>
     </comp>
@@ -631,7 +617,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">81-GRM1555C1H221JA01</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58973FC2</tstamp>
     </comp>
@@ -645,7 +631,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">77-VJ0402Y103KXJCBC</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58974124</tstamp>
     </comp>
@@ -659,7 +645,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">81-GCM155R71E223KA5D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589757AF</tstamp>
     </comp>
@@ -673,7 +659,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">71-CRCW0402J-3.9-E3</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58976039</tstamp>
     </comp>
@@ -687,7 +673,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589762ED</tstamp>
     </comp>
@@ -701,7 +687,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">77-VJ0402Y103KXJCBC</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>589765ED</tstamp>
     </comp>
@@ -715,7 +701,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">667-ERA-2AEB561X</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58977A3D</tstamp>
     </comp>
@@ -729,7 +715,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">667-ERA-2AEB271X</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58977B33</tstamp>
     </comp>
@@ -743,7 +729,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">81-GRM36X471K50</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58977C18</tstamp>
     </comp>
@@ -757,7 +743,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">81-GRM155R71C153KA1D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58977D12</tstamp>
     </comp>
@@ -771,7 +757,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">81-GRM155R60J102KA1D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58977DF7</tstamp>
     </comp>
@@ -785,7 +771,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">77-VJ0402Y103KXJCBC</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58979714</tstamp>
     </comp>
@@ -799,7 +785,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>58979B33</tstamp>
     </comp>
@@ -813,7 +799,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">520-TXO-3225-14.74T</field>
       </fields>
-      <libsource lib="Oscillators" part="TCXO_DFAS11"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="TCXO_DFAS11-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5897A831</tstamp>
     </comp>
@@ -827,7 +813,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">77-VJ0402Y103KXJCBC</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5897B23C</tstamp>
     </comp>
@@ -841,7 +827,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">581-04025A220G</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5897BA0E</tstamp>
     </comp>
@@ -855,7 +841,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">571-5-1814832-1</field>
       </fields>
-      <libsource lib="conn" part="CONN_01X02"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="CONN_01X02-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5897CEF8</tstamp>
     </comp>
@@ -897,7 +883,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">571-826629-4</field>
       </fields>
-      <libsource lib="conn" part="CONN_01X04"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="CONN_01X04-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>591D2179</tstamp>
     </comp>
@@ -911,7 +897,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">604-APHHS1005SURCK</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59773D22</tstamp>
     </comp>
@@ -925,7 +911,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">667-ERJ-PA2D1001X</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5977B735</tstamp>
     </comp>
@@ -939,7 +925,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">603-ANT1204F002R0433</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-cache" part="Antenna_Dipole"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="Antenna_Dipole-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>599D9A2D</tstamp>
     </comp>
@@ -953,7 +939,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>599DA57E</tstamp>
     </comp>
@@ -967,7 +953,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>599DAB88</tstamp>
     </comp>
@@ -981,7 +967,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">571-826629-4</field>
       </fields>
-      <libsource lib="conn" part="CONN_01X04"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="CONN_01X04-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59FCFBE9</tstamp>
     </comp>
@@ -995,7 +981,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">77-VJ0402V104ZXJCBC</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A056323</tstamp>
     </comp>
@@ -1009,7 +995,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">710-74279277</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-cache" part="L"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="L-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A0564E8</tstamp>
     </comp>
@@ -1023,7 +1009,7 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">647-F931A106KAA</field>
       </fields>
-      <libsource lib="device" part="CP"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="CP-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A0568B2</tstamp>
     </comp>
@@ -1037,21 +1023,21 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">81-GRJ155R60J106ME1D</field>
       </fields>
-      <libsource lib="device" part="C"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A056AA4</tstamp>
     </comp>
     <comp ref="D9">
       <value>blue</value>
       <footprint>LEDs:LED_0402</footprint>
-      <datasheet>http://www.mouser.com/ds/2/216/APHHS1005SURCK-32322.pdf</datasheet>
+      <datasheet>https://www.mouser.com/ds/2/216/APHHS1005QBC-D-54846.pdf</datasheet>
       <fields>
         <field name="MFR">Kingbright</field>
-        <field name="MPN">APHHS1005SURCK</field>
+        <field name="MPN">APHHS1005QBC/D</field>
         <field name="SPR">Mouser</field>
-        <field name="SPN">604-APHHS1005SURCK</field>
+        <field name="SPN">604-APHHS1005QBCD</field>
       </fields>
-      <libsource lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="LED-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A69940F</tstamp>
     </comp>
@@ -1065,9 +1051,37 @@
         <field name="SPR">Mouser</field>
         <field name="SPN">667-ERJ-PA2D1001X</field>
       </fields>
-      <libsource lib="device" part="R"/>
+      <libsource lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5A69941A</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>18n</value>
+      <footprint>Inductors_SMD:L_0402</footprint>
+      <datasheet>http://www.mouser.com/ds/2/418/NG_CD_1624112_BA1-656883.pdf</datasheet>
+      <fields>
+        <field name="MFR">TE Connectivity / Sigma Inductors</field>
+        <field name="MPN">36501E20NJTDG</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">279-36501E20NJTDG</field>
+      </fields>
+      <libsource lib="mmdvm_hs-hat-rescue" part="L-RESCUE-mmdvm_hs-hat"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9B8CB6</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ADF7021</value>
+      <footprint>Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm</footprint>
+      <datasheet>http://www.mouser.com/ds/2/609/ADF7021-878461.pdf</datasheet>
+      <fields>
+        <field name="MFR">Analog Devices</field>
+        <field name="MPN">ADF7021BCPZ</field>
+        <field name="SPR">Mouser</field>
+        <field name="SPN">584-ADF7021BCPZ</field>
+      </fields>
+      <libsource lib="adf7021" part="ADF7021"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5896FF14</tstamp>
     </comp>
   </components>
   <libparts>
@@ -1128,18 +1142,17 @@
         <pin num="49" name="EPAD" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="mmdvm_hs-hat-cache" part="Antenna_Dipole">
+    <libpart lib="mmdvm_hs-hat-rescue" part="Antenna_Dipole-RESCUE-mmdvm_hs-hat">
       <fields>
         <field name="Reference">AE</field>
-        <field name="Value">Antenna_Dipole</field>
+        <field name="Value">Antenna_Dipole-RESCUE-mmdvm_hs-hat</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="input"/>
         <pin num="2" name="~" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="C">
-      <description>Unpolarized capacitor</description>
+    <libpart lib="mmdvm_hs-hat-rescue" part="C-RESCUE-mmdvm_hs-hat">
       <footprints>
         <fp>C?</fp>
         <fp>C_????_*</fp>
@@ -1149,15 +1162,14 @@
       </footprints>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">C</field>
+        <field name="Value">C-RESCUE-mmdvm_hs-hat</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="CONN_01X02">
-      <description>Connector 01x02</description>
+    <libpart lib="mmdvm_hs-hat-rescue" part="CONN_01X02-RESCUE-mmdvm_hs-hat">
       <footprints>
         <fp>Pin_Header_Straight_1X02</fp>
         <fp>Pin_Header_Angled_1X02</fp>
@@ -1166,15 +1178,14 @@
       </footprints>
       <fields>
         <field name="Reference">P</field>
-        <field name="Value">CONN_01X02</field>
+        <field name="Value">CONN_01X02-RESCUE-mmdvm_hs-hat</field>
       </fields>
       <pins>
         <pin num="1" name="P1" type="passive"/>
         <pin num="2" name="P2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="conn" part="CONN_01X04">
-      <description>Connector 01x04</description>
+    <libpart lib="mmdvm_hs-hat-rescue" part="CONN_01X04-RESCUE-mmdvm_hs-hat">
       <footprints>
         <fp>Pin_Header_Straight_1X04</fp>
         <fp>Pin_Header_Angled_1X04</fp>
@@ -1183,7 +1194,7 @@
       </footprints>
       <fields>
         <field name="Reference">P</field>
-        <field name="Value">CONN_01X04</field>
+        <field name="Value">CONN_01X04-RESCUE-mmdvm_hs-hat</field>
       </fields>
       <pins>
         <pin num="1" name="P1" type="passive"/>
@@ -1192,8 +1203,7 @@
         <pin num="4" name="P4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="CP">
-      <description>Polarised capacitor</description>
+    <libpart lib="mmdvm_hs-hat-rescue" part="CP-RESCUE-mmdvm_hs-hat">
       <footprints>
         <fp>CP*</fp>
         <fp>Elko*</fp>
@@ -1204,28 +1214,27 @@
       </footprints>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">CP</field>
+        <field name="Value">CP-RESCUE-mmdvm_hs-hat</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="Crystal">
-      <description>Two pin crystal</description>
+    <libpart lib="mmdvm_hs-hat-rescue" part="Crystal-RESCUE-mmdvm_hs-hat">
       <footprints>
         <fp>Crystal_*</fp>
       </footprints>
       <fields>
         <field name="Reference">Y</field>
-        <field name="Value">Crystal</field>
+        <field name="Value">Crystal-RESCUE-mmdvm_hs-hat</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="mmdvm_hs-hat-cache" part="L">
+    <libpart lib="mmdvm_hs-hat-rescue" part="L-RESCUE-mmdvm_hs-hat">
       <footprints>
         <fp>Choke_*</fp>
         <fp>*Coil*</fp>
@@ -1234,14 +1243,14 @@
       </footprints>
       <fields>
         <field name="Reference">L</field>
-        <field name="Value">L</field>
+        <field name="Value">L-RESCUE-mmdvm_hs-hat</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="mmdvm_hs-hat-cache" part="LED-RESCUE-mmdvm_hs-hat">
+    <libpart lib="mmdvm_hs-hat-rescue" part="LED-RESCUE-mmdvm_hs-hat">
       <footprints>
         <fp>LED*</fp>
       </footprints>
@@ -1254,15 +1263,14 @@
         <pin num="2" name="A" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="R">
-      <description>Resistor</description>
+    <libpart lib="mmdvm_hs-hat-rescue" part="R-RESCUE-mmdvm_hs-hat">
       <footprints>
         <fp>R_*</fp>
         <fp>Resistor_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
-        <field name="Value">R</field>
+        <field name="Value">R-RESCUE-mmdvm_hs-hat</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -1390,10 +1398,10 @@
         <pin num="2" name="~" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="Oscillators" part="TCXO_DFAS11">
+    <libpart lib="mmdvm_hs-hat-rescue" part="TCXO_DFAS11-RESCUE-mmdvm_hs-hat">
       <fields>
         <field name="Reference">X</field>
-        <field name="Value">TCXO_DFAS11</field>
+        <field name="Value">TCXO_DFAS11-RESCUE-mmdvm_hs-hat</field>
       </fields>
       <pins>
         <pin num="1" name="VContr" type="passive"/>
@@ -1404,554 +1412,544 @@
     </libpart>
   </libparts>
   <libraries>
-    <library logical="mmdvm_hs-hat-rescue">
-      <uri>/opt/MMDVM_HS_Hat/mmdvm_hs-hat-rescue.lib</uri>
-    </library>
-    <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
-    </library>
-    <library logical="conn">
-      <uri>/usr/share/kicad/library/conn.lib</uri>
-    </library>
-    <library logical="stm32f103c8t6">
-      <uri>/opt/MMDVM_HS_Hat/stm32f103c8t6.lib</uri>
+    <library logical="RPI-Zero">
+      <uri>/opt/MMDVM_HS_Hat/RPI-Zero.lib</uri>
     </library>
     <library logical="adf7021">
       <uri>/opt/MMDVM_HS_Hat/adf7021.lib</uri>
     </library>
-    <library logical="Oscillators">
-      <uri>/usr/share/kicad/library/Oscillators.lib</uri>
+    <library logical="mmdvm_hs-hat-rescue">
+      <uri>/opt/MMDVM_HS_Hat/mmdvm_hs-hat-rescue.lib</uri>
     </library>
-    <library logical="RPI-Zero">
-      <uri>/opt/MMDVM_HS_Hat/RPI-Zero.lib</uri>
-    </library>
-    <library logical="mmdvm_hs-hat-cache">
-      <uri>/opt/MMDVM_HS_Hat/mmdvm_hs-hat-cache.lib</uri>
+    <library logical="stm32f103c8t6">
+      <uri>/opt/MMDVM_HS_Hat/stm32f103c8t6.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="GND">
-      <node ref="C12" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="C14" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="PI1" pin="6"/>
-      <node ref="PI1" pin="9"/>
-      <node ref="PI1" pin="20"/>
-      <node ref="PI1" pin="30"/>
-      <node ref="C17" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="D9" pin="1"/>
-      <node ref="C22" pin="1"/>
-      <node ref="C20" pin="1"/>
-      <node ref="C16" pin="2"/>
-      <node ref="PI1" pin="39"/>
-      <node ref="U2" pin="23"/>
-      <node ref="U2" pin="20"/>
-      <node ref="U2" pin="8"/>
-      <node ref="C23" pin="1"/>
-      <node ref="C21" pin="1"/>
-      <node ref="C29" pin="2"/>
-      <node ref="P1" pin="2"/>
-      <node ref="SW1" pin="2"/>
-      <node ref="P2" pin="4"/>
-      <node ref="C26" pin="2"/>
-      <node ref="C25" pin="2"/>
-      <node ref="C24" pin="2"/>
-      <node ref="U2" pin="35"/>
-      <node ref="P4" pin="4"/>
-      <node ref="D7" pin="1"/>
-      <node ref="C31" pin="2"/>
-      <node ref="D6" pin="1"/>
-      <node ref="D5" pin="1"/>
-      <node ref="D4" pin="1"/>
-      <node ref="D3" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="D8" pin="1"/>
-      <node ref="R2" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="R3" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="U2" pin="47"/>
-      <node ref="U1" pin="22"/>
-      <node ref="U1" pin="12"/>
-      <node ref="U1" pin="5"/>
-      <node ref="U1" pin="49"/>
-      <node ref="U1" pin="29"/>
-      <node ref="U1" pin="19"/>
-      <node ref="U1" pin="45"/>
-      <node ref="U1" pin="47"/>
-      <node ref="C30" pin="2"/>
-      <node ref="PI1" pin="34"/>
-      <node ref="PI1" pin="14"/>
-      <node ref="X1" pin="2"/>
-      <node ref="PI1" pin="25"/>
-      <node ref="C15" pin="1"/>
-      <node ref="C19" pin="2"/>
-      <node ref="P3" pin="2"/>
+    <net code="1" name="Net-(C12-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C12" pin="1"/>
     </net>
-    <net code="2" name="Net-(C10-Pad1)">
-      <node ref="C10" pin="1"/>
-      <node ref="U1" pin="11"/>
+    <net code="2" name="Net-(C15-Pad2)">
+      <node ref="C15" pin="2"/>
+      <node ref="U1" pin="41"/>
     </net>
-    <net code="3" name="Net-(R3-Pad1)">
-      <node ref="R3" pin="1"/>
-      <node ref="U1" pin="10"/>
+    <net code="3" name="Net-(C18-Pad2)">
+      <node ref="C18" pin="2"/>
+      <node ref="U1" pin="39"/>
     </net>
-    <net code="4" name="Net-(R2-Pad1)">
-      <node ref="U1" pin="8"/>
-      <node ref="R2" pin="1"/>
+    <net code="4" name="Net-(C18-Pad1)">
+      <node ref="X1" pin="3"/>
+      <node ref="C18" pin="1"/>
     </net>
-    <net code="5" name="Net-(R8-Pad2)">
-      <node ref="U1" pin="36"/>
-      <node ref="R8" pin="2"/>
+    <net code="5" name="Net-(C27-Pad1)">
+      <node ref="C27" pin="1"/>
+      <node ref="P3" pin="1"/>
     </net>
-    <net code="6" name="SREAD">
-      <node ref="U1" pin="27"/>
-      <node ref="U2" pin="43"/>
-    </net>
-    <net code="7" name="CLKOUT">
-      <node ref="U2" pin="38"/>
-      <node ref="R8" pin="1"/>
-    </net>
-    <net code="8" name="Net-(R9-Pad2)">
-      <node ref="R9" pin="2"/>
-      <node ref="U1" pin="35"/>
-    </net>
-    <net code="9" name="Net-(R10-Pad2)">
-      <node ref="U1" pin="34"/>
-      <node ref="R10" pin="2"/>
-    </net>
-    <net code="10" name="SLE">
-      <node ref="U1" pin="25"/>
-      <node ref="U2" pin="45"/>
-    </net>
-    <net code="11" name="Net-(C20-Pad2)">
-      <node ref="U1" pin="31"/>
-      <node ref="C20" pin="2"/>
-    </net>
-    <net code="12" name="Net-(C11-Pad1)">
+    <net code="6" name="Net-(C11-Pad1)">
       <node ref="U1" pin="48"/>
       <node ref="C11" pin="1"/>
     </net>
-    <net code="13" name="Net-(C11-Pad2)">
-      <node ref="R4" pin="1"/>
-      <node ref="C11" pin="2"/>
+    <net code="7" name="Net-(C11-Pad2)">
       <node ref="U1" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="R4" pin="1"/>
     </net>
-    <net code="14" name="Net-(C8-Pad1)">
-      <node ref="C8" pin="1"/>
+    <net code="8" name="CE">
+      <node ref="U1" pin="24"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="9" name="Net-(C8-Pad1)">
       <node ref="R4" pin="2"/>
+      <node ref="C8" pin="1"/>
     </net>
-    <net code="15" name="Net-(C14-Pad1)">
-      <node ref="R6" pin="1"/>
+    <net code="10" name="Net-(C14-Pad1)">
       <node ref="U1" pin="42"/>
-      <node ref="C14" pin="1"/>
       <node ref="R5" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C14" pin="1"/>
     </net>
-    <net code="16" name="Net-(C13-Pad1)">
-      <node ref="R6" pin="2"/>
+    <net code="11" name="Net-(C13-Pad1)">
       <node ref="C13" pin="1"/>
+      <node ref="R6" pin="2"/>
     </net>
-    <net code="17" name="Net-(C12-Pad1)">
-      <node ref="C12" pin="1"/>
-      <node ref="R5" pin="2"/>
-      <node ref="U1" pin="1"/>
+    <net code="12" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2"/>
+      <node ref="R18" pin="2"/>
     </net>
-    <net code="18" name="Net-(C4-Pad2)">
-      <node ref="L2" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C5" pin="2"/>
+    <net code="13" name="Net-(PI1-Pad38)">
+      <node ref="R1" pin="2"/>
+      <node ref="PI1" pin="38"/>
     </net>
-    <net code="19" name="Net-(C6-Pad1)">
-      <node ref="C6" pin="1"/>
-      <node ref="U1" pin="7"/>
-      <node ref="L4" pin="1"/>
+    <net code="14" name="+5V">
+      <node ref="PI1" pin="2"/>
+      <node ref="P2" pin="1"/>
+      <node ref="PI1" pin="4"/>
     </net>
-    <net code="20" name="Net-(C5-Pad1)">
-      <node ref="C5" pin="1"/>
-      <node ref="L4" pin="2"/>
-      <node ref="U1" pin="6"/>
+    <net code="15" name="SERVICE">
+      <node ref="U2" pin="2"/>
+      <node ref="D1" pin="1"/>
     </net>
-    <net code="21" name="Net-(C1-Pad1)">
-      <node ref="C1" pin="1"/>
-      <node ref="L2" pin="1"/>
-      <node ref="L1" pin="2"/>
+    <net code="16" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="R17" pin="1"/>
     </net>
-    <net code="22" name="Net-(C4-Pad1)">
-      <node ref="C4" pin="1"/>
-      <node ref="L3" pin="1"/>
-      <node ref="U1" pin="4"/>
+    <net code="17" name="Net-(D7-Pad2)">
+      <node ref="R16" pin="1"/>
+      <node ref="D7" pin="2"/>
     </net>
-    <net code="23" name="SDATA">
-      <node ref="U1" pin="26"/>
-      <node ref="U2" pin="42"/>
-    </net>
-    <net code="24" name="COS_LED">
-      <node ref="U2" pin="28"/>
-      <node ref="R12" pin="2"/>
-    </net>
-    <net code="25" name="PTT_LED">
-      <node ref="R13" pin="2"/>
-      <node ref="U2" pin="27"/>
-    </net>
-    <net code="26" name="DMR_LED">
-      <node ref="U2" pin="26"/>
-      <node ref="R14" pin="2"/>
-    </net>
-    <net code="27" name="DSTAR_LED">
-      <node ref="U2" pin="25"/>
-      <node ref="R15" pin="2"/>
-    </net>
-    <net code="28" name="P25_LED">
-      <node ref="U2" pin="18"/>
-      <node ref="R17" pin="2"/>
-    </net>
-    <net code="29" name="YSF_LED">
-      <node ref="R16" pin="2"/>
-      <node ref="U2" pin="19"/>
-    </net>
-    <net code="30" name="RF">
-      <node ref="C27" pin="2"/>
-      <node ref="C28" pin="1"/>
-      <node ref="L1" pin="1"/>
-    </net>
-    <net code="31" name="DATAOUT">
-      <node ref="U2" pin="40"/>
-      <node ref="R10" pin="1"/>
-    </net>
-    <net code="32" name="DATAIN">
-      <node ref="R9" pin="1"/>
-      <node ref="U2" pin="39"/>
-    </net>
-    <net code="33" name="RXD">
-      <node ref="PI1" pin="8"/>
-      <node ref="U2" pin="31"/>
-    </net>
-    <net code="34" name="TXD">
-      <node ref="PI1" pin="10"/>
-      <node ref="U2" pin="30"/>
-    </net>
-    <net code="35" name="SCLK">
+    <net code="18" name="SCLK">
       <node ref="U1" pin="28"/>
       <node ref="U2" pin="41"/>
     </net>
-    <net code="36" name="NRST">
-      <node ref="SW1" pin="1"/>
-      <node ref="U2" pin="7"/>
-      <node ref="PI1" pin="40"/>
-      <node ref="R7" pin="1"/>
-      <node ref="C16" pin="1"/>
+    <net code="19" name="DISP_TXD">
+      <node ref="P2" pin="3"/>
+      <node ref="U2" pin="12"/>
     </net>
-    <net code="37" name="SERVICE">
-      <node ref="D1" pin="1"/>
-      <node ref="U2" pin="2"/>
+    <net code="20" name="DISP_RXD">
+      <node ref="P2" pin="2"/>
+      <node ref="U2" pin="13"/>
     </net>
-    <net code="38" name="SDA">
+    <net code="21" name="COS_LED">
+      <node ref="U2" pin="28"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="22" name="PTT_LED">
+      <node ref="U2" pin="27"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="23" name="DMR_LED">
+      <node ref="R14" pin="2"/>
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="24" name="DSTAR_LED">
+      <node ref="R15" pin="2"/>
+      <node ref="U2" pin="25"/>
+    </net>
+    <net code="25" name="P25_LED">
+      <node ref="R17" pin="2"/>
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="26" name="YSF_LED">
+      <node ref="R16" pin="2"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="27" name="TXD">
+      <node ref="PI1" pin="10"/>
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="28" name="SLE">
+      <node ref="U1" pin="25"/>
+      <node ref="U2" pin="45"/>
+    </net>
+    <net code="29" name="SREAD">
+      <node ref="U2" pin="43"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="30" name="DATAOUT">
+      <node ref="U2" pin="40"/>
+      <node ref="R10" pin="1"/>
+    </net>
+    <net code="31" name="DATAIN">
+      <node ref="U2" pin="39"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="32" name="CLKOUT">
+      <node ref="U2" pin="38"/>
+      <node ref="R8" pin="1"/>
+    </net>
+    <net code="33" name="Net-(R8-Pad2)">
+      <node ref="U1" pin="36"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="34" name="Net-(R9-Pad2)">
+      <node ref="U1" pin="35"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="35" name="Net-(R10-Pad2)">
+      <node ref="U1" pin="34"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="36" name="SWDIO">
+      <node ref="P4" pin="2"/>
+      <node ref="U2" pin="34"/>
+    </net>
+    <net code="37" name="SWCLK">
+      <node ref="P4" pin="3"/>
+      <node ref="U2" pin="37"/>
+    </net>
+    <net code="38" name="BOOT0">
+      <node ref="U2" pin="44"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="39" name="RXD">
+      <node ref="U2" pin="31"/>
+      <node ref="PI1" pin="8"/>
+    </net>
+    <net code="40" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="41" name="Net-(C5-Pad1)">
+      <node ref="U1" pin="6"/>
+      <node ref="C5" pin="1"/>
+      <node ref="L4" pin="2"/>
+    </net>
+    <net code="42" name="Net-(C6-Pad1)">
+      <node ref="U1" pin="7"/>
+      <node ref="C6" pin="1"/>
+      <node ref="L4" pin="1"/>
+    </net>
+    <net code="43" name="GND">
+      <node ref="C6" pin="2"/>
+      <node ref="PI1" pin="14"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="20"/>
+      <node ref="U2" pin="8"/>
+      <node ref="P4" pin="4"/>
+      <node ref="X1" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C21" pin="1"/>
+      <node ref="U2" pin="47"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U2" pin="35"/>
+      <node ref="C16" pin="2"/>
+      <node ref="D4" pin="1"/>
+      <node ref="U2" pin="23"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D7" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="D5" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="U1" pin="19"/>
+      <node ref="PI1" pin="39"/>
+      <node ref="U1" pin="47"/>
+      <node ref="U1" pin="29"/>
+      <node ref="U1" pin="45"/>
+      <node ref="U1" pin="5"/>
+      <node ref="U1" pin="49"/>
+      <node ref="P1" pin="2"/>
+      <node ref="PI1" pin="9"/>
+      <node ref="PI1" pin="20"/>
+      <node ref="PI1" pin="6"/>
+      <node ref="P3" pin="2"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="PI1" pin="34"/>
+      <node ref="PI1" pin="30"/>
+      <node ref="PI1" pin="25"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="U1" pin="22"/>
+      <node ref="U1" pin="12"/>
+      <node ref="C29" pin="2"/>
+      <node ref="P2" pin="4"/>
+    </net>
+    <net code="44" name="Net-(C4-Pad2)">
+      <node ref="L2" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="45" name="Net-(C1-Pad1)">
+      <node ref="L1" pin="2"/>
+      <node ref="C1" pin="1"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="46" name="Net-(C4-Pad1)">
+      <node ref="U1" pin="4"/>
+      <node ref="L3" pin="1"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="47" name="SDATA">
+      <node ref="U2" pin="42"/>
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="48" name="Net-(C20-Pad2)">
+      <node ref="U1" pin="31"/>
+      <node ref="C20" pin="2"/>
+    </net>
+    <net code="49" name="Net-(C10-Pad1)">
+      <node ref="U1" pin="11"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="50" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="51" name="+3V3">
+      <node ref="PI1" pin="17"/>
+      <node ref="L5" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="PI1" pin="1"/>
+    </net>
+    <net code="52" name="Net-(PI1-Pad37)">
+      <node ref="PI1" pin="37"/>
+    </net>
+    <net code="53" name="Net-(PI1-Pad36)">
+      <node ref="PI1" pin="36"/>
+    </net>
+    <net code="54" name="Net-(PI1-Pad32)">
+      <node ref="PI1" pin="32"/>
+    </net>
+    <net code="55" name="Net-(PI1-Pad28)">
+      <node ref="PI1" pin="28"/>
+    </net>
+    <net code="56" name="Net-(PI1-Pad26)">
+      <node ref="PI1" pin="26"/>
+    </net>
+    <net code="57" name="Net-(PI1-Pad24)">
+      <node ref="PI1" pin="24"/>
+    </net>
+    <net code="58" name="Net-(PI1-Pad22)">
+      <node ref="PI1" pin="22"/>
+    </net>
+    <net code="59" name="Net-(PI1-Pad18)">
+      <node ref="PI1" pin="18"/>
+    </net>
+    <net code="60" name="Net-(PI1-Pad16)">
+      <node ref="PI1" pin="16"/>
+    </net>
+    <net code="61" name="Net-(PI1-Pad12)">
+      <node ref="PI1" pin="12"/>
+    </net>
+    <net code="62" name="Net-(AE1-Pad2)">
+      <node ref="AE1" pin="2"/>
+    </net>
+    <net code="63" name="Net-(U1-Pad37)">
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="64" name="Net-(L6-Pad2)">
+      <node ref="U1" pin="44"/>
+      <node ref="L6" pin="2"/>
+    </net>
+    <net code="65" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="66" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="67" name="Net-(L6-Pad1)">
+      <node ref="L6" pin="1"/>
+      <node ref="U1" pin="46"/>
+    </net>
+    <net code="68" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="69" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="70" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="71" name="Net-(U1-Pad38)">
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="72" name="Net-(U1-Pad30)">
+      <node ref="U1" pin="30"/>
+    </net>
+    <net code="73" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="74" name="Net-(PI1-Pad35)">
+      <node ref="PI1" pin="35"/>
+    </net>
+    <net code="75" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+    </net>
+    <net code="76" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="77" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="78" name="Net-(U1-Pad33)">
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="79" name="NXDN_LED">
+      <node ref="U2" pin="29"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="80" name="Net-(D9-Pad2)">
+      <node ref="R19" pin="1"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="81" name="Net-(AE1-Pad1)">
+      <node ref="C28" pin="2"/>
+      <node ref="AE1" pin="1"/>
+    </net>
+    <net code="82" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="R14" pin="1"/>
+    </net>
+    <net code="83" name="Net-(D6-Pad2)">
+      <node ref="D6" pin="2"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="84" name="Net-(D4-Pad2)">
+      <node ref="R13" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="85" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="86" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="87" name="RF">
+      <node ref="C28" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C27" pin="2"/>
+    </net>
+    <net code="88" name="SDA">
       <node ref="P1" pin="4"/>
       <node ref="PI1" pin="3"/>
     </net>
-    <net code="39" name="SCL">
+    <net code="89" name="SCL">
       <node ref="P1" pin="3"/>
       <node ref="PI1" pin="5"/>
     </net>
-    <net code="40" name="SWDIO">
-      <node ref="U2" pin="34"/>
-      <node ref="P4" pin="2"/>
+    <net code="90" name="Net-(U2-Pad46)">
+      <node ref="U2" pin="46"/>
     </net>
-    <net code="41" name="SWCLK">
-      <node ref="U2" pin="37"/>
-      <node ref="P4" pin="3"/>
+    <net code="91" name="Net-(X1-Pad1)">
+      <node ref="X1" pin="1"/>
     </net>
-    <net code="42" name="DISP_RXD">
-      <node ref="U2" pin="13"/>
-      <node ref="P2" pin="3"/>
+    <net code="92" name="Net-(U2-Pad4)">
+      <node ref="U2" pin="4"/>
     </net>
-    <net code="43" name="Net-(C21-Pad2)">
+    <net code="93" name="Net-(U2-Pad33)">
+      <node ref="U2" pin="33"/>
+    </net>
+    <net code="94" name="Net-(U2-Pad32)">
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="95" name="Net-(U2-Pad21)">
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="96" name="Net-(U2-Pad22)">
+      <node ref="U2" pin="22"/>
+    </net>
+    <net code="97" name="Net-(PI1-Pad7)">
+      <node ref="PI1" pin="7"/>
+    </net>
+    <net code="98" name="Net-(PI1-Pad11)">
+      <node ref="PI1" pin="11"/>
+    </net>
+    <net code="99" name="Net-(PI1-Pad13)">
+      <node ref="PI1" pin="13"/>
+    </net>
+    <net code="100" name="Net-(PI1-Pad15)">
+      <node ref="PI1" pin="15"/>
+    </net>
+    <net code="101" name="Net-(PI1-Pad19)">
+      <node ref="PI1" pin="19"/>
+    </net>
+    <net code="102" name="Net-(PI1-Pad21)">
+      <node ref="PI1" pin="21"/>
+    </net>
+    <net code="103" name="Net-(PI1-Pad23)">
+      <node ref="PI1" pin="23"/>
+    </net>
+    <net code="104" name="Net-(PI1-Pad27)">
+      <node ref="PI1" pin="27"/>
+    </net>
+    <net code="105" name="Net-(PI1-Pad29)">
+      <node ref="PI1" pin="29"/>
+    </net>
+    <net code="106" name="Net-(PI1-Pad31)">
+      <node ref="PI1" pin="31"/>
+    </net>
+    <net code="107" name="Net-(PI1-Pad33)">
+      <node ref="PI1" pin="33"/>
+    </net>
+    <net code="108" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="109" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="110" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="111" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="112" name="Net-(U2-Pad16)">
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="113" name="Net-(U2-Pad17)">
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="114" name="Net-(C21-Pad2)">
       <node ref="Y1" pin="1"/>
       <node ref="C21" pin="2"/>
       <node ref="U2" pin="5"/>
     </net>
-    <net code="44" name="BOOT0">
-      <node ref="R1" pin="1"/>
-      <node ref="U2" pin="44"/>
-    </net>
-    <net code="45" name="DISP_TXD">
-      <node ref="U2" pin="12"/>
-      <node ref="P2" pin="2"/>
-    </net>
-    <net code="46" name="Net-(C23-Pad2)">
+    <net code="115" name="Net-(C23-Pad2)">
       <node ref="U2" pin="6"/>
-      <node ref="Y1" pin="2"/>
       <node ref="C23" pin="2"/>
+      <node ref="Y1" pin="2"/>
     </net>
-    <net code="47" name="+5V">
-      <node ref="PI1" pin="4"/>
-      <node ref="PI1" pin="2"/>
-      <node ref="P2" pin="1"/>
-    </net>
-    <net code="48" name="Net-(U2-Pad10)">
-      <node ref="U2" pin="10"/>
-    </net>
-    <net code="49" name="Net-(U2-Pad11)">
-      <node ref="U2" pin="11"/>
-    </net>
-    <net code="50" name="Net-(U2-Pad14)">
-      <node ref="U2" pin="14"/>
-    </net>
-    <net code="51" name="Net-(U2-Pad15)">
-      <node ref="U2" pin="15"/>
-    </net>
-    <net code="52" name="Net-(U2-Pad16)">
-      <node ref="U2" pin="16"/>
-    </net>
-    <net code="53" name="Net-(U2-Pad17)">
-      <node ref="U2" pin="17"/>
-    </net>
-    <net code="54" name="Net-(U1-Pad30)">
-      <node ref="U1" pin="30"/>
-    </net>
-    <net code="55" name="Net-(U1-Pad23)">
-      <node ref="U1" pin="23"/>
-    </net>
-    <net code="56" name="Net-(U1-Pad21)">
-      <node ref="U1" pin="21"/>
-    </net>
-    <net code="57" name="Net-(U1-Pad20)">
-      <node ref="U1" pin="20"/>
-    </net>
-    <net code="58" name="Net-(AE1-Pad1)">
-      <node ref="AE1" pin="1"/>
-      <node ref="C28" pin="2"/>
-    </net>
-    <net code="59" name="Net-(U1-Pad18)">
-      <node ref="U1" pin="18"/>
-    </net>
-    <net code="60" name="Net-(PI1-Pad12)">
-      <node ref="PI1" pin="12"/>
-    </net>
-    <net code="61" name="Net-(PI1-Pad31)">
-      <node ref="PI1" pin="31"/>
-    </net>
-    <net code="62" name="Net-(PI1-Pad33)">
-      <node ref="PI1" pin="33"/>
-    </net>
-    <net code="63" name="Net-(PI1-Pad35)">
-      <node ref="PI1" pin="35"/>
-    </net>
-    <net code="64" name="Net-(PI1-Pad37)">
-      <node ref="PI1" pin="37"/>
-    </net>
-    <net code="65" name="Net-(PI1-Pad36)">
-      <node ref="PI1" pin="36"/>
-    </net>
-    <net code="66" name="Net-(PI1-Pad32)">
-      <node ref="PI1" pin="32"/>
-    </net>
-    <net code="67" name="Net-(PI1-Pad28)">
-      <node ref="PI1" pin="28"/>
-    </net>
-    <net code="68" name="Net-(PI1-Pad26)">
-      <node ref="PI1" pin="26"/>
-    </net>
-    <net code="69" name="Net-(PI1-Pad24)">
-      <node ref="PI1" pin="24"/>
-    </net>
-    <net code="70" name="Net-(PI1-Pad22)">
-      <node ref="PI1" pin="22"/>
-    </net>
-    <net code="71" name="Net-(PI1-Pad18)">
-      <node ref="PI1" pin="18"/>
-    </net>
-    <net code="72" name="Net-(PI1-Pad16)">
-      <node ref="PI1" pin="16"/>
-    </net>
-    <net code="73" name="Net-(PI1-Pad29)">
-      <node ref="PI1" pin="29"/>
-    </net>
-    <net code="74" name="Net-(AE1-Pad2)">
-      <node ref="AE1" pin="2"/>
-    </net>
-    <net code="75" name="NXDN_LED">
-      <node ref="U2" pin="29"/>
-      <node ref="R19" pin="2"/>
-    </net>
-    <net code="76" name="Net-(D9-Pad2)">
-      <node ref="D9" pin="2"/>
-      <node ref="R19" pin="1"/>
-    </net>
-    <net code="77" name="Net-(U2-Pad33)">
-      <node ref="U2" pin="33"/>
-    </net>
-    <net code="78" name="Net-(U1-Pad17)">
-      <node ref="U1" pin="17"/>
-    </net>
-    <net code="79" name="Net-(U1-Pad16)">
-      <node ref="U1" pin="16"/>
-    </net>
-    <net code="80" name="Net-(U1-Pad15)">
-      <node ref="U1" pin="15"/>
-    </net>
-    <net code="81" name="Net-(U1-Pad14)">
-      <node ref="U1" pin="14"/>
-    </net>
-    <net code="82" name="Net-(U1-Pad13)">
-      <node ref="U1" pin="13"/>
-    </net>
-    <net code="83" name="Net-(U1-Pad46)">
-      <node ref="U1" pin="46"/>
-    </net>
-    <net code="84" name="Net-(U1-Pad44)">
-      <node ref="U1" pin="44"/>
-    </net>
-    <net code="85" name="Net-(U1-Pad38)">
-      <node ref="U1" pin="38"/>
-    </net>
-    <net code="86" name="Net-(U1-Pad37)">
-      <node ref="U1" pin="37"/>
-    </net>
-    <net code="87" name="Net-(U1-Pad33)">
-      <node ref="U1" pin="33"/>
-    </net>
-    <net code="88" name="Net-(X1-Pad1)">
-      <node ref="X1" pin="1"/>
-    </net>
-    <net code="89" name="Net-(U2-Pad4)">
-      <node ref="U2" pin="4"/>
-    </net>
-    <net code="90" name="Net-(U2-Pad32)">
-      <node ref="U2" pin="32"/>
-    </net>
-    <net code="91" name="Net-(U2-Pad46)">
-      <node ref="U2" pin="46"/>
-    </net>
-    <net code="92" name="Net-(U2-Pad21)">
-      <node ref="U2" pin="21"/>
-    </net>
-    <net code="93" name="Net-(U2-Pad22)">
-      <node ref="U2" pin="22"/>
-    </net>
-    <net code="94" name="Net-(PI1-Pad7)">
-      <node ref="PI1" pin="7"/>
-    </net>
-    <net code="95" name="Net-(PI1-Pad11)">
-      <node ref="PI1" pin="11"/>
-    </net>
-    <net code="96" name="Net-(PI1-Pad13)">
-      <node ref="PI1" pin="13"/>
-    </net>
-    <net code="97" name="Net-(PI1-Pad15)">
-      <node ref="PI1" pin="15"/>
-    </net>
-    <net code="98" name="Net-(PI1-Pad19)">
-      <node ref="PI1" pin="19"/>
-    </net>
-    <net code="99" name="Net-(PI1-Pad21)">
-      <node ref="PI1" pin="21"/>
-    </net>
-    <net code="100" name="Net-(PI1-Pad23)">
-      <node ref="PI1" pin="23"/>
-    </net>
-    <net code="101" name="Net-(PI1-Pad27)">
-      <node ref="PI1" pin="27"/>
-    </net>
-    <net code="102" name="+3V3">
-      <node ref="L5" pin="1"/>
-      <node ref="PI1" pin="1"/>
-      <node ref="PI1" pin="17"/>
-      <node ref="C29" pin="1"/>
-    </net>
-    <net code="103" name="VDD">
-      <node ref="C9" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="L3" pin="2"/>
-      <node ref="C7" pin="1"/>
-      <node ref="C2" pin="1"/>
-      <node ref="C17" pin="1"/>
-      <node ref="X1" pin="4"/>
-      <node ref="U2" pin="1"/>
-      <node ref="C19" pin="1"/>
-      <node ref="L5" pin="2"/>
-      <node ref="U2" pin="24"/>
-      <node ref="P1" pin="1"/>
-      <node ref="R18" pin="1"/>
-      <node ref="C26" pin="1"/>
-      <node ref="C25" pin="1"/>
-      <node ref="C24" pin="1"/>
-      <node ref="P4" pin="1"/>
-      <node ref="C22" pin="2"/>
-      <node ref="R7" pin="2"/>
-      <node ref="U2" pin="9"/>
-      <node ref="U2" pin="48"/>
-      <node ref="U2" pin="36"/>
+    <net code="116" name="VDD">
       <node ref="U1" pin="43"/>
+      <node ref="R18" pin="1"/>
+      <node ref="X1" pin="4"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="U2" pin="1"/>
       <node ref="U1" pin="32"/>
       <node ref="U1" pin="40"/>
       <node ref="U1" pin="9"/>
       <node ref="U1" pin="3"/>
-      <node ref="C31" pin="1"/>
-      <node ref="C30" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="L5" pin="2"/>
       <node ref="R11" pin="2"/>
+      <node ref="L3" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="48"/>
+      <node ref="C22" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="U2" pin="24"/>
+      <node ref="U2" pin="9"/>
+      <node ref="P4" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="U2" pin="36"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C7" pin="1"/>
     </net>
-    <net code="104" name="Net-(PI1-Pad38)">
-      <node ref="R1" pin="2"/>
-      <node ref="PI1" pin="38"/>
-    </net>
-    <net code="105" name="Net-(C15-Pad2)">
-      <node ref="C15" pin="2"/>
-      <node ref="U1" pin="41"/>
-    </net>
-    <net code="106" name="Net-(C18-Pad2)">
-      <node ref="C18" pin="2"/>
-      <node ref="U1" pin="39"/>
-    </net>
-    <net code="107" name="Net-(C18-Pad1)">
-      <node ref="C18" pin="1"/>
-      <node ref="X1" pin="3"/>
-    </net>
-    <net code="108" name="Net-(C27-Pad1)">
-      <node ref="C27" pin="1"/>
-      <node ref="P3" pin="1"/>
-    </net>
-    <net code="109" name="CE">
-      <node ref="U1" pin="24"/>
-      <node ref="U2" pin="3"/>
-    </net>
-    <net code="110" name="Net-(D5-Pad2)">
-      <node ref="R14" pin="1"/>
-      <node ref="D5" pin="2"/>
-    </net>
-    <net code="111" name="Net-(D6-Pad2)">
-      <node ref="D6" pin="2"/>
-      <node ref="R15" pin="1"/>
-    </net>
-    <net code="112" name="Net-(D4-Pad2)">
-      <node ref="D4" pin="2"/>
-      <node ref="R13" pin="1"/>
-    </net>
-    <net code="113" name="Net-(D3-Pad2)">
-      <node ref="R12" pin="1"/>
-      <node ref="D3" pin="2"/>
-    </net>
-    <net code="114" name="Net-(D2-Pad2)">
-      <node ref="D2" pin="2"/>
-      <node ref="R11" pin="1"/>
-    </net>
-    <net code="115" name="Net-(D1-Pad2)">
-      <node ref="R18" pin="2"/>
-      <node ref="D1" pin="2"/>
-    </net>
-    <net code="116" name="Net-(D8-Pad2)">
-      <node ref="R17" pin="1"/>
-      <node ref="D8" pin="2"/>
-    </net>
-    <net code="117" name="Net-(D7-Pad2)">
-      <node ref="R16" pin="1"/>
-      <node ref="D7" pin="2"/>
+    <net code="117" name="NRST">
+      <node ref="U2" pin="7"/>
+      <node ref="C16" pin="1"/>
+      <node ref="PI1" pin="40"/>
+      <node ref="R7" pin="1"/>
+      <node ref="SW1" pin="1"/>
     </net>
   </nets>
 </export>

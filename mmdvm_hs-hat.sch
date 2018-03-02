@@ -1,48 +1,13 @@
-EESchema Schematic File Version 2
-LIBS:mmdvm_hs-hat-rescue
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:stm32f103c8t6
-LIBS:switches
-LIBS:adf7021
-LIBS:Oscillators
-LIBS:RPI-Zero
+EESchema Schematic File Version 4
 LIBS:mmdvm_hs-hat-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "MMDVM_HS_Hat"
-Date "2018-01-25"
-Rev "1.5"
+Date "2018-03-02"
+Rev "1.6"
 Comp "DB9MAT+DF2ET"
 Comment1 ""
 Comment2 ""
@@ -50,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L STM32F103C8T6 U2
+L stm32f103c8t6:STM32F103C8T6 U2
 U 1 1 5895EDF8
 P 8800 2150
 F 0 "U2" H 8800 1700 60 0000 C CNN
@@ -66,7 +31,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Crystal Y1
+L mmdvm_hs-hat-rescue:Crystal-RESCUE-mmdvm_hs-hat Y1
 U 1 1 5895F2AD
 P 6700 2300
 F 0 "Y1" H 6700 2450 50 0000 C CNN
@@ -82,7 +47,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C21
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C21
 U 1 1 5895F2B9
 P 6450 2550
 F 0 "C21" H 6475 2650 50 0000 L CNN
@@ -98,7 +63,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C23
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C23
 U 1 1 5895F2BF
 P 6950 2550
 F 0 "C23" H 6975 2650 50 0000 L CNN
@@ -114,7 +79,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    1   
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 5895F2C7
 P 6450 2800
 F 0 "#PWR01" H 6450 2550 50 0001 C CNN
@@ -125,7 +90,7 @@ F 3 "" H 6450 2800 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 5895F2CD
 P 6950 2800
 F 0 "#PWR02" H 6950 2550 50 0001 C CNN
@@ -136,7 +101,7 @@ F 3 "" H 6950 2800 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 5895F58E
 P 7250 2500
 F 0 "#PWR03" H 7250 2250 50 0001 C CNN
@@ -147,7 +112,7 @@ F 3 "" H 7250 2500 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 5895FC0B
 P 10350 1700
 F 0 "#PWR04" H 10350 1450 50 0001 C CNN
@@ -158,7 +123,7 @@ F 3 "" H 10350 1700 50 0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 5895FC67
 P 9250 3600
 F 0 "#PWR05" H 9250 3350 50 0001 C CNN
@@ -169,7 +134,7 @@ F 3 "" H 9250 3600 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 5895FDAB
 P 8350 850
 F 0 "#PWR06" H 8350 600 50 0001 C CNN
@@ -180,7 +145,7 @@ F 3 "" H 8350 850 50 0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L CONN_01X04 P4
+L mmdvm_hs-hat-rescue:CONN_01X04-RESCUE-mmdvm_hs-hat P4
 U 1 1 5896079D
 P 8850 6050
 F 0 "P4" H 8850 6300 50 0000 C CNN
@@ -196,7 +161,7 @@ F 8 "" H 2250 5050 50 0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 589608E1
 P 9150 6300
 F 0 "#PWR07" H 9150 6050 50 0001 C CNN
@@ -207,7 +172,7 @@ F 3 "" H 9150 6300 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C24
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C24
 U 1 1 58962122
 P 9800 3350
 F 0 "C24" H 9825 3450 50 0000 L CNN
@@ -223,7 +188,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C25
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C25
 U 1 1 589621B5
 P 10050 3350
 F 0 "C25" H 10075 3450 50 0000 L CNN
@@ -239,7 +204,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C26
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C26
 U 1 1 58962208
 P 10300 3350
 F 0 "C26" H 10325 3450 50 0000 L CNN
@@ -255,7 +220,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 589622B0
 P 10050 3600
 F 0 "#PWR08" H 10050 3350 50 0001 C CNN
@@ -266,7 +231,7 @@ F 3 "" H 10050 3600 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R1
 U 1 1 58963296
 P 3350 2700
 F 0 "R1" V 3430 2700 50 0000 C CNN
@@ -282,7 +247,7 @@ F 8 "" H 1200 -1150 50 0001 C CNN "SPURL"
 	0    1    -1   0   
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 589647F0
 P 8100 6300
 F 0 "#PWR09" H 8100 6050 50 0001 C CNN
@@ -293,7 +258,7 @@ F 3 "" H 8100 6300 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R7
 U 1 1 58965445
 P 4800 2200
 F 0 "R7" V 4880 2200 50 0000 C CNN
@@ -309,7 +274,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C16
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C16
 U 1 1 589656C1
 P 5300 2450
 F 0 "C16" H 5325 2550 50 0000 L CNN
@@ -325,7 +290,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 5896581C
 P 5300 2700
 F 0 "#PWR010" H 5300 2450 50 0001 C CNN
@@ -336,7 +301,7 @@ F 3 "" H 5300 2700 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R8
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R8
 U 1 1 58968523
 P 6250 5800
 F 0 "R8" V 6200 5600 50 0000 C CNN
@@ -352,7 +317,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R9
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R9
 U 1 1 589685C3
 P 6250 5900
 F 0 "R9" V 6200 5700 50 0000 C CNN
@@ -368,7 +333,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R10
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R10
 U 1 1 58968631
 P 6250 6000
 F 0 "R10" V 6200 5800 50 0000 C CNN
@@ -384,7 +349,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR011
+L power:GND #PWR011
 U 1 1 589695A8
 P 6500 6700
 F 0 "#PWR011" H 6500 6450 50 0001 C CNN
@@ -395,7 +360,7 @@ F 3 "" H 6500 6700 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR012
+L power:GND #PWR012
 U 1 1 5896983A
 P 6100 7300
 F 0 "#PWR012" H 6100 7050 50 0001 C CNN
@@ -406,7 +371,7 @@ F 3 "" H 6100 7300 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C20
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C20
 U 1 1 58969AA4
 P 6250 6300
 F 0 "C20" H 6275 6400 50 0000 L CNN
@@ -422,7 +387,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C22
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C22
 U 1 1 58969E8F
 P 6750 6450
 F 0 "C22" H 6775 6550 50 0000 L CNN
@@ -438,7 +403,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR013
+L power:GND #PWR013
 U 1 1 5896A041
 P 6750 6700
 F 0 "#PWR013" H 6750 6450 50 0001 C CNN
@@ -449,7 +414,7 @@ F 3 "" H 6750 6700 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-RESCUE-mmdvm_hs-hat D2
+L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D2
 U 1 1 5896A578
 P 10850 4100
 F 0 "D2" H 10850 4200 50 0000 C CNN
@@ -465,7 +430,7 @@ F 8 "" H 400 -300 50 0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED-RESCUE-mmdvm_hs-hat D3
+L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D3
 U 1 1 5896A71F
 P 10850 4400
 F 0 "D3" H 10850 4500 50 0000 C CNN
@@ -481,7 +446,7 @@ F 8 "" H 400 -300 50 0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED-RESCUE-mmdvm_hs-hat D4
+L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D4
 U 1 1 5896A7A2
 P 10850 4700
 F 0 "D4" H 10850 4800 50 0000 C CNN
@@ -497,7 +462,7 @@ F 8 "" H 400 -300 50 0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED-RESCUE-mmdvm_hs-hat D5
+L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D5
 U 1 1 5896A826
 P 10850 5000
 F 0 "D5" H 10850 5100 50 0000 C CNN
@@ -513,7 +478,7 @@ F 8 "" H 400 -300 50 0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED-RESCUE-mmdvm_hs-hat D6
+L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D6
 U 1 1 5896A8AF
 P 10850 5300
 F 0 "D6" H 10850 5400 50 0000 C CNN
@@ -529,7 +494,7 @@ F 8 "" H 400 -300 50 0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED-RESCUE-mmdvm_hs-hat D7
+L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D7
 U 1 1 5896A939
 P 10850 5600
 F 0 "D7" H 10850 5700 50 0000 C CNN
@@ -545,7 +510,7 @@ F 8 "" H 400 -300 50 0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED-RESCUE-mmdvm_hs-hat D8
+L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D8
 U 1 1 5896A9C6
 P 10850 5900
 F 0 "D8" H 10850 6000 50 0000 C CNN
@@ -561,7 +526,7 @@ F 8 "" H 400 -300 50 0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R11
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R11
 U 1 1 5896AA58
 P 10450 4100
 F 0 "R11" V 10530 4100 50 0000 C CNN
@@ -577,7 +542,7 @@ F 8 "" H 0 -300 50 0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R12
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R12
 U 1 1 5896ABAD
 P 10450 4400
 F 0 "R12" V 10530 4400 50 0000 C CNN
@@ -593,7 +558,7 @@ F 8 "" H 0 -300 50 0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R13
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R13
 U 1 1 5896AC48
 P 10450 4700
 F 0 "R13" V 10530 4700 50 0000 C CNN
@@ -609,7 +574,7 @@ F 8 "" H 0 -300 50 0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R14
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R14
 U 1 1 5896ACE3
 P 10450 5000
 F 0 "R14" V 10530 5000 50 0000 C CNN
@@ -625,7 +590,7 @@ F 8 "" H 0 -300 50 0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R15
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R15
 U 1 1 5896AD81
 P 10450 5300
 F 0 "R15" V 10530 5300 50 0000 C CNN
@@ -641,7 +606,7 @@ F 8 "" H 0 -300 50 0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R16
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R16
 U 1 1 5896AE20
 P 10450 5600
 F 0 "R16" V 10530 5600 50 0000 C CNN
@@ -657,7 +622,7 @@ F 8 "" H 0 -300 50 0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R17
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R17
 U 1 1 5896AEC4
 P 10450 5900
 F 0 "R17" V 10530 5900 50 0000 C CNN
@@ -673,7 +638,7 @@ F 8 "" H 0 -300 50 0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR014
+L power:GND #PWR014
 U 1 1 5896B54C
 P 11100 6350
 F 0 "#PWR014" H 11100 6100 50 0001 C CNN
@@ -684,7 +649,7 @@ F 3 "" H 11100 6350 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR015
+L power:GND #PWR015
 U 1 1 5896D52C
 P 5300 7550
 F 0 "#PWR015" H 5300 7300 50 0001 C CNN
@@ -695,7 +660,7 @@ F 3 "" H 5300 7550 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR016
+L power:GND #PWR016
 U 1 1 5896D602
 P 5000 7550
 F 0 "#PWR016" H 5000 7300 50 0001 C CNN
@@ -706,7 +671,7 @@ F 3 "" H 5000 7550 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR017
+L power:GND #PWR017
 U 1 1 5896DC14
 P 3750 7000
 F 0 "#PWR017" H 3750 6750 50 0001 C CNN
@@ -717,7 +682,7 @@ F 3 "" H 3750 7000 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C10
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C10
 U 1 1 5896DEF7
 P 3450 7050
 F 0 "C10" H 3475 7150 50 0000 L CNN
@@ -733,7 +698,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR018
+L power:GND #PWR018
 U 1 1 5896E12A
 P 3450 7300
 F 0 "#PWR018" H 3450 7050 50 0001 C CNN
@@ -744,7 +709,7 @@ F 3 "" H 3450 7300 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R3
 U 1 1 5896E5F8
 P 3250 7050
 F 0 "R3" V 3330 7050 50 0000 C CNN
@@ -760,7 +725,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR019
+L power:GND #PWR019
 U 1 1 5896E6E5
 P 3250 7300
 F 0 "#PWR019" H 3250 7050 50 0001 C CNN
@@ -771,7 +736,7 @@ F 3 "" H 3250 7300 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C7
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C7
 U 1 1 5896E97E
 P 2950 7050
 F 0 "C7" H 2975 7150 50 0000 L CNN
@@ -787,7 +752,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L power:GND #PWR020
 U 1 1 5896EA9D
 P 2950 7300
 F 0 "#PWR020" H 2950 7050 50 0001 C CNN
@@ -798,7 +763,7 @@ F 3 "" H 2950 7300 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R2
 U 1 1 5896F75D
 P 2650 7050
 F 0 "R2" V 2730 7050 50 0000 C CNN
@@ -814,7 +779,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR021
+L power:GND #PWR021
 U 1 1 5896F98A
 P 2650 7300
 F 0 "#PWR021" H 2650 7050 50 0001 C CNN
@@ -825,23 +790,7 @@ F 3 "" H 2650 7300 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ADF7021 U1
-U 1 1 5896FF14
-P 4850 6350
-F 0 "U1" H 4850 6100 49 0000 C CNN
-F 1 "ADF7021" H 4850 6800 49 0000 C CNN
-F 2 "Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm" H 4650 6100 49 0001 C CNN
-F 3 "http://www.mouser.com/ds/2/609/ADF7021-878461.pdf" H 4650 6100 49 0001 C CNN
-F 4 "Analog Devices" H 0 0 50 0001 C CNN "MFR"
-F 5 "ADF7021BCPZ" H 0 0 50 0001 C CNN "MPN"
-F 6 "Mouser" H 0 0 50 0001 C CNN "SPR"
-F 7 "584-ADF7021BCPZ" H 0 0 50 0001 C CNN "SPN"
-F 8 "" H 0 0 50 0001 C CNN "SPURL"
-	1    4850 6350
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C6
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C6
 U 1 1 589705E1
 P 2200 7050
 F 0 "C6" H 2225 7150 50 0000 L CNN
@@ -857,7 +806,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L4
+L mmdvm_hs-hat-rescue:L-RESCUE-mmdvm_hs-hat L4
 U 1 1 589706C7
 P 2200 6550
 F 0 "L4" V 2150 6550 50 0000 C CNN
@@ -873,7 +822,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR022
+L power:GND #PWR022
 U 1 1 58970FFE
 P 2200 7300
 F 0 "#PWR022" H 2200 7050 50 0001 C CNN
@@ -884,7 +833,7 @@ F 3 "" H 2200 7300 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR023
+L power:GND #PWR023
 U 1 1 5897177B
 P 3750 6200
 F 0 "#PWR023" H 3750 5950 50 0001 C CNN
@@ -895,7 +844,7 @@ F 3 "" H 3750 6200 50 0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C5
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C5
 U 1 1 58971A8F
 P 1950 6300
 F 0 "C5" H 1975 6400 50 0000 L CNN
@@ -911,7 +860,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C4
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C4
 U 1 1 58971E4D
 P 1950 6100
 F 0 "C4" H 1975 6200 50 0000 L CNN
@@ -927,7 +876,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L L L2
+L mmdvm_hs-hat-rescue:L-RESCUE-mmdvm_hs-hat L2
 U 1 1 58972852
 P 1450 6300
 F 0 "L2" V 1400 6300 50 0000 C CNN
@@ -943,7 +892,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C1
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C1
 U 1 1 58972AD9
 P 1200 6550
 F 0 "C1" H 1225 6650 50 0000 L CNN
@@ -959,7 +908,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR024
+L power:GND #PWR024
 U 1 1 58972BB7
 P 1200 6800
 F 0 "#PWR024" H 1200 6550 50 0001 C CNN
@@ -970,7 +919,7 @@ F 3 "" H 1200 6800 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L1
+L mmdvm_hs-hat-rescue:L-RESCUE-mmdvm_hs-hat L1
 U 1 1 58972EEA
 P 950 6300
 F 0 "L1" V 900 6300 50 0000 C CNN
@@ -986,7 +935,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L L L3
+L mmdvm_hs-hat-rescue:L-RESCUE-mmdvm_hs-hat L3
 U 1 1 58973BF8
 P 2200 5850
 F 0 "L3" V 2150 5850 50 0000 C CNN
@@ -1002,7 +951,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L C C3
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C3
 U 1 1 58973FC2
 P 1950 5500
 F 0 "C3" H 1975 5600 50 0000 L CNN
@@ -1018,7 +967,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C9
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C9
 U 1 1 58974124
 P 3250 5600
 F 0 "C9" H 3275 5700 50 0000 L CNN
@@ -1034,7 +983,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR025
+L power:GND #PWR025
 U 1 1 58974277
 P 1950 5750
 F 0 "#PWR025" H 1950 5500 50 0001 C CNN
@@ -1045,7 +994,7 @@ F 3 "" H 1950 5750 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR026
+L power:GND #PWR026
 U 1 1 5897433F
 P 3250 5850
 F 0 "#PWR026" H 3250 5600 50 0001 C CNN
@@ -1056,7 +1005,7 @@ F 3 "" H 3250 5850 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR027
+L power:GND #PWR027
 U 1 1 58975323
 P 4250 5100
 F 0 "#PWR027" H 4250 4850 50 0001 C CNN
@@ -1067,7 +1016,7 @@ F 3 "" H 4250 5100 50 0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L C C11
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C11
 U 1 1 589757AF
 P 4150 4800
 F 0 "C11" H 4175 4900 50 0000 L CNN
@@ -1083,7 +1032,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R4
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R4
 U 1 1 58976039
 P 3400 4800
 F 0 "R4" V 3480 4800 50 0000 C CNN
@@ -1099,7 +1048,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C8
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C8
 U 1 1 589762ED
 P 3000 4800
 F 0 "C8" H 3025 4900 50 0000 L CNN
@@ -1115,7 +1064,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L C C2
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C2
 U 1 1 589765ED
 P 1700 5500
 F 0 "C2" H 1725 5600 50 0000 L CNN
@@ -1131,7 +1080,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR028
+L power:GND #PWR028
 U 1 1 589766E0
 P 1700 5750
 F 0 "#PWR028" H 1700 5500 50 0001 C CNN
@@ -1142,7 +1091,7 @@ F 3 "" H 1700 5750 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR029
+L power:GND #PWR029
 U 1 1 58976CC1
 P 2750 4900
 F 0 "#PWR029" H 2750 4650 50 0001 C CNN
@@ -1153,7 +1102,7 @@ F 3 "" H 2750 4900 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R5
 U 1 1 58977A3D
 P 4300 3800
 F 0 "R5" V 4380 3800 50 0000 C CNN
@@ -1169,7 +1118,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R6
 U 1 1 58977B33
 P 4500 3800
 F 0 "R6" V 4580 3800 50 0000 C CNN
@@ -1185,7 +1134,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C12
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C12
 U 1 1 58977C18
 P 4300 4200
 F 0 "C12" H 4325 4300 50 0000 L CNN
@@ -1201,7 +1150,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C13
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C13
 U 1 1 58977D12
 P 4500 4200
 F 0 "C13" H 4525 4300 50 0000 L CNN
@@ -1217,7 +1166,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C14
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C14
 U 1 1 58977DF7
 P 4750 3800
 F 0 "C14" H 4775 3900 50 0000 L CNN
@@ -1233,7 +1182,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR030
+L power:GND #PWR030
 U 1 1 589789C1
 P 4500 4550
 F 0 "#PWR030" H 4500 4300 50 0001 C CNN
@@ -1244,7 +1193,7 @@ F 3 "" H 4500 4550 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C17
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C17
 U 1 1 58979714
 P 5500 4050
 F 0 "C17" H 5525 4150 50 0000 L CNN
@@ -1260,7 +1209,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR031
+L power:GND #PWR031
 U 1 1 5897971A
 P 5500 4300
 F 0 "#PWR031" H 5500 4050 50 0001 C CNN
@@ -1271,7 +1220,7 @@ F 3 "" H 5500 4300 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C15
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C15
 U 1 1 58979B33
 P 5100 4950
 F 0 "C15" V 5150 5000 50 0000 L CNN
@@ -1287,7 +1236,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR032
+L power:GND #PWR032
 U 1 1 58979E35
 P 5100 4700
 F 0 "#PWR032" H 5100 4450 50 0001 C CNN
@@ -1298,7 +1247,7 @@ F 3 "" H 5100 4700 50 0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L TCXO_DFAS11 X1
+L mmdvm_hs-hat-rescue:TCXO_DFAS11-RESCUE-mmdvm_hs-hat X1
 U 1 1 5897A831
 P 7050 4500
 F 0 "X1" H 7050 4800 50 0000 C CNN
@@ -1314,7 +1263,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR033
+L power:GND #PWR033
 U 1 1 5897AC36
 P 7850 4750
 F 0 "#PWR033" H 7850 4500 50 0001 C CNN
@@ -1325,7 +1274,7 @@ F 3 "" H 7850 4750 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR034
+L power:GND #PWR034
 U 1 1 5897AF7A
 P 6050 4750
 F 0 "#PWR034" H 6050 4500 50 0001 C CNN
@@ -1336,7 +1285,7 @@ F 3 "" H 6050 4750 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C19
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C19
 U 1 1 5897B23C
 P 6050 4550
 F 0 "C19" H 6075 4650 50 0000 L CNN
@@ -1352,7 +1301,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C18
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C18
 U 1 1 5897BA0E
 P 5800 4550
 F 0 "C18" H 5825 4650 50 0000 L CNN
@@ -1368,7 +1317,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X02 P3
+L mmdvm_hs-hat-rescue:CONN_01X02-RESCUE-mmdvm_hs-hat P3
 U 1 1 5897CEF8
 P 4200 950
 F 0 "P3" H 4200 1100 50 0000 C CNN
@@ -1384,7 +1333,7 @@ F 8 "" H -1450 0 50 0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR035
+L power:GND #PWR035
 U 1 1 5897D6BC
 P 4500 1100
 F 0 "#PWR035" H 4500 850 50 0001 C CNN
@@ -1395,7 +1344,7 @@ F 3 "" H 4500 1100 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR036
+L power:GND #PWR036
 U 1 1 589B5309
 P 8950 3600
 F 0 "#PWR036" H 8950 3350 50 0001 C CNN
@@ -1406,7 +1355,7 @@ F 3 "" H 8950 3600 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RPI-ZERO PI1
+L RPI-Zero:RPI-ZERO PI1
 U 1 1 591C168B
 P 1850 2100
 F 0 "PI1" H 1050 3500 45 0000 L BNN
@@ -1422,7 +1371,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR037
+L power:+3.3V #PWR037
 U 1 1 591C3654
 P 800 850
 F 0 "#PWR037" H 800 700 50 0001 C CNN
@@ -1433,7 +1382,7 @@ F 3 "" H 800 850 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR038
+L power:+3.3V #PWR038
 U 1 1 591C3B4F
 P 800 1650
 F 0 "#PWR038" H 800 1500 50 0001 C CNN
@@ -1444,7 +1393,7 @@ F 3 "" H 800 1650 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR039
+L power:GND #PWR039
 U 1 1 591C3E54
 P 600 1350
 F 0 "#PWR039" H 600 1100 50 0001 C CNN
@@ -1455,7 +1404,7 @@ F 3 "" H 600 1350 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR040
+L power:GND #PWR040
 U 1 1 591C50F1
 P 650 2850
 F 0 "#PWR040" H 650 2600 50 0001 C CNN
@@ -1466,7 +1415,7 @@ F 3 "" H 650 2850 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR041
+L power:GND #PWR041
 U 1 1 591C9684
 P 3450 900
 F 0 "#PWR041" H 3450 650 50 0001 C CNN
@@ -1477,7 +1426,7 @@ F 3 "" H 3450 900 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR042
+L power:GND #PWR042
 U 1 1 591C9AFC
 P 3250 2350
 F 0 "#PWR042" H 3250 2100 50 0001 C CNN
@@ -1488,7 +1437,7 @@ F 3 "" H 3250 2350 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SW_DIP_x01-RESCUE-mmdvm_hs-hat SW1
+L mmdvm_hs-hat-rescue:SW_DIP_x01-RESCUE-mmdvm_hs-hat SW1
 U 1 1 591CFDC5
 P 4950 2650
 F 0 "SW1" H 4950 2800 50 0000 C CNN
@@ -1504,7 +1453,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X04 P2
+L mmdvm_hs-hat-rescue:CONN_01X04-RESCUE-mmdvm_hs-hat P2
 U 1 1 591D2179
 P 7800 6050
 F 0 "P2" H 7800 6300 50 0000 C CNN
@@ -1520,7 +1469,7 @@ F 8 "" H 3200 5050 50 0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR043
+L power:+5V #PWR043
 U 1 1 59771B8A
 P 3100 850
 F 0 "#PWR043" H 3100 700 50 0001 C CNN
@@ -1531,7 +1480,7 @@ F 3 "" H 3100 850 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR044
+L power:+5V #PWR044
 U 1 1 597720CE
 P 8050 5800
 F 0 "#PWR044" H 8050 5650 50 0001 C CNN
@@ -1542,7 +1491,7 @@ F 3 "" H 8050 5800 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-RESCUE-mmdvm_hs-hat D1
+L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D1
 U 1 1 59773D22
 P 8900 4300
 F 0 "D1" H 8900 4400 50 0000 C CNN
@@ -1558,7 +1507,7 @@ F 8 "" H -1550 300 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R18
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R18
 U 1 1 5977B735
 P 9300 4300
 F 0 "R18" V 9380 4300 50 0000 C CNN
@@ -1574,7 +1523,7 @@ F 8 "" H -1550 300 50 0001 C CNN "SPURL"
 	0    1    1    0   
 $EndComp
 $Comp
-L Antenna_Dipole AE1
+L mmdvm_hs-hat-rescue:Antenna_Dipole-RESCUE-mmdvm_hs-hat AE1
 U 1 1 599D9A2D
 P 6400 700
 F 0 "AE1" H 6450 750 50 0000 C CNN
@@ -1590,7 +1539,7 @@ F 8 "" H -50 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C27
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C27
 U 1 1 599DA57E
 P 4650 900
 F 0 "C27" H 4675 1000 50 0000 L CNN
@@ -1606,7 +1555,7 @@ F 8 "" H -650 -1550 50 0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L C C28
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C28
 U 1 1 599DAB88
 P 5950 900
 F 0 "C28" H 5975 1000 50 0000 L CNN
@@ -1622,7 +1571,7 @@ F 8 "" H 650 -1550 50 0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CONN_01X04 P1
+L mmdvm_hs-hat-rescue:CONN_01X04-RESCUE-mmdvm_hs-hat P1
 U 1 1 59FCFBE9
 P 8850 5100
 F 0 "P1" H 8850 5350 50 0000 C CNN
@@ -1638,7 +1587,7 @@ F 8 "" H 2250 4100 50 0001 C CNN "SPURL"
 	-1   0    0    -1  
 $EndComp
 $Comp
-L GND #PWR045
+L power:GND #PWR045
 U 1 1 59FCFBF5
 P 9500 5350
 F 0 "#PWR045" H 9500 5100 50 0001 C CNN
@@ -1649,7 +1598,7 @@ F 3 "" H 9500 5350 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C29
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C29
 U 1 1 5A056323
 P 800 4050
 F 0 "C29" H 825 4150 50 0000 L CNN
@@ -1665,7 +1614,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L L L5
+L mmdvm_hs-hat-rescue:L-RESCUE-mmdvm_hs-hat L5
 U 1 1 5A0564E8
 P 1050 3800
 F 0 "L5" V 1000 3800 50 0000 C CNN
@@ -1681,7 +1630,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR046
+L power:GND #PWR046
 U 1 1 5A05663D
 P 800 4300
 F 0 "#PWR046" H 800 4050 50 0001 C CNN
@@ -1692,7 +1641,7 @@ F 3 "" H 800 4300 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3.3V #PWR047
+L power:+3.3V #PWR047
 U 1 1 5A056726
 P 800 3700
 F 0 "#PWR047" H 800 3550 50 0001 C CNN
@@ -1703,7 +1652,7 @@ F 3 "" H 800 3700 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CP C30
+L mmdvm_hs-hat-rescue:CP-RESCUE-mmdvm_hs-hat C30
 U 1 1 5A0568B2
 P 1300 4050
 F 0 "C30" H 1325 4150 50 0000 L CNN
@@ -1719,7 +1668,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR048
+L power:GND #PWR048
 U 1 1 5A0569B8
 P 1300 4300
 F 0 "#PWR048" H 1300 4050 50 0001 C CNN
@@ -1730,7 +1679,7 @@ F 3 "" H 1300 4300 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C31
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C31
 U 1 1 5A056AA4
 P 1800 4050
 F 0 "C31" H 1825 4150 50 0000 L CNN
@@ -1746,7 +1695,7 @@ F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR049
+L power:VDD #PWR049
 U 1 1 5A056B84
 P 1800 3700
 F 0 "#PWR049" H 1800 3550 50 0001 C CNN
@@ -1757,7 +1706,7 @@ F 3 "" H 1800 3700 50 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR050
+L power:GND #PWR050
 U 1 1 5A057808
 P 1800 4300
 F 0 "#PWR050" H 1800 4050 50 0001 C CNN
@@ -1768,7 +1717,7 @@ F 3 "" H 1800 4300 50 0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR051
+L power:VDD #PWR051
 U 1 1 5A05895F
 P 2200 5150
 F 0 "#PWR051" H 2200 5000 50 0001 C CNN
@@ -1779,7 +1728,7 @@ F 3 "" H 2200 5150 50 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR052
+L power:VDD #PWR052
 U 1 1 5A058A4E
 P 3250 5250
 F 0 "#PWR052" H 3250 5100 50 0001 C CNN
@@ -1790,7 +1739,7 @@ F 3 "" H 3250 5250 50 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR053
+L power:VDD #PWR053
 U 1 1 5A058B8A
 P 5500 3700
 F 0 "#PWR053" H 5500 3550 50 0001 C CNN
@@ -1801,7 +1750,7 @@ F 3 "" H 5500 3700 50 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR054
+L power:VDD #PWR054
 U 1 1 5A058CC6
 P 2800 6750
 F 0 "#PWR054" H 2800 6600 50 0001 C CNN
@@ -1812,7 +1761,7 @@ F 3 "" H 2800 6750 50 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR055
+L power:VDD #PWR055
 U 1 1 5A058E02
 P 7050 6100
 F 0 "#PWR055" H 7050 5950 50 0001 C CNN
@@ -1823,7 +1772,7 @@ F 3 "" H 7050 6100 50 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR056
+L power:VDD #PWR056
 U 1 1 5A058F3E
 P 6050 4250
 F 0 "#PWR056" H 6050 4100 50 0001 C CNN
@@ -1834,7 +1783,7 @@ F 3 "" H 6050 4250 50 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR057
+L power:VDD #PWR057
 U 1 1 5A05915F
 P 9150 4850
 F 0 "#PWR057" H 9150 4700 50 0001 C CNN
@@ -1845,7 +1794,7 @@ F 3 "" H 9150 4850 50 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR058
+L power:VDD #PWR058
 U 1 1 5A05924E
 P 9150 5800
 F 0 "#PWR058" H 9150 5650 50 0001 C CNN
@@ -1856,7 +1805,7 @@ F 3 "" H 9150 5800 50 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR059
+L power:VDD #PWR059
 U 1 1 5A0593D7
 P 9550 4200
 F 0 "#PWR059" H 9550 4050 50 0001 C CNN
@@ -1867,7 +1816,7 @@ F 3 "" H 9550 4200 50 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR060
+L power:VDD #PWR060
 U 1 1 5A0594C6
 P 10200 4000
 F 0 "#PWR060" H 10200 3850 50 0001 C CNN
@@ -1878,7 +1827,7 @@ F 3 "" H 10200 4000 50 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR061
+L power:VDD #PWR061
 U 1 1 5A059602
 P 10050 3100
 F 0 "#PWR061" H 10050 2950 50 0001 C CNN
@@ -1889,7 +1838,7 @@ F 3 "" H 10050 3100 50 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR062
+L power:VDD #PWR062
 U 1 1 5A059822
 P 4600 2150
 F 0 "#PWR062" H 4600 2000 50 0001 C CNN
@@ -1900,7 +1849,7 @@ F 3 "" H 4600 2150 50 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR063
+L power:VDD #PWR063
 U 1 1 5A059B88
 P 7600 1500
 F 0 "#PWR063" H 7600 1350 50 0001 C CNN
@@ -1911,7 +1860,7 @@ F 3 "" H 7600 1500 50 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR064
+L power:VDD #PWR064
 U 1 1 5A059C77
 P 7200 2300
 F 0 "#PWR064" H 7200 2150 50 0001 C CNN
@@ -1922,7 +1871,7 @@ F 3 "" H 7200 2300 50 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR065
+L power:VDD #PWR065
 U 1 1 5A059D66
 P 8250 700
 F 0 "#PWR065" H 8250 550 50 0001 C CNN
@@ -1933,7 +1882,7 @@ F 3 "" H 8250 700 50 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR066
+L power:VDD #PWR066
 U 1 1 5A059EEF
 P 10000 1500
 F 0 "#PWR066" H 10000 1350 50 0001 C CNN
@@ -1944,7 +1893,7 @@ F 3 "" H 10000 1500 50 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR067
+L power:VDD #PWR067
 U 1 1 5A059FDE
 P 9500 3250
 F 0 "#PWR067" H 9500 3100 50 0001 C CNN
@@ -1955,7 +1904,7 @@ F 3 "" H 9500 3250 50 0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED-RESCUE-mmdvm_hs-hat D9
+L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D9
 U 1 1 5A69940F
 P 10850 6200
 F 0 "D9" H 10850 6300 50 0000 C CNN
@@ -1971,7 +1920,7 @@ F 8 "" H 400 0 50 0001 C CNN "SPURL"
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R19
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R19
 U 1 1 5A69941A
 P 10450 6200
 F 0 "R19" V 10530 6200 50 0000 C CNN
@@ -1985,6 +1934,38 @@ F 7 "667-ERJ-PA2D1001X" H -400 0 50 0001 C CNN "SPN"
 F 8 "" H 0 0 50 0001 C CNN "SPURL"
 	1    10450 6200
 	0    1    1    0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:L-RESCUE-mmdvm_hs-hat L6
+U 1 1 5A9B8CB6
+P 4650 4850
+F 0 "L6" V 4600 4850 50 0000 C CNN
+F 1 "18n" V 4725 4850 50 0000 C CNN
+F 2 "Inductors_SMD:L_0402" H 4650 4850 50 0001 C CNN
+F 3 "https://www.mouser.com/ds/2/418/NG_CS_1309350_PASSIVE_COMPONENT_0807-1236213.pdf" H 4650 4850 50 0001 C CNN
+F 4 "TE Connectivity / Sigma Inductors" H 3200 -1450 50 0001 C CNN "MFR"
+F 5 "36501E18NJTDG" H 3200 -1450 50 0001 C CNN "MPN"
+F 6 "Mouser" H 3200 -1450 50 0001 C CNN "SPR"
+F 7 "279-36501E18NJTDG" H 3200 -1450 50 0001 C CNN "SPN"
+F 8 "" H 3200 -1450 50 0001 C CNN "SPURL"
+	1    4650 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L adf7021:ADF7021 U1
+U 1 1 5896FF14
+P 4850 6350
+F 0 "U1" H 4850 6100 49 0000 C CNN
+F 1 "ADF7021" H 4850 6800 49 0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-48-1EP_7x7mm_Pitch0.5mm" H 4650 6100 49 0001 C CNN
+F 3 "http://www.mouser.com/ds/2/609/ADF7021-878461.pdf" H 4650 6100 49 0001 C CNN
+F 4 "Analog Devices" H 0 0 50 0001 C CNN "MFR"
+F 5 "ADF7021BCPZ" H 0 0 50 0001 C CNN "MPN"
+F 6 "Mouser" H 0 0 50 0001 C CNN "SPR"
+F 7 "584-ADF7021BCPZ" H 0 0 50 0001 C CNN "SPN"
+F 8 "" H 0 0 50 0001 C CNN "SPURL"
+	1    4850 6350
+	1    0    0    -1  
 $EndComp
 Text GLabel 7650 2200 0    49   Input ~ 0
 NRST
@@ -2030,9 +2011,9 @@ Text GLabel 9150 950  1    49   Input ~ 0
 DATAIN
 Text GLabel 9250 950  1    49   Input ~ 0
 CLKOUT
-Text GLabel 8100 6000 2    49   Input ~ 0
-DISP_TXD
 Text GLabel 8100 6100 2    49   Input ~ 0
+DISP_TXD
+Text GLabel 8100 6000 2    49   Input ~ 0
 DISP_RXD
 Text GLabel 5400 2200 2    49   Input ~ 0
 NRST
@@ -2101,11 +2082,11 @@ NXDN_LED
 Text GLabel 10200 6200 0    49   Input ~ 0
 NXDN_LED
 Wire Wire Line
-	6450 2000 6450 2400
+	6450 2000 6450 2300
 Wire Wire Line
 	6450 2300 6550 2300
 Wire Wire Line
-	6950 2100 6950 2400
+	6950 2100 6950 2300
 Wire Wire Line
 	6950 2300 6850 2300
 Wire Wire Line
@@ -2163,21 +2144,21 @@ Wire Wire Line
 Wire Wire Line
 	9050 6100 9150 6100
 Wire Wire Line
-	10050 3100 10050 3200
+	10050 3100 10050 3150
 Wire Wire Line
 	9800 3200 9800 3150
 Wire Wire Line
-	9800 3150 10300 3150
+	9800 3150 10050 3150
 Wire Wire Line
 	10300 3150 10300 3200
 Wire Wire Line
 	9800 3500 9800 3550
 Wire Wire Line
-	9800 3550 10300 3550
+	9800 3550 10050 3550
 Wire Wire Line
 	10300 3550 10300 3500
 Wire Wire Line
-	10050 3500 10050 3600
+	10050 3500 10050 3550
 Wire Wire Line
 	9900 1800 10000 1800
 Wire Wire Line
@@ -2217,9 +2198,9 @@ Wire Wire Line
 Wire Wire Line
 	8000 6100 8100 6100
 Wire Wire Line
-	4950 2200 5400 2200
+	4950 2200 5050 2200
 Wire Wire Line
-	5300 2600 5300 2700
+	5300 2600 5300 2650
 Wire Wire Line
 	5300 2200 5300 2300
 Wire Wire Line
@@ -2251,7 +2232,7 @@ Wire Wire Line
 Wire Wire Line
 	6000 6500 6500 6500
 Wire Wire Line
-	6500 6300 6500 6700
+	6500 6300 6500 6500
 Wire Wire Line
 	6000 7200 6100 7200
 Wire Wire Line
@@ -2261,7 +2242,7 @@ Wire Wire Line
 Wire Wire Line
 	6400 6300 6500 6300
 Wire Wire Line
-	6000 6200 7050 6200
+	6000 6200 6750 6200
 Wire Wire Line
 	6750 6200 6750 6300
 Wire Wire Line
@@ -2269,7 +2250,7 @@ Wire Wire Line
 Wire Wire Line
 	7050 6200 7050 6100
 Wire Wire Line
-	11100 4100 11100 6350
+	11100 4100 11100 4400
 Wire Wire Line
 	10200 4000 10200 4100
 Wire Wire Line
@@ -2299,7 +2280,7 @@ Wire Wire Line
 Wire Wire Line
 	2950 7200 2950 7300
 Wire Wire Line
-	2950 6600 2950 6900
+	2950 6600 2950 6800
 Wire Wire Line
 	2800 6800 2950 6800
 Wire Wire Line
@@ -2311,9 +2292,9 @@ Wire Wire Line
 Wire Wire Line
 	2650 7200 2650 7300
 Wire Wire Line
-	2100 6300 3850 6300
+	2100 6300 2200 6300
 Wire Wire Line
-	2200 6700 2200 6900
+	2200 6700 2200 6800
 Wire Wire Line
 	2200 6800 2300 6800
 Wire Wire Line
@@ -2329,9 +2310,9 @@ Wire Wire Line
 Wire Wire Line
 	1700 6100 1700 6300
 Wire Wire Line
-	1600 6300 1800 6300
+	1600 6300 1700 6300
 Wire Wire Line
-	1100 6300 1300 6300
+	1100 6300 1200 6300
 Wire Wire Line
 	1200 6300 1200 6400
 Wire Wire Line
@@ -2341,7 +2322,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 6100 1800 6100
 Wire Wire Line
-	2100 6100 3850 6100
+	2100 6100 2200 6100
 Wire Wire Line
 	2200 6000 2200 6100
 Wire Wire Line
@@ -2349,13 +2330,13 @@ Wire Wire Line
 Wire Wire Line
 	1950 5650 1950 5750
 Wire Wire Line
-	2200 5150 2200 5700
+	2200 5150 2200 5250
 Wire Wire Line
-	1700 5250 2200 5250
+	1700 5250 1950 5250
 Wire Wire Line
 	1950 5250 1950 5350
 Wire Wire Line
-	3250 5250 3250 5450
+	3250 5250 3250 5350
 Wire Wire Line
 	3850 6000 3450 6000
 Wire Wire Line
@@ -2363,7 +2344,7 @@ Wire Wire Line
 Wire Wire Line
 	3450 5350 3250 5350
 Wire Wire Line
-	4250 5100 4700 5100
+	4250 5100 4500 5100
 Wire Wire Line
 	4500 5100 4500 5200
 Wire Wire Line
@@ -2377,7 +2358,7 @@ Wire Wire Line
 Wire Wire Line
 	3650 5900 3650 4800
 Wire Wire Line
-	3550 4800 4000 4800
+	3550 4800 3650 4800
 Wire Wire Line
 	1700 5650 1700 5750
 Wire Wire Line
@@ -2391,21 +2372,21 @@ Wire Wire Line
 Wire Wire Line
 	4300 3650 4300 3550
 Wire Wire Line
-	4300 3550 5000 3550
+	4300 3550 4500 3550
 Wire Wire Line
 	4500 3550 4500 3650
 Wire Wire Line
 	4750 3550 4750 3650
 Wire Wire Line
-	4300 3950 4300 4050
+	4300 3950 4300 4000
 Wire Wire Line
 	4500 3950 4500 4050
 Wire Wire Line
 	4300 4350 4300 4450
 Wire Wire Line
-	4300 4450 4750 4450
+	4300 4450 4500 4450
 Wire Wire Line
-	4500 4350 4500 4550
+	4500 4350 4500 4450
 Wire Wire Line
 	4750 4450 4750 3950
 Wire Wire Line
@@ -2419,11 +2400,11 @@ Wire Wire Line
 Wire Wire Line
 	5500 4200 5500 4300
 Wire Wire Line
-	5500 3700 5500 3900
+	5500 3700 5500 3800
 Wire Wire Line
 	4900 5200 4900 3800
 Wire Wire Line
-	4900 3800 5500 3800
+	4900 3800 5200 3800
 Wire Wire Line
 	5100 5200 5100 5100
 Wire Wire Line
@@ -2437,7 +2418,7 @@ Wire Wire Line
 Wire Wire Line
 	6350 4350 6050 4350
 Wire Wire Line
-	6050 4250 6050 4400
+	6050 4250 6050 4350
 Wire Wire Line
 	6050 4700 6050 4750
 Wire Wire Line
@@ -2487,7 +2468,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 1300 3350 1300
 Wire Wire Line
-	2850 2300 3250 2300
+	2850 2300 3100 2300
 Wire Wire Line
 	2850 1800 3100 1800
 Wire Wire Line
@@ -2495,7 +2476,7 @@ Wire Wire Line
 Wire Wire Line
 	950  2100 650  2100
 Wire Wire Line
-	3100 1500 3100 2500
+	3100 1500 3100 1800
 Wire Wire Line
 	3100 2500 2850 2500
 Wire Wire Line
@@ -2541,7 +2522,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 900  3100 900 
 Wire Wire Line
-	3100 850  3100 1000
+	3100 850  3100 900 
 Wire Wire Line
 	3100 1000 2850 1000
 Wire Wire Line
@@ -2599,7 +2580,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 900  5800 900 
 Wire Wire Line
-	650  2100 650  2850
+	650  2100 650  2800
 Wire Wire Line
 	950  1000 800  1000
 Wire Wire Line
@@ -2617,13 +2598,13 @@ Wire Wire Line
 Wire Wire Line
 	9500 5050 9500 5350
 Wire Wire Line
-	800  3700 800  3900
+	800  3700 800  3800
 Wire Wire Line
 	800  3800 900  3800
 Wire Wire Line
-	1200 3800 1800 3800
+	1200 3800 1300 3800
 Wire Wire Line
-	1800 3700 1800 3900
+	1800 3700 1800 3800
 Wire Wire Line
 	1300 3800 1300 3900
 Wire Wire Line
@@ -2642,6 +2623,104 @@ Wire Wire Line
 	10700 6200 10600 6200
 Wire Wire Line
 	10300 6200 10200 6200
+Wire Wire Line
+	6450 2300 6450 2400
+Wire Wire Line
+	6950 2300 6950 2400
+Wire Wire Line
+	10050 3150 10050 3200
+Wire Wire Line
+	10050 3150 10300 3150
+Wire Wire Line
+	10050 3550 10300 3550
+Wire Wire Line
+	10050 3550 10050 3600
+Wire Wire Line
+	5300 2200 5400 2200
+Wire Wire Line
+	6500 6500 6500 6700
+Wire Wire Line
+	6750 6200 7050 6200
+Wire Wire Line
+	11100 4400 11100 4700
+Wire Wire Line
+	11100 4700 11100 5000
+Wire Wire Line
+	11100 5000 11100 5300
+Wire Wire Line
+	11100 5300 11100 5600
+Wire Wire Line
+	11100 5600 11100 5900
+Wire Wire Line
+	11100 5900 11100 6200
+Wire Wire Line
+	2950 6800 2950 6900
+Wire Wire Line
+	2200 6800 2200 6900
+Wire Wire Line
+	2200 6300 3850 6300
+Wire Wire Line
+	1700 6300 1800 6300
+Wire Wire Line
+	1200 6300 1300 6300
+Wire Wire Line
+	2200 6100 3850 6100
+Wire Wire Line
+	1950 5250 2200 5250
+Wire Wire Line
+	2200 5250 2200 5700
+Wire Wire Line
+	3250 5350 3250 5450
+Wire Wire Line
+	4500 5100 4700 5100
+Wire Wire Line
+	3650 4800 4000 4800
+Wire Wire Line
+	4500 3550 4750 3550
+Wire Wire Line
+	4500 4450 4750 4450
+Wire Wire Line
+	4500 4450 4500 4550
+Wire Wire Line
+	4750 3550 5000 3550
+Wire Wire Line
+	4300 4000 4300 4050
+Wire Wire Line
+	5500 3800 5500 3900
+Wire Wire Line
+	5200 3800 5500 3800
+Wire Wire Line
+	6050 4350 6050 4400
+Wire Wire Line
+	3100 2300 3250 2300
+Wire Wire Line
+	3100 2300 3100 2500
+Wire Wire Line
+	3100 1800 3100 2300
+Wire Wire Line
+	650  2800 650  2850
+Wire Wire Line
+	5300 2650 5300 2700
+Wire Wire Line
+	5050 2200 5300 2200
+Wire Wire Line
+	3100 900  3100 1000
+Wire Wire Line
+	800  3800 800  3900
+Wire Wire Line
+	1800 3800 1800 3900
+Wire Wire Line
+	1300 3800 1800 3800
+Wire Wire Line
+	11100 6200 11100 6350
+Wire Wire Line
+	4800 5200 4800 4850
+Wire Wire Line
+	4600 5200 4600 4950
+Wire Wire Line
+	4600 4950 4500 4950
+Wire Wire Line
+	4500 4950 4500 4850
 Connection ~ 6450 2300
 Connection ~ 6950 2300
 Connection ~ 10050 3150
@@ -2699,8 +2778,6 @@ NoConn ~ 4700 7450
 NoConn ~ 4600 7450
 NoConn ~ 4500 7450
 NoConn ~ 4400 7450
-NoConn ~ 4600 5200
-NoConn ~ 4800 5200
 NoConn ~ 5400 5200
 NoConn ~ 5500 5200
 NoConn ~ 6000 6100
