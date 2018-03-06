@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name mmdvm_hs-hat-rescue)(type Legacy)(uri ${KIPRJMOD}/mmdvm_hs-hat-rescue.lib)(options "")(descr ""))
+  (lib (name stm32f103c8t6)(type Legacy)(uri ${KIPRJMOD}/stm32f103c8t6.lib)(options "")(descr ""))
+  (lib (name adf7021)(type Legacy)(uri ${KIPRJMOD}/adf7021.lib)(options "")(descr ""))
+  (lib (name RPI-Zero)(type Legacy)(uri ${KIPRJMOD}/RPI-Zero.lib)(options "")(descr ""))
+)
