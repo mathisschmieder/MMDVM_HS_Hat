@@ -46,7 +46,7 @@ The SVC LED has been rotated and thus aligned to the layout of all other LEDs. T
 A fith mode LED has been added to the board to show NXDN activity. The two pin headers moved downwards a little. The rev1.4 stencil can be re-used if you manually add solder paste to R19 and D9 afterwards.
 
 ### Revision 1.6
-Inner RX/TX pins of Nextion connector have been swapped. External VCO inductor L6 was added. This is optional for VHF use.
+Inner RX/TX pins of Nextion connector have been swapped. External VCO inductor L6 was added. This is optional for VHF use. D-Star and DMR LEDs were swapped to flash LEDs in proper scan order :).
 
 ## BOM
 * All necessary parts for the Revision 1.1 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=780b8eac44)

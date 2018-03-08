@@ -6,7 +6,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "MMDVM_HS_Hat"
-Date "2018-03-06"
+Date "2018-03-08"
 Rev "1.6"
 Comp "DB9MAT+DF2ET"
 Comment1 ""
@@ -466,14 +466,13 @@ L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D5
 U 1 1 5896A826
 P 10850 5000
 F 0 "D5" H 10850 5100 50  0000 C CNN
-F 1 "yellow" H 10850 4900 50  0000 C CNN
+F 1 "green" H 10850 4900 50  0000 C CNN
 F 2 "LEDs:LED_0402" H 10850 5000 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/216/APG1005SYC-T-315808.pdf" H 10850 5000 50  0001 C CNN
 F 4 "Kingbright" H 400 -300 50  0001 C CNN "MFR"
 F 5 "APG1005SYC-T" H 400 -300 50  0001 C CNN "MPN"
 F 6 "Mouser" H 400 -300 50  0001 C CNN "SPR"
 F 7 "604-APG1005SYCT" H 400 -300 50  0001 C CNN "SPN"
-F 8 "" H 400 -300 50  0001 C CNN "SPURL"
 	1    10850 5000
 	-1   0    0    1   
 $EndComp
@@ -482,14 +481,13 @@ L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D6
 U 1 1 5896A8AF
 P 10850 5300
 F 0 "D6" H 10850 5400 50  0000 C CNN
-F 1 "green" H 10850 5200 50  0000 C CNN
+F 1 "yellow" H 10850 5200 50  0000 C CNN
 F 2 "LEDs:LED_0402" H 10850 5300 50  0001 C CNN
 F 3 "http://www.mouser.com/ds/2/216/APHHS1005CGCK-38896.pdf" H 10850 5300 50  0001 C CNN
 F 4 "Kingbright" H 400 -300 50  0001 C CNN "MFR"
 F 5 "APHHS1005CGCK" H 400 -300 50  0001 C CNN "MPN"
 F 6 "Mouser" H 400 -300 50  0001 C CNN "SPR"
 F 7 "604-APHHS1005CGCK" H 400 -300 50  0001 C CNN "SPN"
-F 8 "" H 400 -300 50  0001 C CNN "SPURL"
 	1    10850 5300
 	-1   0    0    1   
 $EndComp
@@ -2031,9 +2029,9 @@ Text GLabel 10200 4400 0    49   Input ~ 0
 COS_LED
 Text GLabel 10200 4700 0    49   Input ~ 0
 PTT_LED
-Text GLabel 10200 5000 0    49   Input ~ 0
-DMR_LED
 Text GLabel 10200 5300 0    49   Input ~ 0
+DMR_LED
+Text GLabel 10200 5000 0    49   Input ~ 0
 DSTAR_LED
 Text GLabel 10200 5900 0    49   Input ~ 0
 P25_LED
