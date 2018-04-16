@@ -48,6 +48,9 @@ A fith mode LED has been added to the board to show NXDN activity. The two pin h
 ### Revision 1.6
 Inner RX/TX pins of Nextion connector have been swapped. External VCO inductor L6 was added. This is optional for VHF use. D-Star and DMR LEDs were swapped to flash LEDs in proper scan order :).
 
+### Revision 1.7
+Pin order on STlink interface has been updated to align with commonly used STlink adapters. Stencils and BOM from previous version can be used.
+
 ## BOM
 * All necessary parts for the Revision 1.1 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=780b8eac44)
 * All necessary parts for the Revision 1.2 board can be ordered at Mouser using the following [shopping cart](http://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=035e777242)

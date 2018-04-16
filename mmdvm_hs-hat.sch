@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "MMDVM_HS_Hat"
-Date "2018-03-08"
-Rev "1.6"
+Date "2018-04-16"
+Rev "1.7"
 Comp "DB9MAT+DF2ET"
 Comment1 ""
 Comment2 ""
@@ -163,12 +163,12 @@ $EndComp
 $Comp
 L power:GND #PWR07
 U 1 1 589608E1
-P 9150 6300
-F 0 "#PWR07" H 9150 6050 50  0001 C CNN
-F 1 "GND" H 9150 6150 50  0000 C CNN
-F 2 "" H 9150 6300 50  0000 C CNN
-F 3 "" H 9150 6300 50  0000 C CNN
-	1    9150 6300
+P 9600 6250
+F 0 "#PWR07" H 9600 6000 50  0001 C CNN
+F 1 "GND" H 9600 6100 50  0000 C CNN
+F 2 "" H 9600 6250 50  0000 C CNN
+F 3 "" H 9600 6250 50  0000 C CNN
+	1    9600 6250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1971,9 +1971,9 @@ Text GLabel 8650 950  1    49   Input ~ 0
 BOOT0
 Text GLabel 3600 2700 2    49   Input ~ 0
 BOOT0
-Text GLabel 9150 6000 2    49   Input ~ 0
+Text GLabel 9150 6200 2    49   Input ~ 0
 SWDIO
-Text GLabel 9150 6100 2    49   Input ~ 0
+Text GLabel 9150 6000 2    49   Input ~ 0
 SWCLK
 Text GLabel 10000 1800 2    49   Input ~ 0
 SWDIO
@@ -2134,13 +2134,7 @@ Wire Wire Line
 Wire Wire Line
 	9150 5900 9150 5800
 Wire Wire Line
-	9050 6200 9150 6200
-Wire Wire Line
-	9150 6200 9150 6300
-Wire Wire Line
 	9050 6000 9150 6000
-Wire Wire Line
-	9050 6100 9150 6100
 Wire Wire Line
 	10050 3100 10050 3150
 Wire Wire Line
@@ -2809,4 +2803,10 @@ NoConn ~ 2850 1700
 NoConn ~ 2850 1600
 NoConn ~ 2850 1400
 NoConn ~ 6500 900 
+Wire Wire Line
+	9050 6200 9150 6200
+Wire Wire Line
+	9600 6100 9600 6250
+Wire Wire Line
+	9050 6100 9600 6100
 $EndSCHEMATC
