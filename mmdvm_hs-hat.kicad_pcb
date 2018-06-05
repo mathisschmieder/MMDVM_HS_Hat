@@ -1,8 +1,8 @@
-(kicad_pcb (version 20171130) (host pcbnew 5.0.0-rc2-dev-unknown-0ded476~63~ubuntu17.10.1)
+(kicad_pcb (version 20171130) (host pcbnew 5.0.0-rc2-unknown-e4a6f2e~65~ubuntu18.04.1)
 
   (general
     (thickness 1.6)
-    (drawings 38)
+    (drawings 46)
     (tracks 608)
     (zones 0)
     (modules 144)
@@ -12,7 +12,7 @@
   (page A4)
   (title_block
     (title MMDVM_HS_Hat)
-    (date 2018-03-28)
+    (date 2018-06-05)
     (rev 1.6)
     (company DB9MAT+DF2ET)
   )
@@ -36,7 +36,7 @@
     (45 Margin user)
     (46 B.CrtYd user)
     (47 F.CrtYd user)
-    (48 B.Fab user)
+    (48 B.Fab user hide)
     (49 F.Fab user hide)
   )
 
@@ -84,7 +84,7 @@
       (useauxorigin false)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -322,7 +322,7 @@
       (net 65 "Net-(D9-Pad2)"))
     (pad 1 smd rect (at -0.55 0) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -2028,7 +2028,7 @@
       (net 48 "Net-(D1-Pad2)"))
     (pad 1 smd rect (at -0.55 0) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 47 SERVICE))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -2066,7 +2066,7 @@
       (net 52 "Net-(D2-Pad2)"))
     (pad 1 smd rect (at -0.55 0) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -2104,7 +2104,7 @@
       (net 53 "Net-(D3-Pad2)"))
     (pad 1 smd rect (at -0.55 0) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -2142,7 +2142,7 @@
       (net 54 "Net-(D4-Pad2)"))
     (pad 1 smd rect (at -0.55 0) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -2180,7 +2180,7 @@
       (net 55 "Net-(D5-Pad2)"))
     (pad 1 smd rect (at -0.55 0) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -2218,7 +2218,7 @@
       (net 56 "Net-(D6-Pad2)"))
     (pad 1 smd rect (at -0.55 0) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -2256,7 +2256,7 @@
       (net 57 "Net-(D7-Pad2)"))
     (pad 1 smd rect (at -0.55 0) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -3332,7 +3332,7 @@
       (net 58 "Net-(D8-Pad2)"))
     (pad 1 smd rect (at -0.55 0) (size 0.6 0.7) (layers F.Cu F.Paste F.Mask)
       (net 1 GND))
-    (model ${KISYS3DMOD}/LEDs.3dshapes/LED_0402.wrl
+    (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_0402_1005Metric.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 180))
@@ -3537,11 +3537,6 @@
       (net 61 SCL))
     (pad 4 thru_hole oval (at 0 7.62 90) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 62 SDA))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 5A05753B) (tstamp 59FE2DCB)
@@ -3574,11 +3569,6 @@
       (net 19 DISP_TXD))
     (pad 4 thru_hole oval (at 0 7.62 90) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Pin_Headers:Pin_Header_Straight_1x04 (layer F.Cu) (tedit 5A05716D) (tstamp 59FE2DD2)
@@ -3611,11 +3601,6 @@
       (net 45 SWCLK))
     (pad 4 thru_hole oval (at 0 7.62 270) (size 2.032 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 1 GND))
-    (model ${KISYS3DMOD}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module MMDVM:ANT1204 (layer F.Cu) (tedit 5A055CBF) (tstamp 5A056113)
@@ -3848,11 +3833,6 @@
       (net 15 RF))
     (pad 2 smd rect (at 0.55 0 180) (size 0.6 0.5) (layers F.Cu F.Paste F.Mask)
       (net 60 "Net-(AE1-Pad1)"))
-    (model ${KISYS3DMOD}/Capacitor_SMD.3dshapes/C_0402_1005Metric.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module MMDVM:VIA-0.6mm (layer F.Cu) (tedit 5A05690D) (tstamp 5A056B57)
@@ -5371,6 +5351,18 @@
       (xy 2.4765 -0.87122) (xy 2.49936 -0.86868) (xy 2.49936 0.00254) (xy 2.49936 0.87376)) (layer F.SilkS) (width 0.00254))
   )
 
+  (gr_line (start 164.75 125.5) (end 175.5 125.5) (layer B.SilkS) (width 0.2))
+  (gr_line (start 175.5 123.25) (end 164.75 123.25) (layer B.SilkS) (width 0.2))
+  (gr_line (start 164.75 121) (end 175.5 121) (layer B.SilkS) (width 0.2))
+  (gr_line (start 164.75 121) (end 164.75 125.5) (layer B.SilkS) (width 0.2) (tstamp 5B16918C))
+  (gr_line (start 175.5 121) (end 175.5 125.5) (layer B.SilkS) (width 0.2))
+  (gr_line (start 173.25 121) (end 173.25 125.5) (layer B.SilkS) (width 0.2))
+  (gr_text "14.7456 MHz" (at 169 124.5) (layer B.SilkS) (tstamp 5B167922)
+    (effects (font (size 0.75 0.75) (thickness 0.1875)) (justify mirror))
+  )
+  (gr_text "12.2880 MHz" (at 169 122) (layer B.SilkS)
+    (effects (font (size 0.75 0.75) (thickness 0.1875)) (justify mirror))
+  )
   (dimension 30.15 (width 0.3) (layer Dwgs.User)
     (gr_text "30,150 mm" (at 225.1 120.675 270) (layer Dwgs.User)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
@@ -5452,7 +5444,7 @@
   (gr_arc (start 217.55 132.8) (end 220.5 132.9) (angle 88.05851361) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 158.3 132.9) (end 158.3 135.75) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 158.4 108.55) (end 155.45 108.55) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_text "DB9MAT DF2ET\nrev1.6 \n(c) 03/2018" (at 163.45 119.45) (layer F.SilkS) (tstamp 591D63D6)
+  (gr_text "DB9MAT DF2ET\nrev1.6 \n(c) 06/2018" (at 163.45 119.45) (layer F.SilkS) (tstamp 591D63D6)
     (effects (font (size 0.6 0.6) (thickness 0.14)) (justify left))
   )
   (gr_text MMDVM_HS_Hat (at 172.8 112.8) (layer F.SilkS) (tstamp 5A9E9DD7)
