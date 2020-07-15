@@ -3,3 +3,4 @@
 *.zip
 *gerber*
 _autosave-*
+.DS_Store
