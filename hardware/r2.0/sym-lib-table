@@ -2,4 +2,5 @@
   (lib (name mmdvm_hs-hat-rescue)(type Legacy)(uri ${KIPRJMOD}/mmdvm_hs-hat-rescue.lib)(options "")(descr ""))
   (lib (name adf7021)(type Legacy)(uri ${KIPRJMOD}/../../libraries/adf7021.lib)(options "")(descr ""))
   (lib (name pkl_misc)(type Legacy)(uri ${KIPRJMOD}/../../libraries/pkl/pkl_misc.lib)(options "")(descr ""))
+  (lib (name pkl_device)(type Legacy)(uri ${KIPRJMOD}/../../libraries/pkl/pkl_device.lib)(options "")(descr ""))
 )
