@@ -1,0 +1,2874 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "MMDVM_HS_Hat"
+Date "2020-07-15"
+Rev "2.0"
+Comp "DB9MAT+DF2ET"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R1
+U 1 1 58963296
+P 1050 2100
+F 0 "R1" V 1130 2100 50  0000 C CNN
+F 1 "10k" V 1050 2100 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 980 2100 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf" H 1050 2100 50  0001 C CNN
+F 4 "Vishay" H -1100 -1750 50  0001 C CNN "MFR"
+F 5 "CRCW040210K0FKED" H -1100 -1750 50  0001 C CNN "MPN"
+F 6 "Mouser" H -1100 -1750 50  0001 C CNN "SPR"
+F 7 "71-CRCW0402-10K-E3" H -1100 -1750 50  0001 C CNN "SPN"
+F 8 "" H -1100 -1750 50  0001 C CNN "SPURL"
+	1    1050 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 589647F0
+P 10750 2300
+F 0 "#PWR09" H 10750 2050 50  0001 C CNN
+F 1 "GND" H 10750 2150 50  0000 C CNN
+F 2 "" H 10750 2300 50  0000 C CNN
+F 3 "" H 10750 2300 50  0000 C CNN
+	1    10750 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R7
+U 1 1 58965445
+P 7600 2950
+F 0 "R7" V 7500 2950 50  0000 C CNN
+F 1 "10k" V 7600 2950 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 7530 2950 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf" H 7600 2950 50  0001 C CNN
+F 4 "Vishay" H 2800 750 50  0001 C CNN "MFR"
+F 5 "CRCW040210K0FKED" H 2800 750 50  0001 C CNN "MPN"
+F 6 "Mouser" H 2800 750 50  0001 C CNN "SPR"
+F 7 "71-CRCW0402-10K-E3" H 2800 750 50  0001 C CNN "SPN"
+F 8 "" H 2800 750 50  0001 C CNN "SPURL"
+	1    7600 2950
+	0    1    1    0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R8
+U 1 1 58968523
+P 6250 5800
+F 0 "R8" V 6200 5600 50  0000 C CNN
+F 1 "1k" V 6250 5800 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 6180 5800 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf" H 6250 5800 50  0001 C CNN
+F 4 "Panasonic" H 0   0   50  0001 C CNN "MFR"
+F 5 "ERJ-PA2D1001X" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "667-ERJ-PA2D1001X" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    6250 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R9
+U 1 1 589685C3
+P 6250 5900
+F 0 "R9" V 6200 5700 50  0000 C CNN
+F 1 "1k" V 6250 5900 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 6180 5900 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf" H 6250 5900 50  0001 C CNN
+F 4 "Panasonic" H 0   0   50  0001 C CNN "MFR"
+F 5 "ERJ-PA2D1001X" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "667-ERJ-PA2D1001X" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    6250 5900
+	0    1    1    0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R10
+U 1 1 58968631
+P 6250 6000
+F 0 "R10" V 6200 5800 50  0000 C CNN
+F 1 "1k" V 6250 6000 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 6180 6000 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf" H 6250 6000 50  0001 C CNN
+F 4 "Panasonic" H 0   0   50  0001 C CNN "MFR"
+F 5 "ERJ-PA2D1001X" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "667-ERJ-PA2D1001X" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    6250 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 589695A8
+P 6500 6700
+F 0 "#PWR011" H 6500 6450 50  0001 C CNN
+F 1 "GND" H 6500 6550 50  0000 C CNN
+F 2 "" H 6500 6700 50  0000 C CNN
+F 3 "" H 6500 6700 50  0000 C CNN
+	1    6500 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 5896983A
+P 6100 7300
+F 0 "#PWR012" H 6100 7050 50  0001 C CNN
+F 1 "GND" H 6100 7150 50  0000 C CNN
+F 2 "" H 6100 7300 50  0000 C CNN
+F 3 "" H 6100 7300 50  0000 C CNN
+	1    6100 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C20
+U 1 1 58969AA4
+P 6250 6300
+F 0 "C20" H 6275 6400 50  0000 L CNN
+F 1 "100n" V 6400 6200 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 6288 6150 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 6250 6300 50  0001 C CNN
+F 4 "Vishay / Vitramon" H 0   0   50  0001 C CNN "MFR"
+F 5 "VJ0402V104ZXJCW1BC" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "77-VJ0402V104ZXJCBC" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    6250 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C22
+U 1 1 58969E8F
+P 6750 6450
+F 0 "C22" H 6775 6550 50  0000 L CNN
+F 1 "10n" H 6775 6350 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 6788 6300 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 6750 6450 50  0001 C CNN
+F 4 "Vishay / Vitramon" H 0   0   50  0001 C CNN "MFR"
+F 5 "VJ0402Y103KXJCW1BC" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "77-VJ0402Y103KXJCBC" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    6750 6450
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 5896A041
+P 6750 6700
+F 0 "#PWR013" H 6750 6450 50  0001 C CNN
+F 1 "GND" H 6750 6550 50  0000 C CNN
+F 2 "" H 6750 6700 50  0000 C CNN
+F 3 "" H 6750 6700 50  0000 C CNN
+	1    6750 6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D2
+U 1 1 5896A578
+P 6350 900
+F 0 "D2" H 6350 1000 50  0000 C CNN
+F 1 "green" H 6350 800 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 6350 900 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/216/APHHS1005CGCK-38896.pdf" H 6350 900 50  0001 C CNN
+F 4 "Kingbright" H -4100 -3500 50  0001 C CNN "MFR"
+F 5 "APHHS1005CGCK" H -4100 -3500 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4100 -3500 50  0001 C CNN "SPR"
+F 7 "604-APHHS1005CGCK" H -4100 -3500 50  0001 C CNN "SPN"
+F 8 "" H -4100 -3500 50  0001 C CNN "SPURL"
+	1    6350 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D3
+U 1 1 5896A71F
+P 6350 1200
+F 0 "D3" H 6350 1300 50  0000 C CNN
+F 1 "yellow" H 6350 1100 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 6350 1200 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/216/APG1005SYC-T-315808.pdf" H 6350 1200 50  0001 C CNN
+F 4 "Kingbright" H -4100 -3500 50  0001 C CNN "MFR"
+F 5 "APG1005SYC-T" H -4100 -3500 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4100 -3500 50  0001 C CNN "SPR"
+F 7 "604-APG1005SYCT" H -4100 -3500 50  0001 C CNN "SPN"
+F 8 "" H -4100 -3500 50  0001 C CNN "SPURL"
+	1    6350 1200
+	-1   0    0    1   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D4
+U 1 1 5896A7A2
+P 6350 1500
+F 0 "D4" H 6350 1600 50  0000 C CNN
+F 1 "red" H 6350 1400 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 6350 1500 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/216/APHHS1005SURCK-32322.pdf" H 6350 1500 50  0001 C CNN
+F 4 "Kingbright" H -4100 -3500 50  0001 C CNN "MFR"
+F 5 "APHHS1005SURCK" H -4100 -3500 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4100 -3500 50  0001 C CNN "SPR"
+F 7 "604-APHHS1005SURCK" H -4100 -3500 50  0001 C CNN "SPN"
+F 8 "" H -4100 -3500 50  0001 C CNN "SPURL"
+	1    6350 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D5
+U 1 1 5896A826
+P 6350 1800
+F 0 "D5" H 6350 1900 50  0000 C CNN
+F 1 "green" H 6350 1700 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 6350 1800 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/216/APG1005SYC-T-315808.pdf" H 6350 1800 50  0001 C CNN
+F 4 "Kingbright" H -4100 -3500 50  0001 C CNN "MFR"
+F 5 "APG1005SYC-T" H -4100 -3500 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4100 -3500 50  0001 C CNN "SPR"
+F 7 "604-APG1005SYCT" H -4100 -3500 50  0001 C CNN "SPN"
+	1    6350 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D6
+U 1 1 5896A8AF
+P 6350 2100
+F 0 "D6" H 6350 2200 50  0000 C CNN
+F 1 "yellow" H 6350 2000 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 6350 2100 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/216/APHHS1005CGCK-38896.pdf" H 6350 2100 50  0001 C CNN
+F 4 "Kingbright" H -4100 -3500 50  0001 C CNN "MFR"
+F 5 "APHHS1005CGCK" H -4100 -3500 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4100 -3500 50  0001 C CNN "SPR"
+F 7 "604-APHHS1005CGCK" H -4100 -3500 50  0001 C CNN "SPN"
+	1    6350 2100
+	-1   0    0    1   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D7
+U 1 1 5896A939
+P 6350 2400
+F 0 "D7" H 6350 2500 50  0000 C CNN
+F 1 "amber" H 6350 2300 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 6350 2400 50  0001 C CNN
+F 3 "https://www.mouser.de/kingbright-minikin-air-leds" H 6350 2400 50  0001 C CNN
+F 4 "Kingbright" H -4100 -3500 50  0001 C CNN "MFR"
+F 5 "APG1005SEC-T" H -4100 -3500 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4100 -3500 50  0001 C CNN "SPR"
+F 7 "604-APG1005SECT" H -4100 -3500 50  0001 C CNN "SPN"
+F 8 "" H -4100 -3500 50  0001 C CNN "SPURL"
+	1    6350 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D8
+U 1 1 5896A9C6
+P 6350 2700
+F 0 "D8" H 6350 2800 50  0000 C CNN
+F 1 "red" H 6350 2600 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 6350 2700 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/216/APHHS1005SURCK-32322.pdf" H 6350 2700 50  0001 C CNN
+F 4 "Kingbright" H -4100 -3500 50  0001 C CNN "MFR"
+F 5 "APHHS1005SURCK" H -4100 -3500 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4100 -3500 50  0001 C CNN "SPR"
+F 7 "604-APHHS1005SURCK" H -4100 -3500 50  0001 C CNN "SPN"
+F 8 "" H -4100 -3500 50  0001 C CNN "SPURL"
+	1    6350 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R11
+U 1 1 5896AA58
+P 5950 900
+F 0 "R11" V 6030 900 50  0000 C CNN
+F 1 "1k" V 5950 900 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 5880 900 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf" H 5950 900 50  0001 C CNN
+F 4 "Panasonic" H -4900 -3500 50  0001 C CNN "MFR"
+F 5 "ERJ-PA2D1001X" H -4900 -3500 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4900 -3500 50  0001 C CNN "SPR"
+F 7 "667-ERJ-PA2D1001X" H -4900 -3500 50  0001 C CNN "SPN"
+F 8 "" H -4500 -3500 50  0001 C CNN "SPURL"
+	1    5950 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R12
+U 1 1 5896ABAD
+P 5950 1200
+F 0 "R12" V 6030 1200 50  0000 C CNN
+F 1 "1k" V 5950 1200 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 5880 1200 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf" H 5950 1200 50  0001 C CNN
+F 4 "Panasonic" H -4900 -3500 50  0001 C CNN "MFR"
+F 5 "ERJ-PA2D1001X" H -4900 -3500 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4900 -3500 50  0001 C CNN "SPR"
+F 7 "667-ERJ-PA2D1001X" H -4900 -3500 50  0001 C CNN "SPN"
+F 8 "" H -4500 -3500 50  0001 C CNN "SPURL"
+	1    5950 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R13
+U 1 1 5896AC48
+P 5950 1500
+F 0 "R13" V 6030 1500 50  0000 C CNN
+F 1 "1k" V 5950 1500 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 5880 1500 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf" H 5950 1500 50  0001 C CNN
+F 4 "Panasonic" H -4900 -3500 50  0001 C CNN "MFR"
+F 5 "ERJ-PA2D1001X" H -4900 -3500 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4900 -3500 50  0001 C CNN "SPR"
+F 7 "667-ERJ-PA2D1001X" H -4900 -3500 50  0001 C CNN "SPN"
+F 8 "" H -4500 -3500 50  0001 C CNN "SPURL"
+	1    5950 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R14
+U 1 1 5896ACE3
+P 5950 1800
+F 0 "R14" V 6030 1800 50  0000 C CNN
+F 1 "1k" V 5950 1800 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 5880 1800 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf" H 5950 1800 50  0001 C CNN
+F 4 "Panasonic" H -4900 -3500 50  0001 C CNN "MFR"
+F 5 "ERJ-PA2D1001X" H -4900 -3500 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4900 -3500 50  0001 C CNN "SPR"
+F 7 "667-ERJ-PA2D1001X" H -4900 -3500 50  0001 C CNN "SPN"
+F 8 "" H -4500 -3500 50  0001 C CNN "SPURL"
+	1    5950 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R15
+U 1 1 5896AD81
+P 5950 2100
+F 0 "R15" V 6030 2100 50  0000 C CNN
+F 1 "1k" V 5950 2100 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 5880 2100 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf" H 5950 2100 50  0001 C CNN
+F 4 "Panasonic" H -4900 -3500 50  0001 C CNN "MFR"
+F 5 "ERJ-PA2D1001X" H -4900 -3500 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4900 -3500 50  0001 C CNN "SPR"
+F 7 "667-ERJ-PA2D1001X" H -4900 -3500 50  0001 C CNN "SPN"
+F 8 "" H -4500 -3500 50  0001 C CNN "SPURL"
+	1    5950 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R16
+U 1 1 5896AE20
+P 5950 2400
+F 0 "R16" V 6030 2400 50  0000 C CNN
+F 1 "1k" V 5950 2400 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 5880 2400 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf" H 5950 2400 50  0001 C CNN
+F 4 "Panasonic" H -4900 -3500 50  0001 C CNN "MFR"
+F 5 "ERJ-PA2D1001X" H -4900 -3500 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4900 -3500 50  0001 C CNN "SPR"
+F 7 "667-ERJ-PA2D1001X" H -4900 -3500 50  0001 C CNN "SPN"
+F 8 "" H -4500 -3500 50  0001 C CNN "SPURL"
+	1    5950 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R17
+U 1 1 5896AEC4
+P 5950 2700
+F 0 "R17" V 6030 2700 50  0000 C CNN
+F 1 "1k" V 5950 2700 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 5880 2700 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf" H 5950 2700 50  0001 C CNN
+F 4 "Panasonic" H -4900 -3500 50  0001 C CNN "MFR"
+F 5 "ERJ-PA2D1001X" H -4900 -3500 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4900 -3500 50  0001 C CNN "SPR"
+F 7 "667-ERJ-PA2D1001X" H -4900 -3500 50  0001 C CNN "SPN"
+F 8 "" H -4500 -3500 50  0001 C CNN "SPURL"
+	1    5950 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 5896B54C
+P 6600 3400
+F 0 "#PWR014" H 6600 3150 50  0001 C CNN
+F 1 "GND" H 6600 3250 50  0000 C CNN
+F 2 "" H 6600 3400 50  0000 C CNN
+F 3 "" H 6600 3400 50  0000 C CNN
+	1    6600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 5896D52C
+P 5300 7550
+F 0 "#PWR015" H 5300 7300 50  0001 C CNN
+F 1 "GND" H 5300 7400 50  0000 C CNN
+F 2 "" H 5300 7550 50  0000 C CNN
+F 3 "" H 5300 7550 50  0000 C CNN
+	1    5300 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 5896D602
+P 5000 7550
+F 0 "#PWR016" H 5000 7300 50  0001 C CNN
+F 1 "GND" H 5000 7400 50  0000 C CNN
+F 2 "" H 5000 7550 50  0000 C CNN
+F 3 "" H 5000 7550 50  0000 C CNN
+	1    5000 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 5896DC14
+P 3750 7000
+F 0 "#PWR017" H 3750 6750 50  0001 C CNN
+F 1 "GND" H 3750 6850 50  0000 C CNN
+F 2 "" H 3750 7000 50  0000 C CNN
+F 3 "" H 3750 7000 50  0000 C CNN
+	1    3750 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C10
+U 1 1 5896DEF7
+P 3450 7050
+F 0 "C10" H 3475 7150 50  0000 L CNN
+F 1 "100n" H 3475 6950 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 3488 6900 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 3450 7050 50  0001 C CNN
+F 4 "Vishay / Vitramon" H 0   0   50  0001 C CNN "MFR"
+F 5 "VJ0402V104ZXJCW1BC" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "77-VJ0402V104ZXJCBC" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    3450 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5896E12A
+P 3450 7300
+F 0 "#PWR018" H 3450 7050 50  0001 C CNN
+F 1 "GND" H 3450 7150 50  0000 C CNN
+F 2 "" H 3450 7300 50  0000 C CNN
+F 3 "" H 3450 7300 50  0000 C CNN
+	1    3450 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R3
+U 1 1 5896E5F8
+P 3250 7050
+F 0 "R3" V 3330 7050 50  0000 C CNN
+F 1 "3k8" V 3250 7050 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 3180 7050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-358748.pdf" H 3250 7050 50  0001 C CNN
+F 4 "Susumu" H 0   0   50  0001 C CNN "MFR"
+F 5 "RR0510P-3831-D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "754-RR0510P-3831D" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    3250 7050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 5896E6E5
+P 3250 7300
+F 0 "#PWR019" H 3250 7050 50  0001 C CNN
+F 1 "GND" H 3250 7150 50  0000 C CNN
+F 2 "" H 3250 7300 50  0000 C CNN
+F 3 "" H 3250 7300 50  0000 C CNN
+	1    3250 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C7
+U 1 1 5896E97E
+P 2950 7050
+F 0 "C7" H 2975 7150 50  0000 L CNN
+F 1 "10n" H 2975 6950 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 2988 6900 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 2950 7050 50  0001 C CNN
+F 4 "Vishay / Vitramon" H 0   0   50  0001 C CNN "MFR"
+F 5 "VJ0402Y103KXJCW1BC" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "77-VJ0402Y103KXJCBC" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    2950 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 5896EA9D
+P 2950 7300
+F 0 "#PWR020" H 2950 7050 50  0001 C CNN
+F 1 "GND" H 2950 7150 50  0000 C CNN
+F 2 "" H 2950 7300 50  0000 C CNN
+F 3 "" H 2950 7300 50  0000 C CNN
+	1    2950 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R2
+U 1 1 5896F75D
+P 2650 7050
+F 0 "R2" V 2730 7050 50  0000 C CNN
+F 1 "1k1" V 2650 7050 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 2580 7050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/392/susumu_RR_Data_Sheet-358748.pdf" H 2650 7050 50  0001 C CNN
+F 4 "Susumu" H 0   0   50  0001 C CNN "MFR"
+F 5 "RR0510P-112-D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "754-RR0510P-112D" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    2650 7050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 5896F98A
+P 2650 7300
+F 0 "#PWR021" H 2650 7050 50  0001 C CNN
+F 1 "GND" H 2650 7150 50  0000 C CNN
+F 2 "" H 2650 7300 50  0000 C CNN
+F 3 "" H 2650 7300 50  0000 C CNN
+	1    2650 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C6
+U 1 1 589705E1
+P 2200 7050
+F 0 "C6" H 2225 7150 50  0000 L CNN
+F 1 "6p8" H 2225 6950 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 2238 6900 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/c02e-2905.pdf" H 2200 7050 50  0001 C CNN
+F 4 "Murata Electronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "GJM1555C1H6R8BB01D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "81-GJM1555C1H6R8BB1D" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    2200 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:L-RESCUE-mmdvm_hs-hat L4
+U 1 1 589706C7
+P 2200 6550
+F 0 "L4" V 2150 6550 50  0000 C CNN
+F 1 "27n" V 2275 6550 50  0000 C CNN
+F 2 "pkl_dipol:L_0402" H 2200 6550 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/murata_inductors-1186262.pdf" H 2200 6550 50  0001 C CNN
+F 4 "Murata Electronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "LQW15AN27NG80D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "81-LQW15AN27NG80D" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    2200 6550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR022
+U 1 1 58970FFE
+P 2200 7300
+F 0 "#PWR022" H 2200 7050 50  0001 C CNN
+F 1 "GND" H 2200 7150 50  0000 C CNN
+F 2 "" H 2200 7300 50  0000 C CNN
+F 3 "" H 2200 7300 50  0000 C CNN
+	1    2200 7300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 5897177B
+P 3750 6200
+F 0 "#PWR023" H 3750 5950 50  0001 C CNN
+F 1 "GND" H 3750 6050 50  0000 C CNN
+F 2 "" H 3750 6200 50  0000 C CNN
+F 3 "" H 3750 6200 50  0000 C CNN
+	1    3750 6200
+	0    1    1    0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C5
+U 1 1 58971A8F
+P 1950 6300
+F 0 "C5" H 1975 6400 50  0000 L CNN
+F 1 "4p7" H 1975 6200 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 1988 6150 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/c02e-2905.pdf" H 1950 6300 50  0001 C CNN
+F 4 "Murata Electronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRM1555C1H4R7CA01D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "81-GRM1555C1H4R7CA1D" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    1950 6300
+	0    1    1    0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C4
+U 1 1 58971E4D
+P 1950 6100
+F 0 "C4" H 1975 6200 50  0000 L CNN
+F 1 "10p" H 1975 6000 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 1988 5950 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/c02e-2905.pdf" H 1950 6100 50  0001 C CNN
+F 4 "Murata Electronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRM1555C1E100GA01D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "81-GRM1555C1E100GA1D" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    1950 6100
+	0    1    1    0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:L-RESCUE-mmdvm_hs-hat L2
+U 1 1 58972852
+P 1450 6300
+F 0 "L2" V 1400 6300 50  0000 C CNN
+F 1 "20n" V 1525 6300 50  0000 C CNN
+F 2 "pkl_dipol:L_0402" H 1450 6300 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/418/NG_CD_1624112_BA1-656883.pdf" H 1450 6300 50  0001 C CNN
+F 4 "TE Connectivity / Sigma Inductors" H 0   0   50  0001 C CNN "MFR"
+F 5 "36501E20NJTDG" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "279-36501E20NJTDG" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    1450 6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C1
+U 1 1 58972AD9
+P 1200 6550
+F 0 "C1" H 1225 6650 50  0000 L CNN
+F 1 "6p8" H 1225 6450 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 1238 6400 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/c02e-2905.pdf" H 1200 6550 50  0001 C CNN
+F 4 "Murata Electronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "GJM1555C1H6R8BB01D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "81-GJM1555C1H6R8BB1D" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    1200 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 58972BB7
+P 1200 6800
+F 0 "#PWR024" H 1200 6550 50  0001 C CNN
+F 1 "GND" H 1200 6650 50  0000 C CNN
+F 2 "" H 1200 6800 50  0000 C CNN
+F 3 "" H 1200 6800 50  0000 C CNN
+	1    1200 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:L-RESCUE-mmdvm_hs-hat L1
+U 1 1 58972EEA
+P 950 6300
+F 0 "L1" V 900 6300 50  0000 C CNN
+F 1 "22n" V 1025 6300 50  0000 C CNN
+F 2 "pkl_dipol:L_0402" H 950 6300 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/JELF243A-0140-937123.pdf" H 950 6300 50  0001 C CNN
+F 4 "Murata Electronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "LQW15CA22NJ00D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "81-LQW15CA22NJ00D" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    950  6300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:L-RESCUE-mmdvm_hs-hat L3
+U 1 1 58973BF8
+P 2200 5850
+F 0 "L3" V 2150 5850 50  0000 C CNN
+F 1 "13n" V 2275 5850 50  0000 C CNN
+F 2 "pkl_dipol:L_0402" H 2200 5850 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/murata_inductors-1186262.pdf" H 2200 5850 50  0001 C CNN
+F 4 "Murata Electronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "LQW15AN13NG80D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "81-LQW15AN13NG80D" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    2200 5850
+	-1   0    0    1   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C3
+U 1 1 58973FC2
+P 1950 5500
+F 0 "C3" H 1975 5600 50  0000 L CNN
+F 1 "220p" H 1975 5400 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 1988 5350 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/c02e-2905.pdf" H 1950 5500 50  0001 C CNN
+F 4 "Murata Electronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRM1555C1H221JA01D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "81-GRM1555C1H221JA01" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    1950 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C9
+U 1 1 58974124
+P 3250 5600
+F 0 "C9" H 3275 5700 50  0000 L CNN
+F 1 "10n" H 3275 5500 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 3288 5450 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 3250 5600 50  0001 C CNN
+F 4 "Vishay / Vitramon" H 0   0   50  0001 C CNN "MFR"
+F 5 "VJ0402Y103KXJCW1BC" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "77-VJ0402Y103KXJCBC" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    3250 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR025
+U 1 1 58974277
+P 1950 5750
+F 0 "#PWR025" H 1950 5500 50  0001 C CNN
+F 1 "GND" H 1950 5600 50  0000 C CNN
+F 2 "" H 1950 5750 50  0000 C CNN
+F 3 "" H 1950 5750 50  0000 C CNN
+	1    1950 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 5897433F
+P 3250 5850
+F 0 "#PWR026" H 3250 5600 50  0001 C CNN
+F 1 "GND" H 3250 5700 50  0000 C CNN
+F 2 "" H 3250 5850 50  0000 C CNN
+F 3 "" H 3250 5850 50  0000 C CNN
+	1    3250 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR027
+U 1 1 58975323
+P 4250 5100
+F 0 "#PWR027" H 4250 4850 50  0001 C CNN
+F 1 "GND" H 4250 4950 50  0000 C CNN
+F 2 "" H 4250 5100 50  0000 C CNN
+F 3 "" H 4250 5100 50  0000 C CNN
+	1    4250 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C11
+U 1 1 589757AF
+P 4150 4800
+F 0 "C11" H 4175 4900 50  0000 L CNN
+F 1 "22n" H 4175 4700 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 4188 4650 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/c03e-806517.pdf" H 4150 4800 50  0001 C CNN
+F 4 "Murata Electronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "GCM155R71E223KA55D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "81-GCM155R71E223KA5D" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    4150 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R4
+U 1 1 58976039
+P 3400 4800
+F 0 "R4" V 3480 4800 50  0000 C CNN
+F 1 "3r9" V 3400 4800 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 3330 4800 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf" H 3400 4800 50  0001 C CNN
+F 4 "Vishay" H 0   0   50  0001 C CNN "MFR"
+F 5 "CRCW04023R90JNED" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "71-CRCW0402J-3.9-E3" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    3400 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C8
+U 1 1 589762ED
+P 3000 4800
+F 0 "C8" H 3025 4900 50  0000 L CNN
+F 1 "100n" H 3025 4700 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 3038 4650 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 3000 4800 50  0001 C CNN
+F 4 "Vishay / Vitramon" H 0   0   50  0001 C CNN "MFR"
+F 5 "VJ0402V104ZXJCW1BC" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "77-VJ0402V104ZXJCBC" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    3000 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C2
+U 1 1 589765ED
+P 1700 5500
+F 0 "C2" H 1725 5600 50  0000 L CNN
+F 1 "10n" H 1725 5400 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 1738 5350 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 1700 5500 50  0001 C CNN
+F 4 "Vishay / Vitramon" H 0   0   50  0001 C CNN "MFR"
+F 5 "VJ0402Y103KXJCW1BC" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "77-VJ0402Y103KXJCBC" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    1700 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 589766E0
+P 1700 5750
+F 0 "#PWR028" H 1700 5500 50  0001 C CNN
+F 1 "GND" H 1700 5600 50  0000 C CNN
+F 2 "" H 1700 5750 50  0000 C CNN
+F 3 "" H 1700 5750 50  0000 C CNN
+	1    1700 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 58976CC1
+P 2750 4900
+F 0 "#PWR029" H 2750 4650 50  0001 C CNN
+F 1 "GND" H 2750 4750 50  0000 C CNN
+F 2 "" H 2750 4900 50  0000 C CNN
+F 3 "" H 2750 4900 50  0000 C CNN
+	1    2750 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R5
+U 1 1 58977A3D
+P 4300 3800
+F 0 "R5" V 4380 3800 50  0000 C CNN
+F 1 "560" V 4300 3800 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 4230 3800 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C237-1100991.pdf" H 4300 3800 50  0001 C CNN
+F 4 "Panasonic" H 0   0   50  0001 C CNN "MFR"
+F 5 "ERA-2AEB561X" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "667-ERA-2AEB561X" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    4300 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R6
+U 1 1 58977B33
+P 4500 3800
+F 0 "R6" V 4580 3800 50  0000 C CNN
+F 1 "270" V 4500 3800 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 4430 3800 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C237-1100991.pdf" H 4500 3800 50  0001 C CNN
+F 4 "Panasonic" H 0   0   50  0001 C CNN "MFR"
+F 5 "ERA-2AEB271X" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "667-ERA-2AEB271X" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    4500 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C12
+U 1 1 58977C18
+P 4300 4200
+F 0 "C12" H 4325 4300 50  0000 L CNN
+F 1 "470p" H 4325 4100 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 4338 4050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/c02e-2905.pdf" H 4300 4200 50  0001 C CNN
+F 4 "Murata Electronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRM155R71H471KA01D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "81-GRM36X471K50" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    4300 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C13
+U 1 1 58977D12
+P 4500 4200
+F 0 "C13" H 4525 4300 50  0000 L CNN
+F 1 "15n" H 4525 4100 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 4538 4050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/c02e-2905.pdf" H 4500 4200 50  0001 C CNN
+F 4 "Murata Electronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRM155R71C153KA01D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "81-GRM155R71C153KA1D" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    4500 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C14
+U 1 1 58977DF7
+P 4750 3800
+F 0 "C14" H 4775 3900 50  0000 L CNN
+F 1 "1n" H 4775 3700 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 4788 3650 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/c02e-2905.pdf" H 4750 3800 50  0001 C CNN
+F 4 "Murata Electronics" H 0   0   50  0001 C CNN "MFR"
+F 5 "GRM155R60J102KA01D" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "81-GRM155R60J102KA1D" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    4750 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 589789C1
+P 4500 4550
+F 0 "#PWR030" H 4500 4300 50  0001 C CNN
+F 1 "GND" H 4500 4400 50  0000 C CNN
+F 2 "" H 4500 4550 50  0000 C CNN
+F 3 "" H 4500 4550 50  0000 C CNN
+	1    4500 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C17
+U 1 1 58979714
+P 5500 4050
+F 0 "C17" H 5525 4150 50  0000 L CNN
+F 1 "10n" H 5525 3950 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 5538 3900 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 5500 4050 50  0001 C CNN
+F 4 "Vishay / Vitramon" H 0   0   50  0001 C CNN "MFR"
+F 5 "VJ0402Y103KXJCW1BC" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "77-VJ0402Y103KXJCBC" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    5500 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 5897971A
+P 5500 4300
+F 0 "#PWR031" H 5500 4050 50  0001 C CNN
+F 1 "GND" H 5500 4150 50  0000 C CNN
+F 2 "" H 5500 4300 50  0000 C CNN
+F 3 "" H 5500 4300 50  0000 C CNN
+	1    5500 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C15
+U 1 1 58979B33
+P 5100 4950
+F 0 "C15" V 5150 5000 50  0000 L CNN
+F 1 "100n" V 5150 4700 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 5138 4800 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 5100 4950 50  0001 C CNN
+F 4 "Vishay / Vitramon" H 0   0   50  0001 C CNN "MFR"
+F 5 "VJ0402V104ZXJCW1BC" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "77-VJ0402V104ZXJCBC" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    5100 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR032
+U 1 1 58979E35
+P 5100 4700
+F 0 "#PWR032" H 5100 4450 50  0001 C CNN
+F 1 "GND" H 5100 4550 50  0000 C CNN
+F 2 "" H 5100 4700 50  0000 C CNN
+F 3 "" H 5100 4700 50  0000 C CNN
+	1    5100 4700
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR033
+U 1 1 5897AC36
+P 6500 4700
+F 0 "#PWR033" H 6500 4450 50  0001 C CNN
+F 1 "GND" H 6500 4550 50  0000 C CNN
+F 2 "" H 6500 4700 50  0000 C CNN
+F 3 "" H 6500 4700 50  0000 C CNN
+	1    6500 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR034
+U 1 1 5897AF7A
+P 7100 4300
+F 0 "#PWR034" H 7100 4050 50  0001 C CNN
+F 1 "GND" H 7100 4150 50  0000 C CNN
+F 2 "" H 7100 4300 50  0000 C CNN
+F 3 "" H 7100 4300 50  0000 C CNN
+	1    7100 4300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C19
+U 1 1 5897B23C
+P 7100 4100
+F 0 "C19" H 7125 4200 50  0000 L CNN
+F 1 "10n" H 7125 4000 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 7138 3950 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 7100 4100 50  0001 C CNN
+F 4 "Vishay / Vitramon" H 1050 -450 50  0001 C CNN "MFR"
+F 5 "VJ0402Y103KXJCW1BC" H 1050 -450 50  0001 C CNN "MPN"
+F 6 "Mouser" H 1050 -450 50  0001 C CNN "SPR"
+F 7 "77-VJ0402Y103KXJCBC" H 1050 -450 50  0001 C CNN "SPN"
+F 8 "" H 1050 -450 50  0001 C CNN "SPURL"
+	1    7100 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C18
+U 1 1 5897BA0E
+P 5800 4550
+F 0 "C18" H 5825 4650 50  0000 L CNN
+F 1 "22p" H 5825 4450 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 5838 4400 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/40/C0GNP0-Dielectric-951274.pdf" H 5800 4550 50  0001 C CNN
+F 4 "AVX" H 0   0   50  0001 C CNN "MFR"
+F 5 "04025A220GAT2A" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "581-04025A220G" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    5800 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR035
+U 1 1 5897D6BC
+P 700 4750
+F 0 "#PWR035" H 700 4500 50  0001 C CNN
+F 1 "GND" H 700 4600 50  0000 C CNN
+F 2 "" H 700 4750 50  0000 C CNN
+F 3 "" H 700 4750 50  0000 C CNN
+	1    700  4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR044
+U 1 1 597720CE
+P 10700 1800
+F 0 "#PWR044" H 10700 1650 50  0001 C CNN
+F 1 "+5V" H 10700 1940 50  0000 C CNN
+F 2 "" H 10700 1800 50  0000 C CNN
+F 3 "" H 10700 1800 50  0000 C CNN
+	1    10700 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D1
+U 1 1 59773D22
+P 7400 900
+F 0 "D1" H 7400 1000 50  0000 C CNN
+F 1 "red" H 7400 800 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 7400 900 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/216/APHHS1005SURCK-32322.pdf" H 7400 900 50  0001 C CNN
+F 4 "Kingbright" H -3050 -5000 50  0001 C CNN "MFR"
+F 5 "APHHS1005SURCK" H -3050 -5000 50  0001 C CNN "MPN"
+F 6 "Mouser" H -3050 -5000 50  0001 C CNN "SPR"
+F 7 "604-APHHS1005SURCK" H -3050 -5000 50  0001 C CNN "SPN"
+F 8 "" H -3050 -3100 50  0001 C CNN "SPURL"
+	1    7400 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R18
+U 1 1 5977B735
+P 7800 900
+F 0 "R18" V 7880 900 50  0000 C CNN
+F 1 "1k" V 7800 900 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 7730 900 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf" H 7800 900 50  0001 C CNN
+F 4 "Panasonic" H -3050 -3500 50  0001 C CNN "MFR"
+F 5 "ERJ-PA2D1001X" H -3050 -3500 50  0001 C CNN "MPN"
+F 6 "Mouser" H -3050 -3500 50  0001 C CNN "SPR"
+F 7 "667-ERJ-PA2D1001X" H -3050 -3500 50  0001 C CNN "SPN"
+F 8 "" H -3050 -3100 50  0001 C CNN "SPURL"
+	1    7800 900 
+	0    1    1    0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:Antenna_Dipole-RESCUE-mmdvm_hs-hat AE1
+U 1 1 599D9A2D
+P 2000 4250
+F 0 "AE1" H 2050 4250 50  0000 C CNN
+F 1 "CERAMIC_ANTENNA" H 2050 3950 50  0000 C CNN
+F 2 "MMDVM:ANT1204" H 2000 4250 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/447/An_SMD_UHF_433_1204_0-595178.pdf" H 2000 4250 50  0001 C CNN
+F 4 "Yageo" H -4450 3550 50  0001 C CNN "MFR"
+F 5 "ANT1204F002R0433A" H -4450 3550 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4450 3550 50  0001 C CNN "SPR"
+F 7 "603-ANT1204F002R0433" H -4450 3550 50  0001 C CNN "SPN"
+F 8 "" H -4450 3550 50  0001 C CNN "SPURL"
+	1    2000 4250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C27
+U 1 1 599DA57E
+P 1150 4450
+F 0 "C27" H 1175 4550 50  0000 L CNN
+F 1 "100n" H 1175 4350 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 1188 4300 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 1150 4450 50  0001 C CNN
+F 4 "Vishay / Vitramon" H -4150 2000 50  0001 C CNN "MFR"
+F 5 "VJ0402V104ZXJCW1BC" H -4150 2000 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4150 2000 50  0001 C CNN "SPR"
+F 7 "77-VJ0402V104ZXJCBC" H -4150 2000 50  0001 C CNN "SPN"
+F 8 "" H -4150 2000 50  0001 C CNN "SPURL"
+	1    1150 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C28
+U 1 1 599DAB88
+P 2450 4450
+F 0 "C28" H 2475 4550 50  0000 L CNN
+F 1 "100n" H 2475 4350 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 2488 4300 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 2450 4450 50  0001 C CNN
+F 4 "Vishay / Vitramon" H -2850 2000 50  0001 C CNN "MFR"
+F 5 "VJ0402V104ZXJCW1BC" H -2850 2000 50  0001 C CNN "MPN"
+F 6 "Mouser" H -2850 2000 50  0001 C CNN "SPR"
+F 7 "77-VJ0402V104ZXJCBC" H -2850 2000 50  0001 C CNN "SPN"
+F 8 "" H -2850 2000 50  0001 C CNN "SPURL"
+	1    2450 4450
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR045
+U 1 1 59FCFBF5
+P 3800 2650
+F 0 "#PWR045" H 3800 2400 50  0001 C CNN
+F 1 "GND" H 3800 2500 50  0000 C CNN
+F 2 "" H 3800 2650 50  0000 C CNN
+F 3 "" H 3800 2650 50  0000 C CNN
+	1    3800 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C29
+U 1 1 5A056323
+P 3400 1150
+F 0 "C29" H 3425 1250 50  0000 L CNN
+F 1 "100n" H 3425 1050 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 3438 1000 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 3400 1150 50  0001 C CNN
+F 4 "Vishay / Vitramon" H 2600 -2900 50  0001 C CNN "MFR"
+F 5 "VJ0402V104ZXJCW1BC" H 2600 -2900 50  0001 C CNN "MPN"
+F 6 "Mouser" H 2600 -2900 50  0001 C CNN "SPR"
+F 7 "77-VJ0402V104ZXJCBC" H 2600 -2900 50  0001 C CNN "SPN"
+F 8 "" H 2600 -2900 50  0001 C CNN "SPURL"
+	1    3400 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:L-RESCUE-mmdvm_hs-hat L5
+U 1 1 5A0564E8
+P 3650 900
+F 0 "L5" V 3600 900 50  0000 C CNN
+F 1 "10u" V 3725 900 50  0000 C CNN
+F 2 "pkl_dipol:L_0402" H 3650 900 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/445/74279277-372706.pdf" H 3650 900 50  0001 C CNN
+F 4 "Wurth Electronics" H 2600 -2900 50  0001 C CNN "MFR"
+F 5 "74279277" H 2600 -2900 50  0001 C CNN "MPN"
+F 6 "Mouser" H 2600 -2900 50  0001 C CNN "SPR"
+F 7 "710-74279277" H 2600 -2900 50  0001 C CNN "SPN"
+F 8 "" H 2600 -2900 50  0001 C CNN "SPURL"
+	1    3650 900 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR046
+U 1 1 5A05663D
+P 3400 1400
+F 0 "#PWR046" H 3400 1150 50  0001 C CNN
+F 1 "GND" H 3400 1250 50  0000 C CNN
+F 2 "" H 3400 1400 50  0000 C CNN
+F 3 "" H 3400 1400 50  0000 C CNN
+	1    3400 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C31
+U 1 1 5A056AA4
+P 5100 1150
+F 0 "C31" H 5125 1250 50  0000 L CNN
+F 1 "10u" H 5125 1050 50  0000 L CNN
+F 2 "pkl_dipol:C_0603" H 5138 1000 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/c02e-2905.pdf" H 5100 1150 50  0001 C CNN
+F 4 "Murata Electronics" H 3300 -2900 50  0001 C CNN "MFR"
+F 5 "GRJ155R60J106ME11D" H 3300 -2900 50  0001 C CNN "MPN"
+F 6 "Mouser" H 3300 -2900 50  0001 C CNN "SPR"
+F 7 "81-GRJ155R60J106ME1D" H 3300 -2900 50  0001 C CNN "SPN"
+F 8 "" H 3300 -2900 50  0001 C CNN "SPURL"
+	1    5100 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR049
+U 1 1 5A056B84
+P 5100 800
+F 0 "#PWR049" H 5100 650 50  0001 C CNN
+F 1 "VDD" H 5100 950 50  0000 C CNN
+F 2 "" H 5100 800 50  0001 C CNN
+F 3 "" H 5100 800 50  0001 C CNN
+	1    5100 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR050
+U 1 1 5A057808
+P 5100 1400
+F 0 "#PWR050" H 5100 1150 50  0001 C CNN
+F 1 "GND" H 5100 1250 50  0000 C CNN
+F 2 "" H 5100 1400 50  0000 C CNN
+F 3 "" H 5100 1400 50  0000 C CNN
+	1    5100 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR051
+U 1 1 5A05895F
+P 2200 5150
+F 0 "#PWR051" H 2200 5000 50  0001 C CNN
+F 1 "VDD" H 2200 5300 50  0000 C CNN
+F 2 "" H 2200 5150 50  0001 C CNN
+F 3 "" H 2200 5150 50  0001 C CNN
+	1    2200 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR052
+U 1 1 5A058A4E
+P 3250 5250
+F 0 "#PWR052" H 3250 5100 50  0001 C CNN
+F 1 "VDD" H 3250 5400 50  0000 C CNN
+F 2 "" H 3250 5250 50  0001 C CNN
+F 3 "" H 3250 5250 50  0001 C CNN
+	1    3250 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR053
+U 1 1 5A058B8A
+P 5500 3700
+F 0 "#PWR053" H 5500 3550 50  0001 C CNN
+F 1 "VDD" H 5500 3850 50  0000 C CNN
+F 2 "" H 5500 3700 50  0001 C CNN
+F 3 "" H 5500 3700 50  0001 C CNN
+	1    5500 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR054
+U 1 1 5A058CC6
+P 2800 6750
+F 0 "#PWR054" H 2800 6600 50  0001 C CNN
+F 1 "VDD" H 2800 6900 50  0000 C CNN
+F 2 "" H 2800 6750 50  0001 C CNN
+F 3 "" H 2800 6750 50  0001 C CNN
+	1    2800 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR055
+U 1 1 5A058E02
+P 7050 6100
+F 0 "#PWR055" H 7050 5950 50  0001 C CNN
+F 1 "VDD" H 7050 6250 50  0000 C CNN
+F 2 "" H 7050 6100 50  0001 C CNN
+F 3 "" H 7050 6100 50  0001 C CNN
+	1    7050 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR056
+U 1 1 5A058F3E
+P 7100 3800
+F 0 "#PWR056" H 7100 3650 50  0001 C CNN
+F 1 "VDD" H 7100 3950 50  0000 C CNN
+F 2 "" H 7100 3800 50  0001 C CNN
+F 3 "" H 7100 3800 50  0001 C CNN
+	1    7100 3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR057
+U 1 1 5A05915F
+P 3450 2150
+F 0 "#PWR057" H 3450 2000 50  0001 C CNN
+F 1 "VDD" H 3450 2300 50  0000 C CNN
+F 2 "" H 3450 2150 50  0001 C CNN
+F 3 "" H 3450 2150 50  0001 C CNN
+	1    3450 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR059
+U 1 1 5A0593D7
+P 8050 800
+F 0 "#PWR059" H 8050 650 50  0001 C CNN
+F 1 "VDD" H 8050 950 50  0000 C CNN
+F 2 "" H 8050 800 50  0001 C CNN
+F 3 "" H 8050 800 50  0001 C CNN
+	1    8050 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR060
+U 1 1 5A0594C6
+P 5700 800
+F 0 "#PWR060" H 5700 650 50  0001 C CNN
+F 1 "VDD" H 5700 950 50  0000 C CNN
+F 2 "" H 5700 800 50  0001 C CNN
+F 3 "" H 5700 800 50  0001 C CNN
+	1    5700 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR062
+U 1 1 5A059822
+P 7350 2900
+F 0 "#PWR062" H 7350 2750 50  0001 C CNN
+F 1 "VDD" H 7350 3050 50  0000 C CNN
+F 2 "" H 7350 2900 50  0001 C CNN
+F 3 "" H 7350 2900 50  0001 C CNN
+	1    7350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D9
+U 1 1 5A69940F
+P 6350 3000
+F 0 "D9" H 6350 3100 50  0000 C CNN
+F 1 "blue" H 6350 2900 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 6350 3000 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/216/APHHS1005QBC-D-54846.pdf" H 6350 3000 50  0001 C CNN
+F 4 "Kingbright" H -4100 -3200 50  0001 C CNN "MFR"
+F 5 "APHHS1005QBC/D" H -4100 -3200 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4100 -3200 50  0001 C CNN "SPR"
+F 7 "604-APHHS1005QBCD" H -4100 -3200 50  0001 C CNN "SPN"
+F 8 "" H -4100 -3200 50  0001 C CNN "SPURL"
+	1    6350 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R19
+U 1 1 5A69941A
+P 5950 3000
+F 0 "R19" V 6030 3000 50  0000 C CNN
+F 1 "1k" V 5950 3000 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 5880 3000 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf" H 5950 3000 50  0001 C CNN
+F 4 "Panasonic" H -4900 -3200 50  0001 C CNN "MFR"
+F 5 "ERJ-PA2D1001X" H -4900 -3200 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4900 -3200 50  0001 C CNN "SPR"
+F 7 "667-ERJ-PA2D1001X" H -4900 -3200 50  0001 C CNN "SPN"
+F 8 "" H -4500 -3200 50  0001 C CNN "SPURL"
+	1    5950 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L adf7021:ADF7021 U1
+U 1 1 5896FF14
+P 4850 6350
+F 0 "U1" H 4850 6100 49  0000 C CNN
+F 1 "ADF7021" H 4850 6800 49  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm_ThermalVias" H 4650 6100 49  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/609/ADF7021-878461.pdf" H 4650 6100 49  0001 C CNN
+F 4 "Analog Devices" H 0   0   50  0001 C CNN "MFR"
+F 5 "ADF7021BCPZ" H 0   0   50  0001 C CNN "MPN"
+F 6 "Mouser" H 0   0   50  0001 C CNN "SPR"
+F 7 "584-ADF7021BCPZ" H 0   0   50  0001 C CNN "SPN"
+F 8 "" H 0   0   50  0001 C CNN "SPURL"
+	1    4850 6350
+	1    0    0    -1  
+$EndComp
+Text GLabel 800  2100 0    49   Input ~ 0
+BOOT0
+Text GLabel 4850 2350 2    49   Input ~ 0
+SWDIO
+Text GLabel 4850 2450 2    49   Input ~ 0
+SWCLK
+Text GLabel 10750 2100 2    49   Input ~ 0
+DISP_TXD
+Text GLabel 10750 2000 2    49   Input ~ 0
+DISP_RXD
+Text GLabel 7900 2950 2    49   Input ~ 0
+NRST
+Text GLabel 6500 5800 2    49   Input ~ 0
+CLKOUT
+Text GLabel 6100 6600 2    49   Input ~ 0
+SCLK
+Text GLabel 6100 6700 2    49   Input ~ 0
+SREAD
+Text GLabel 6100 6800 2    49   Input ~ 0
+SDATA
+Text GLabel 6100 6900 2    49   Input ~ 0
+SLE
+Text GLabel 5700 1200 0    49   Input ~ 0
+COS_LED
+Text GLabel 5700 1500 0    49   Input ~ 0
+PTT_LED
+Text GLabel 5700 2100 0    49   Input ~ 0
+DMR_LED
+Text GLabel 5700 1800 0    49   Input ~ 0
+DSTAR_LED
+Text GLabel 5700 2700 0    49   Input ~ 0
+P25_LED
+Text GLabel 5700 2400 0    49   Input ~ 0
+YSF_LED
+Text GLabel 1350 4450 2    49   Input ~ 0
+RF
+Text GLabel 700  6300 0    49   Input ~ 0
+RF
+Text GLabel 6500 6000 2    49   Input ~ 0
+DATAOUT
+Text GLabel 6500 5900 2    49   Input ~ 0
+DATAIN
+Text Notes 7050 6950 0    197  ~ 39
+MMDVM_HS Pi Zero Hat
+Text GLabel 800  2200 0    49   Input ~ 0
+NRST
+Text GLabel 5650 7600 2    49   Input ~ 0
+CE
+Text GLabel 7150 900  0    49   Input ~ 0
+SERVICE
+Text GLabel 2700 4450 2    49   Input ~ 0
+RF
+Text GLabel 3000 1600 2    60   Input ~ 0
+SDA
+Text GLabel 3000 1700 2    60   Input ~ 0
+SCL
+Text GLabel 3500 2550 2    49   Input ~ 0
+SDA
+Text GLabel 3500 2450 2    49   Input ~ 0
+SCL
+Text GLabel 5700 3000 0    49   Input ~ 0
+NXDN_LED
+Wire Wire Line
+	4750 2350 4850 2350
+Wire Wire Line
+	4750 2450 4850 2450
+Wire Wire Line
+	900  2100 800  2100
+Wire Wire Line
+	10650 2200 10750 2200
+Wire Wire Line
+	10750 2200 10750 2300
+Wire Wire Line
+	10650 2000 10750 2000
+Wire Wire Line
+	10650 2100 10750 2100
+Wire Wire Line
+	6000 5800 6100 5800
+Wire Wire Line
+	6000 5900 6100 5900
+Wire Wire Line
+	6000 6000 6100 6000
+Wire Wire Line
+	6400 5800 6500 5800
+Wire Wire Line
+	6000 6600 6100 6600
+Wire Wire Line
+	6000 6700 6100 6700
+Wire Wire Line
+	6000 6800 6100 6800
+Wire Wire Line
+	6000 6900 6100 6900
+Wire Wire Line
+	6000 6500 6500 6500
+Wire Wire Line
+	6500 6300 6500 6500
+Wire Wire Line
+	6000 7200 6100 7200
+Wire Wire Line
+	6100 7200 6100 7300
+Wire Wire Line
+	6000 6300 6100 6300
+Wire Wire Line
+	6400 6300 6500 6300
+Wire Wire Line
+	6000 6200 6750 6200
+Wire Wire Line
+	6750 6200 6750 6300
+Wire Wire Line
+	6750 6600 6750 6700
+Wire Wire Line
+	7050 6200 7050 6100
+Wire Wire Line
+	6600 900  6600 1200
+Wire Wire Line
+	5700 800  5700 900 
+Wire Wire Line
+	5700 900  5800 900 
+Wire Wire Line
+	5000 7450 5000 7550
+Wire Wire Line
+	5300 7450 5300 7550
+Wire Wire Line
+	3850 6900 3750 6900
+Wire Wire Line
+	3750 6900 3750 7000
+Wire Wire Line
+	3450 6800 3850 6800
+Wire Wire Line
+	3450 6800 3450 6900
+Wire Wire Line
+	3450 7200 3450 7300
+Wire Wire Line
+	3250 7200 3250 7300
+Wire Wire Line
+	3850 6700 3250 6700
+Wire Wire Line
+	3250 6700 3250 6900
+Wire Wire Line
+	3850 6600 2950 6600
+Wire Wire Line
+	2950 7200 2950 7300
+Wire Wire Line
+	2950 6600 2950 6800
+Wire Wire Line
+	2800 6800 2950 6800
+Wire Wire Line
+	2800 6750 2800 6800
+Wire Wire Line
+	3850 6500 2650 6500
+Wire Wire Line
+	2650 6500 2650 6900
+Wire Wire Line
+	2650 7200 2650 7300
+Wire Wire Line
+	2100 6300 2200 6300
+Wire Wire Line
+	2200 6700 2200 6800
+Wire Wire Line
+	2200 6800 2300 6800
+Wire Wire Line
+	2300 6800 2300 6400
+Wire Wire Line
+	2300 6400 3850 6400
+Wire Wire Line
+	2200 6300 2200 6400
+Wire Wire Line
+	2200 7200 2200 7300
+Wire Wire Line
+	3750 6200 3850 6200
+Wire Wire Line
+	1700 6100 1700 6300
+Wire Wire Line
+	1600 6300 1700 6300
+Wire Wire Line
+	1100 6300 1200 6300
+Wire Wire Line
+	1200 6300 1200 6400
+Wire Wire Line
+	1200 6700 1200 6800
+Wire Wire Line
+	700  6300 800  6300
+Wire Wire Line
+	1700 6100 1800 6100
+Wire Wire Line
+	2100 6100 2200 6100
+Wire Wire Line
+	2200 6000 2200 6100
+Wire Wire Line
+	3250 5750 3250 5850
+Wire Wire Line
+	1950 5650 1950 5750
+Wire Wire Line
+	2200 5150 2200 5250
+Wire Wire Line
+	1700 5250 1950 5250
+Wire Wire Line
+	1950 5250 1950 5350
+Wire Wire Line
+	3250 5250 3250 5350
+Wire Wire Line
+	3850 6000 3450 6000
+Wire Wire Line
+	3450 6000 3450 5350
+Wire Wire Line
+	3450 5350 3250 5350
+Wire Wire Line
+	4250 5100 4500 5100
+Wire Wire Line
+	4500 5100 4500 5200
+Wire Wire Line
+	4700 5100 4700 5200
+Wire Wire Line
+	4400 4800 4400 5200
+Wire Wire Line
+	4300 4800 4400 4800
+Wire Wire Line
+	3850 5900 3650 5900
+Wire Wire Line
+	3650 5900 3650 4800
+Wire Wire Line
+	3550 4800 3650 4800
+Wire Wire Line
+	1700 5650 1700 5750
+Wire Wire Line
+	1700 5250 1700 5350
+Wire Wire Line
+	3150 4800 3250 4800
+Wire Wire Line
+	2850 4800 2750 4800
+Wire Wire Line
+	2750 4800 2750 4900
+Wire Wire Line
+	4300 3650 4300 3550
+Wire Wire Line
+	4300 3550 4500 3550
+Wire Wire Line
+	4500 3550 4500 3650
+Wire Wire Line
+	4750 3550 4750 3650
+Wire Wire Line
+	4300 3950 4300 4000
+Wire Wire Line
+	4500 3950 4500 4050
+Wire Wire Line
+	4300 4350 4300 4450
+Wire Wire Line
+	4300 4450 4500 4450
+Wire Wire Line
+	4500 4350 4500 4450
+Wire Wire Line
+	4750 4450 4750 3950
+Wire Wire Line
+	3850 5800 3750 5800
+Wire Wire Line
+	3750 4000 4300 4000
+Wire Wire Line
+	3750 5800 3750 4000
+Wire Wire Line
+	5000 3550 5000 5200
+Wire Wire Line
+	5500 4200 5500 4300
+Wire Wire Line
+	5500 3700 5500 3800
+Wire Wire Line
+	4900 5200 4900 3800
+Wire Wire Line
+	4900 3800 5200 3800
+Wire Wire Line
+	5100 5200 5100 5100
+Wire Wire Line
+	5100 4800 5100 4700
+Wire Wire Line
+	5200 5200 5200 3800
+Wire Wire Line
+	7100 3800 7100 3900
+Wire Wire Line
+	7100 4250 7100 4300
+Wire Wire Line
+	5800 4700 5800 4800
+Wire Wire Line
+	5800 4800 5300 4800
+Wire Wire Line
+	5300 4800 5300 5200
+Wire Wire Line
+	900  4450 1000 4450
+Wire Wire Line
+	700  4650 700  4750
+Wire Wire Line
+	6400 5900 6500 5900
+Wire Wire Line
+	6400 6000 6500 6000
+Wire Wire Line
+	5500 7450 5500 7600
+Wire Wire Line
+	10700 1900 10650 1900
+Wire Wire Line
+	10700 1800 10700 1900
+Wire Wire Line
+	7350 2900 7350 2950
+Wire Wire Line
+	5500 7600 5650 7600
+Wire Wire Line
+	7150 900  7250 900 
+Wire Wire Line
+	7550 900  7650 900 
+Wire Wire Line
+	7950 900  8050 900 
+Wire Wire Line
+	8050 900  8050 800 
+Wire Wire Line
+	6600 900  6500 900 
+Wire Wire Line
+	6600 1200 6500 1200
+Wire Wire Line
+	6600 1500 6500 1500
+Wire Wire Line
+	6600 1800 6500 1800
+Wire Wire Line
+	6600 2100 6500 2100
+Wire Wire Line
+	6600 2400 6500 2400
+Wire Wire Line
+	6600 2700 6500 2700
+Wire Wire Line
+	6200 2700 6100 2700
+Wire Wire Line
+	5800 2700 5700 2700
+Wire Wire Line
+	6200 2400 6100 2400
+Wire Wire Line
+	5800 2400 5700 2400
+Wire Wire Line
+	5700 2100 5800 2100
+Wire Wire Line
+	6200 1800 6100 1800
+Wire Wire Line
+	6200 2100 6100 2100
+Wire Wire Line
+	5800 1800 5700 1800
+Wire Wire Line
+	5700 1500 5800 1500
+Wire Wire Line
+	6100 1500 6200 1500
+Wire Wire Line
+	6200 1200 6100 1200
+Wire Wire Line
+	5800 1200 5700 1200
+Wire Wire Line
+	6100 900  6200 900 
+Wire Wire Line
+	1300 4450 1350 4450
+Wire Wire Line
+	2700 4450 2600 4450
+Wire Wire Line
+	3350 2250 3450 2250
+Wire Wire Line
+	3450 2250 3450 2150
+Wire Wire Line
+	3350 2550 3500 2550
+Wire Wire Line
+	3350 2450 3500 2450
+Wire Wire Line
+	3350 2350 3800 2350
+Wire Wire Line
+	3800 2350 3800 2650
+Wire Wire Line
+	3400 800  3400 900 
+Wire Wire Line
+	3400 900  3500 900 
+Wire Wire Line
+	5100 800  5100 900 
+Wire Wire Line
+	3400 1300 3400 1400
+Wire Wire Line
+	5100 1300 5100 1400
+Wire Wire Line
+	2300 4450 2000 4450
+Wire Wire Line
+	6600 3000 6500 3000
+Wire Wire Line
+	6200 3000 6100 3000
+Wire Wire Line
+	5800 3000 5700 3000
+Wire Wire Line
+	6500 6500 6500 6700
+Wire Wire Line
+	6750 6200 7050 6200
+Wire Wire Line
+	6600 1200 6600 1500
+Wire Wire Line
+	6600 1500 6600 1800
+Wire Wire Line
+	6600 1800 6600 2100
+Wire Wire Line
+	6600 2100 6600 2400
+Wire Wire Line
+	6600 2400 6600 2700
+Wire Wire Line
+	6600 2700 6600 3000
+Wire Wire Line
+	2950 6800 2950 6900
+Wire Wire Line
+	2200 6800 2200 6900
+Wire Wire Line
+	2200 6300 3850 6300
+Wire Wire Line
+	1700 6300 1800 6300
+Wire Wire Line
+	1200 6300 1300 6300
+Wire Wire Line
+	2200 6100 3850 6100
+Wire Wire Line
+	1950 5250 2200 5250
+Wire Wire Line
+	2200 5250 2200 5700
+Wire Wire Line
+	3250 5350 3250 5450
+Wire Wire Line
+	4500 5100 4700 5100
+Wire Wire Line
+	3650 4800 4000 4800
+Wire Wire Line
+	4500 3550 4750 3550
+Wire Wire Line
+	4500 4450 4750 4450
+Wire Wire Line
+	4500 4450 4500 4550
+Wire Wire Line
+	4750 3550 5000 3550
+Wire Wire Line
+	4300 4000 4300 4050
+Wire Wire Line
+	5500 3800 5500 3900
+Wire Wire Line
+	5200 3800 5500 3800
+Wire Wire Line
+	7100 3900 7100 3950
+Wire Wire Line
+	3400 900  3400 1000
+Wire Wire Line
+	5100 900  5100 1000
+Connection ~ 6500 6500
+Connection ~ 6750 6200
+Connection ~ 6600 1200
+Connection ~ 6600 1500
+Connection ~ 6600 1800
+Connection ~ 6600 2100
+Connection ~ 6600 2400
+Connection ~ 6600 2700
+Connection ~ 2950 6800
+Connection ~ 2200 6800
+Connection ~ 2200 6300
+Connection ~ 1700 6300
+Connection ~ 1200 6300
+Connection ~ 2200 6100
+Connection ~ 1950 5250
+Connection ~ 2200 5250
+Connection ~ 3250 5350
+Connection ~ 4500 5100
+Connection ~ 3650 4800
+Connection ~ 4500 3550
+Connection ~ 4500 4450
+Connection ~ 4750 3550
+Connection ~ 4300 4000
+Connection ~ 5500 3800
+Connection ~ 5200 3800
+Connection ~ 7100 3900
+Connection ~ 3400 900 
+Connection ~ 5100 900 
+Connection ~ 6600 3000
+NoConn ~ 6000 6400
+NoConn ~ 5400 7450
+NoConn ~ 5200 7450
+NoConn ~ 5100 7450
+NoConn ~ 4900 7450
+NoConn ~ 4800 7450
+NoConn ~ 4700 7450
+NoConn ~ 4600 7450
+NoConn ~ 4500 7450
+NoConn ~ 4400 7450
+NoConn ~ 5400 5200
+NoConn ~ 5500 5200
+NoConn ~ 6000 6100
+NoConn ~ 1900 4450
+$Comp
+L Connector:Raspberry_Pi_2_3 PI1
+U 1 1 5F10B84F
+P 2100 2200
+F 0 "PI1" H 1450 3450 50  0000 C CNN
+F 1 "RPi_Zero" H 2650 3450 50  0000 C CNN
+F 2 "pizero:RPI-Zero-RASPBERRYPI_BASTELSTUBE_V13_RASPI_BOARD_B+_FULL" H 2100 2200 50  0001 C CNN
+F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 2100 2200 50  0001 C CNN
+	1    2100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0102
+U 1 1 5F14E5D3
+P 1950 700
+F 0 "#PWR0102" H 1950 550 50  0001 C CNN
+F 1 "+5V" H 1950 840 50  0000 C CNN
+F 2 "" H 1950 700 50  0000 C CNN
+F 3 "" H 1950 700 50  0000 C CNN
+	1    1950 700 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 700  1950 800 
+Wire Wire Line
+	1950 800  1900 800 
+Wire Wire Line
+	1900 800  1900 900 
+Wire Wire Line
+	1950 800  2000 800 
+Wire Wire Line
+	2000 800  2000 900 
+Connection ~ 1950 800 
+Wire Wire Line
+	1700 3500 1700 3600
+Wire Wire Line
+	1700 3600 1800 3600
+Wire Wire Line
+	2400 3600 2400 3500
+Wire Wire Line
+	2300 3500 2300 3600
+Connection ~ 2300 3600
+Wire Wire Line
+	2300 3600 2400 3600
+Wire Wire Line
+	2200 3500 2200 3600
+Connection ~ 2200 3600
+Wire Wire Line
+	2200 3600 2300 3600
+Wire Wire Line
+	2100 3500 2100 3600
+Connection ~ 2100 3600
+Wire Wire Line
+	2100 3600 2200 3600
+Wire Wire Line
+	2000 3500 2000 3600
+Connection ~ 2000 3600
+Wire Wire Line
+	1900 3500 1900 3600
+Connection ~ 1900 3600
+Wire Wire Line
+	1900 3600 2000 3600
+Wire Wire Line
+	1800 3500 1800 3600
+Connection ~ 1800 3600
+Wire Wire Line
+	1800 3600 1900 3600
+$Comp
+L power:GND #PWR0103
+U 1 1 5F2A1A34
+P 1700 3700
+F 0 "#PWR0103" H 1700 3450 50  0001 C CNN
+F 1 "GND" H 1700 3550 50  0000 C CNN
+F 2 "" H 1700 3700 50  0000 C CNN
+F 3 "" H 1700 3700 50  0000 C CNN
+	1    1700 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 3600 2100 3600
+Wire Wire Line
+	1700 3600 1700 3700
+Connection ~ 1700 3600
+Wire Wire Line
+	2900 1600 3000 1600
+Wire Wire Line
+	2900 1700 3000 1700
+Text GLabel 1200 1400 0    60   Input ~ 0
+TXD
+Text GLabel 1200 1300 0    60   Input ~ 0
+RXD
+Wire Wire Line
+	1200 1300 1300 1300
+Wire Wire Line
+	1200 1400 1300 1400
+Wire Wire Line
+	1200 2100 1300 2100
+Wire Wire Line
+	800  2200 1300 2200
+$Comp
+L Connector:Conn_Coaxial P3
+U 1 1 5F4DFF35
+P 700 4450
+F 0 "P3" H 700 4700 50  0000 C CNN
+F 1 "SMA" H 700 4600 50  0000 C CNN
+F 2 "Connector_Coaxial:SMA_Amphenol_132291-12_Vertical" H 700 4450 50  0001 C CNN
+F 3 " ~" H 700 4450 50  0001 C CNN
+	1    700  4450
+	-1   0    0    -1  
+$EndComp
+Connection ~ 9400 4150
+Wire Wire Line
+	9400 4150 9400 4250
+$Comp
+L power:GND #PWR0104
+U 1 1 5FCB62C0
+P 9400 4250
+F 0 "#PWR0104" H 9400 4000 50  0001 C CNN
+F 1 "GND" H 9400 4100 50  0000 C CNN
+F 2 "" H 9400 4250 50  0000 C CNN
+F 3 "" H 9400 4250 50  0000 C CNN
+	1    9400 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 4150 9600 4150
+Connection ~ 9500 4150
+Wire Wire Line
+	9500 4050 9500 4150
+Wire Wire Line
+	9600 4150 9700 4150
+Connection ~ 9600 4150
+Wire Wire Line
+	9600 4050 9600 4150
+Wire Wire Line
+	9700 4150 9700 4050
+Wire Wire Line
+	9400 4150 9500 4150
+Wire Wire Line
+	9400 4050 9400 4150
+NoConn ~ 10200 2950
+NoConn ~ 10200 2850
+NoConn ~ 10200 2750
+NoConn ~ 10200 2450
+NoConn ~ 10200 2350
+NoConn ~ 8900 3450
+NoConn ~ 8900 3350
+NoConn ~ 8900 3250
+Wire Wire Line
+	10300 3850 10200 3850
+Wire Wire Line
+	10300 3750 10200 3750
+Text GLabel 10300 3850 2    49   Input ~ 0
+CLKOUT
+Text GLabel 10300 3750 2    49   Input ~ 0
+SWCLK
+Wire Wire Line
+	8700 3050 8900 3050
+Wire Wire Line
+	8700 2950 8900 2950
+Wire Wire Line
+	8700 2850 8900 2850
+Wire Wire Line
+	8700 2750 8900 2750
+Wire Wire Line
+	8700 2650 8900 2650
+Text GLabel 8700 3050 0    49   Input ~ 0
+SREAD
+Text GLabel 8700 2750 0    49   Input ~ 0
+DATAOUT
+Text GLabel 8700 2650 0    49   Input ~ 0
+DATAIN
+Text GLabel 8700 2950 0    49   Input ~ 0
+SDATA
+Text GLabel 8700 2850 0    49   Input ~ 0
+SCLK
+Wire Wire Line
+	8700 3150 8900 3150
+Wire Wire Line
+	8800 1450 8900 1450
+Wire Wire Line
+	8050 1750 8900 1750
+Wire Wire Line
+	7550 1650 8900 1650
+$Comp
+L power:VDD #PWR0105
+U 1 1 5F8F6A9C
+P 9400 850
+F 0 "#PWR0105" H 9400 700 50  0001 C CNN
+F 1 "VDD" H 9400 1000 50  0000 C CNN
+F 2 "" H 9400 850 50  0001 C CNN
+F 3 "" H 9400 850 50  0001 C CNN
+	1    9400 850 
+	1    0    0    -1  
+$EndComp
+Connection ~ 9400 950 
+Wire Wire Line
+	9400 950  9400 850 
+Wire Wire Line
+	9500 950  9600 950 
+Connection ~ 9500 950 
+Wire Wire Line
+	9500 1050 9500 950 
+Wire Wire Line
+	9600 950  9700 950 
+Connection ~ 9600 950 
+Wire Wire Line
+	9600 1050 9600 950 
+Wire Wire Line
+	9700 950  9800 950 
+Connection ~ 9700 950 
+Wire Wire Line
+	9700 1050 9700 950 
+Wire Wire Line
+	9800 950  9800 1050
+Wire Wire Line
+	9400 950  9500 950 
+Wire Wire Line
+	9400 1050 9400 950 
+NoConn ~ 8900 2150
+Wire Wire Line
+	8800 2050 8900 2050
+Wire Wire Line
+	8800 1950 8900 1950
+Wire Wire Line
+	8800 1250 8900 1250
+Wire Wire Line
+	10300 2550 10200 2550
+Wire Wire Line
+	8800 2550 8800 4250
+Wire Wire Line
+	8900 2550 8800 2550
+Wire Wire Line
+	8700 3850 8900 3850
+Wire Wire Line
+	8700 3750 8900 3750
+Wire Wire Line
+	8700 3650 8900 3650
+Wire Wire Line
+	8700 3550 8900 3550
+Wire Wire Line
+	8700 2450 8900 2450
+Wire Wire Line
+	8700 2350 8900 2350
+Text GLabel 10300 3350 2    49   Input ~ 0
+RXD
+Text GLabel 10300 3250 2    49   Input ~ 0
+TXD
+Text GLabel 10300 3150 2    49   Input ~ 0
+NXDN_LED
+Wire Wire Line
+	10200 3350 10300 3350
+Wire Wire Line
+	10200 3250 10300 3250
+Wire Wire Line
+	10200 3150 10300 3150
+Text GLabel 8700 3850 0    49   Input ~ 0
+COS_LED
+Text GLabel 8700 3750 0    49   Input ~ 0
+PTT_LED
+Text GLabel 8700 3650 0    49   Input ~ 0
+DMR_LED
+Text GLabel 8700 3550 0    49   Input ~ 0
+DSTAR_LED
+$Comp
+L MCU_ST_STM32F1:STM32F103C8Tx U2
+U 1 1 5F55A298
+P 9600 2550
+F 0 "U2" H 9050 4000 50  0000 C CNN
+F 1 "STM32F103C8T6" H 9600 3400 50  0000 C CNN
+F 2 "Package_QFP:LQFP-48_7x7mm_P0.5mm" H 9000 1150 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 9600 2550 50  0001 C CNN
+	1    9600 2550
+	1    0    0    -1  
+$EndComp
+Connection ~ 10550 1300
+Connection ~ 10550 900 
+Connection ~ 8050 1950
+Connection ~ 7550 1950
+Wire Wire Line
+	10550 1300 10550 1350
+Wire Wire Line
+	10550 1300 10800 1300
+Wire Wire Line
+	10550 900  10800 900 
+Wire Wire Line
+	10550 900  10550 950 
+Wire Wire Line
+	8050 1950 8050 2050
+Wire Wire Line
+	7550 1950 7550 2050
+Wire Wire Line
+	10200 2650 10300 2650
+Wire Wire Line
+	10200 3650 10300 3650
+Wire Wire Line
+	10550 1250 10550 1300
+Wire Wire Line
+	10800 1300 10800 1250
+Wire Wire Line
+	10300 1300 10550 1300
+Wire Wire Line
+	10300 1250 10300 1300
+Wire Wire Line
+	10800 900  10800 950 
+Wire Wire Line
+	10300 900  10550 900 
+Wire Wire Line
+	10300 950  10300 900 
+Wire Wire Line
+	10550 850  10550 900 
+Wire Wire Line
+	8050 2350 8050 2450
+Wire Wire Line
+	7550 2350 7550 2450
+Wire Wire Line
+	8050 1750 8050 1950
+Wire Wire Line
+	7550 1650 7550 1950
+Text GLabel 8800 1950 0    49   Input ~ 0
+SERVICE
+Text GLabel 8800 2050 0    49   Input ~ 0
+CE
+Text GLabel 8700 3150 0    49   Input ~ 0
+SLE
+Text GLabel 8700 2450 0    49   Input ~ 0
+YSF_LED
+Text GLabel 8700 2350 0    49   Input ~ 0
+P25_LED
+Text GLabel 10300 2650 2    49   Input ~ 0
+DISP_RXD
+Text GLabel 10300 2550 2    49   Input ~ 0
+DISP_TXD
+Text GLabel 10300 3650 2    49   Input ~ 0
+SWDIO
+Text GLabel 8800 1450 0    49   Input ~ 0
+BOOT0
+Text GLabel 8800 1250 0    49   Input ~ 0
+NRST
+$Comp
+L power:VDD #PWR061
+U 1 1 5A059602
+P 10550 850
+F 0 "#PWR061" H 10550 700 50  0001 C CNN
+F 1 "VDD" H 10550 1000 50  0000 C CNN
+F 2 "" H 10550 850 50  0001 C CNN
+F 3 "" H 10550 850 50  0001 C CNN
+	1    10550 850 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR036
+U 1 1 589B5309
+P 8800 4250
+F 0 "#PWR036" H 8800 4000 50  0001 C CNN
+F 1 "GND" H 8800 4100 50  0000 C CNN
+F 2 "" H 8800 4250 50  0000 C CNN
+F 3 "" H 8800 4250 50  0000 C CNN
+	1    8800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 589622B0
+P 10550 1350
+F 0 "#PWR08" H 10550 1100 50  0001 C CNN
+F 1 "GND" H 10550 1200 50  0000 C CNN
+F 2 "" H 10550 1350 50  0000 C CNN
+F 3 "" H 10550 1350 50  0000 C CNN
+	1    10550 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C26
+U 1 1 58962208
+P 10800 1100
+F 0 "C26" H 10825 1200 50  0000 L CNN
+F 1 "100n" H 10825 1000 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 10838 950 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 10800 1100 50  0001 C CNN
+F 4 "Vishay / Vitramon" H 500 -2250 50  0001 C CNN "MFR"
+F 5 "VJ0402V104ZXJCW1BC" H 500 -2250 50  0001 C CNN "MPN"
+F 6 "Mouser" H 500 -2250 50  0001 C CNN "SPR"
+F 7 "77-VJ0402V104ZXJCBC" H 500 -2250 50  0001 C CNN "SPN"
+F 8 "" H 500 -2250 50  0001 C CNN "SPURL"
+	1    10800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C25
+U 1 1 589621B5
+P 10550 1100
+F 0 "C25" H 10575 1200 50  0000 L CNN
+F 1 "100n" H 10575 1000 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 10588 950 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 10550 1100 50  0001 C CNN
+F 4 "Vishay / Vitramon" H 500 -2250 50  0001 C CNN "MFR"
+F 5 "VJ0402V104ZXJCW1BC" H 500 -2250 50  0001 C CNN "MPN"
+F 6 "Mouser" H 500 -2250 50  0001 C CNN "SPR"
+F 7 "77-VJ0402V104ZXJCBC" H 500 -2250 50  0001 C CNN "SPN"
+F 8 "" H 500 -2250 50  0001 C CNN "SPURL"
+	1    10550 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C24
+U 1 1 58962122
+P 10300 1100
+F 0 "C24" H 10325 1200 50  0000 L CNN
+F 1 "100n" H 10325 1000 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 10338 950 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/vjw1bcbascomseries-223529.pdf" H 10300 1100 50  0001 C CNN
+F 4 "Vishay / Vitramon" H 500 -2250 50  0001 C CNN "MFR"
+F 5 "VJ0402V104ZXJCW1BC" H 500 -2250 50  0001 C CNN "MPN"
+F 6 "Mouser" H 500 -2250 50  0001 C CNN "SPR"
+F 7 "77-VJ0402V104ZXJCBC" H 500 -2250 50  0001 C CNN "SPN"
+F 8 "" H 500 -2250 50  0001 C CNN "SPURL"
+	1    10300 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5895F2CD
+P 8050 2450
+F 0 "#PWR02" H 8050 2200 50  0001 C CNN
+F 1 "GND" H 8050 2300 50  0000 C CNN
+F 2 "" H 8050 2450 50  0000 C CNN
+F 3 "" H 8050 2450 50  0000 C CNN
+	1    8050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5895F2C7
+P 7550 2450
+F 0 "#PWR01" H 7550 2200 50  0001 C CNN
+F 1 "GND" H 7550 2300 50  0000 C CNN
+F 2 "" H 7550 2450 50  0000 C CNN
+F 3 "" H 7550 2450 50  0000 C CNN
+	1    7550 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C23
+U 1 1 5895F2BF
+P 8050 2200
+F 0 "C23" H 8075 2300 50  0000 L CNN
+F 1 "20p" H 8075 2100 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 8088 2050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/c02e-2905.pdf" H 8050 2200 50  0001 C CNN
+F 4 "Murata Electronics" H 1100 -350 50  0001 C CNN "MFR"
+F 5 "GJM1555C1H200FB01D" H 1100 -350 50  0001 C CNN "MPN"
+F 6 "Mouser" H 1100 -350 50  0001 C CNN "SPR"
+F 7 "81-GJM1555C1H200FB1D" H 1100 -350 50  0001 C CNN "SPN"
+F 8 "" H 1100 -350 50  0001 C CNN "SPURL"
+	1    8050 2200
+	1    0    0    1   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:C-RESCUE-mmdvm_hs-hat C21
+U 1 1 5895F2B9
+P 7550 2200
+F 0 "C21" H 7575 2300 50  0000 L CNN
+F 1 "20p" H 7575 2100 50  0000 L CNN
+F 2 "pkl_dipol:C_0402" H 7588 2050 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/281/c02e-2905.pdf" H 7550 2200 50  0001 C CNN
+F 4 "Murata Electronics" H 1100 -350 50  0001 C CNN "MFR"
+F 5 "GJM1555C1H200FB01D" H 1100 -350 50  0001 C CNN "MPN"
+F 6 "Mouser" H 1100 -350 50  0001 C CNN "SPR"
+F 7 "81-GJM1555C1H200FB1D" H 1100 -350 50  0001 C CNN "SPN"
+F 8 "" H 1100 -350 50  0001 C CNN "SPURL"
+	1    7550 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:Crystal_Small Y1
+U 1 1 5895F2AD
+P 7800 1950
+F 0 "Y1" H 7650 2100 50  0000 C CNN
+F 1 "8MHz" H 7950 2100 50  0000 C CNN
+F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm" H 7800 1950 50  0001 C CNN
+F 3 "" H 7800 1950 50  0001 C CNN
+F 4 "ECS" H 1100 -350 50  0001 C CNN "MFR"
+F 5 "ECS-80-18-33-JGN-TR" H 1100 -350 50  0001 C CNN "MPN"
+F 6 "Mouser" H 1100 -350 50  0001 C CNN "SPR"
+F 7 "520-80-18-33-JGN-TR" H 1100 -350 50  0001 C CNN "SPN"
+F 8 "" H 1100 -350 50  0001 C CNN "SPURL"
+	1    7800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Oscillator:ABLNO X1
+U 1 1 5FEF3E28
+P 6500 4300
+F 0 "X1" H 6800 4550 50  0000 R CNN
+F 1 "TCXO" H 6400 4550 50  0000 R CNN
+F 2 "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm" H 6500 3950 50  0001 C CNN
+F 3 "https://abracon.com/Precisiontiming/ABLNO.pdf" H 6300 4400 50  0001 C CNN
+	1    6500 4300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6500 4600 6500 4700
+NoConn ~ 6900 4300
+Wire Wire Line
+	6500 3900 6500 4000
+Wire Wire Line
+	6500 3900 7100 3900
+Wire Wire Line
+	5800 4400 5800 4300
+Wire Wire Line
+	5800 4300 6100 4300
+$Comp
+L Connector_Generic:Conn_01x04 P2
+U 1 1 5F10A565
+P 10450 2000
+F 0 "P2" H 10368 2317 50  0000 C CNN
+F 1 "Display" H 10368 2226 50  0000 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_1x04" H 10450 2000 50  0001 C CNN
+F 3 "~" H 10450 2000 50  0001 C CNN
+	1    10450 2000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x04 P1
+U 1 1 5F10B8DF
+P 3150 2350
+F 0 "P1" H 3068 2667 50  0000 C CNN
+F 1 "OLED" H 3068 2576 50  0000 C CNN
+F 2 "pkl_pin_headers:Pin_Header_Straight_1x04" H 3150 2350 50  0001 C CNN
+F 3 "~" H 3150 2350 50  0001 C CNN
+	1    3150 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even P4
+U 1 1 5F110661
+P 4450 2450
+F 0 "P4" H 4500 2767 50  0000 C CNN
+F 1 "STLINK" H 4500 2676 50  0000 C CNN
+F 2 "pkl_tag_connect:TC2030-NL_SMALL" H 4450 2450 50  0001 C CNN
+F 3 "~" H 4450 2450 50  0001 C CNN
+	1    4450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDD #PWR0106
+U 1 1 5F110EBF
+P 4150 2250
+F 0 "#PWR0106" H 4150 2100 50  0001 C CNN
+F 1 "VDD" H 4150 2400 50  0000 C CNN
+F 2 "" H 4150 2250 50  0001 C CNN
+F 3 "" H 4150 2250 50  0001 C CNN
+	1    4150 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2250 4150 2350
+Wire Wire Line
+	4150 2350 4250 2350
+Wire Wire Line
+	4250 2550 4150 2550
+Wire Wire Line
+	4150 2550 4150 2650
+$Comp
+L power:GND #PWR0107
+U 1 1 5F14857B
+P 4150 2650
+F 0 "#PWR0107" H 4150 2400 50  0001 C CNN
+F 1 "GND" H 4150 2500 50  0000 C CNN
+F 2 "" H 4150 2650 50  0000 C CNN
+F 3 "" H 4150 2650 50  0000 C CNN
+	1    4150 2650
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 2450 0    49   Input ~ 0
+NRST
+Wire Wire Line
+	4150 2450 4250 2450
+NoConn ~ 4750 2550
+NoConn ~ 4600 5200
+NoConn ~ 4800 5200
+$Comp
+L power:+5V #PWR03
+U 1 1 5F2324E6
+P 3400 800
+F 0 "#PWR03" H 3400 650 50  0001 C CNN
+F 1 "+5V" H 3400 940 50  0000 C CNN
+F 2 "" H 3400 800 50  0000 C CNN
+F 3 "" H 3400 800 50  0000 C CNN
+	1    3400 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 900  3850 900 
+$Comp
+L power:GND #PWR04
+U 1 1 5F26AB6F
+P 4200 1400
+F 0 "#PWR04" H 4200 1150 50  0001 C CNN
+F 1 "GND" H 4200 1250 50  0000 C CNN
+F 2 "" H 4200 1400 50  0000 C CNN
+F 3 "" H 4200 1400 50  0000 C CNN
+	1    4200 1400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 2200 900 
+NoConn ~ 2300 900 
+Wire Wire Line
+	10200 3450 10300 3450
+Wire Wire Line
+	10200 3550 10300 3550
+Text GLabel 10300 3450 2    60   Input ~ 0
+USB_DN
+Text GLabel 10300 3550 2    60   Input ~ 0
+USB_DP
+$Comp
+L Connector:USB_C_Receptacle_USB2.0 P5
+U 1 1 5F426DBD
+P 7700 5200
+F 0 "P5" H 7807 6067 50  0000 C CNN
+F 1 "USB_C_Plug_USB2.0" H 7807 5976 50  0000 C CNN
+F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 7850 5200 50  0001 C CNN
+F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 7850 5200 50  0001 C CNN
+	1    7700 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 6200 7700 6100
+$Comp
+L power:GND #PWR06
+U 1 1 5F4441E9
+P 7700 6300
+F 0 "#PWR06" H 7700 6050 50  0001 C CNN
+F 1 "GND" H 7700 6150 50  0000 C CNN
+F 2 "" H 7700 6300 50  0000 C CNN
+F 3 "" H 7700 6300 50  0000 C CNN
+	1    7700 6300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7700 6200 7700 6300
+Connection ~ 7700 6200
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R21
+U 1 1 5F4D0932
+P 7600 3200
+F 0 "R21" V 7680 3200 50  0000 C CNN
+F 1 "100k" V 7600 3200 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 7530 3200 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf" H 7600 3200 50  0001 C CNN
+F 4 "Vishay" H 5450 -650 50  0001 C CNN "MFR"
+F 5 "CRCW040210K0FKED" H 5450 -650 50  0001 C CNN "MPN"
+F 6 "Mouser" H 5450 -650 50  0001 C CNN "SPR"
+F 7 "71-CRCW0402-10K-E3" H 5450 -650 50  0001 C CNN "SPN"
+F 8 "" H 5450 -650 50  0001 C CNN "SPURL"
+	1    7600 3200
+	0    1    -1   0   
+$EndComp
+Text GLabel 7850 3200 2    49   Input ~ 0
+BOOT0
+Wire Wire Line
+	7750 3200 7850 3200
+Wire Wire Line
+	7450 3200 7350 3200
+Wire Wire Line
+	7350 3200 7350 3300
+$Comp
+L power:GND #PWR05
+U 1 1 5F506654
+P 7350 3300
+F 0 "#PWR05" H 7350 3050 50  0001 C CNN
+F 1 "GND" H 7350 3150 50  0000 C CNN
+F 2 "" H 7350 3300 50  0000 C CNN
+F 3 "" H 7350 3300 50  0000 C CNN
+	1    7350 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8300 4600 8400 4600
+Wire Wire Line
+	8400 4600 8400 4500
+$Comp
+L power:+5V #PWR07
+U 1 1 5F521CEA
+P 8400 4500
+F 0 "#PWR07" H 8400 4350 50  0001 C CNN
+F 1 "+5V" H 8400 4640 50  0000 C CNN
+F 2 "" H 8400 4500 50  0000 C CNN
+F 3 "" H 8400 4500 50  0000 C CNN
+	1    8400 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R22
+U 1 1 5F52253E
+P 8550 4800
+F 0 "R22" V 8600 4600 50  0000 C CNN
+F 1 "5k1" V 8550 4800 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 8480 4800 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf" H 8550 4800 50  0001 C CNN
+F 4 "Vishay" H 6400 950 50  0001 C CNN "MFR"
+F 5 "CRCW040210K0FKED" H 6400 950 50  0001 C CNN "MPN"
+F 6 "Mouser" H 6400 950 50  0001 C CNN "SPR"
+F 7 "71-CRCW0402-10K-E3" H 6400 950 50  0001 C CNN "SPN"
+F 8 "" H 6400 950 50  0001 C CNN "SPURL"
+	1    8550 4800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 4800 8400 4800
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R23
+U 1 1 5F53E7D2
+P 8550 4900
+F 0 "R23" V 8600 4700 50  0000 C CNN
+F 1 "5k1" V 8550 4900 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 8480 4900 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf" H 8550 4900 50  0001 C CNN
+F 4 "Vishay" H 6400 1050 50  0001 C CNN "MFR"
+F 5 "CRCW040210K0FKED" H 6400 1050 50  0001 C CNN "MPN"
+F 6 "Mouser" H 6400 1050 50  0001 C CNN "SPR"
+F 7 "71-CRCW0402-10K-E3" H 6400 1050 50  0001 C CNN "SPN"
+F 8 "" H 6400 1050 50  0001 C CNN "SPURL"
+	1    8550 4900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 4900 8400 4900
+Wire Wire Line
+	8700 4800 8900 4800
+Wire Wire Line
+	8900 4800 8900 4850
+Wire Wire Line
+	8900 4900 8700 4900
+Wire Wire Line
+	8900 4850 9000 4850
+Connection ~ 8900 4850
+Wire Wire Line
+	8900 4850 8900 4900
+$Comp
+L power:GND #PWR010
+U 1 1 5F591E23
+P 9000 4850
+F 0 "#PWR010" H 9000 4600 50  0001 C CNN
+F 1 "GND" H 9000 4700 50  0000 C CNN
+F 2 "" H 9000 4850 50  0000 C CNN
+F 3 "" H 9000 4850 50  0000 C CNN
+	1    9000 4850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8300 5100 8400 5100
+Wire Wire Line
+	8400 5100 8400 5200
+Wire Wire Line
+	8400 5200 8300 5200
+Wire Wire Line
+	8300 5300 8400 5300
+Wire Wire Line
+	8400 5300 8400 5400
+Wire Wire Line
+	8400 5400 8300 5400
+Wire Wire Line
+	8400 5200 8900 5200
+Connection ~ 8400 5200
+Wire Wire Line
+	8400 5400 8900 5400
+Connection ~ 8400 5400
+Text Label 8450 5200 0    60   ~ 0
+xUDN
+Text Label 8450 5400 0    60   ~ 0
+xUDP
+$Comp
+L power:GND #PWR038
+U 1 1 5F60F224
+P 8800 5600
+F 0 "#PWR038" H 8800 5350 50  0001 C CNN
+F 1 "GND" H 8800 5450 50  0000 C CNN
+F 2 "" H 8800 5600 50  0000 C CNN
+F 3 "" H 8800 5600 50  0000 C CNN
+	1    8800 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR037
+U 1 1 5F62D4F6
+P 9950 4700
+F 0 "#PWR037" H 9950 4550 50  0001 C CNN
+F 1 "+5V" H 9950 4840 50  0000 C CNN
+F 2 "" H 9950 4700 50  0000 C CNN
+F 3 "" H 9950 4700 50  0000 C CNN
+	1    9950 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 5400 10100 5400
+Wire Wire Line
+	10100 5400 10100 5100
+$Comp
+L Device:R_Small R24
+U 1 1 5F669D5F
+P 10100 5000
+F 0 "R24" H 10159 5046 50  0000 L CNN
+F 1 "1k5" H 10159 4955 50  0000 L CNN
+F 2 "pkl_dipol:R_0402" H 10100 5000 50  0001 C CNN
+F 3 "~" H 10100 5000 50  0001 C CNN
+	1    10100 5000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 4700 10100 4900
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R25
+U 1 1 5F688863
+P 10350 5200
+F 0 "R25" V 10400 5000 50  0000 C CNN
+F 1 "27" V 10350 5200 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 10280 5200 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf" H 10350 5200 50  0001 C CNN
+F 4 "Vishay" H 8200 1350 50  0001 C CNN "MFR"
+F 5 "CRCW040210K0FKED" H 8200 1350 50  0001 C CNN "MPN"
+F 6 "Mouser" H 8200 1350 50  0001 C CNN "SPR"
+F 7 "71-CRCW0402-10K-E3" H 8200 1350 50  0001 C CNN "SPN"
+F 8 "" H 8200 1350 50  0001 C CNN "SPURL"
+	1    10350 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R26
+U 1 1 5F68956A
+P 10350 5400
+F 0 "R26" V 10400 5200 50  0000 C CNN
+F 1 "27" V 10350 5400 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 10280 5400 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/427/dcrcwe3-109170.pdf" H 10350 5400 50  0001 C CNN
+F 4 "Vishay" H 8200 1550 50  0001 C CNN "MFR"
+F 5 "CRCW040210K0FKED" H 8200 1550 50  0001 C CNN "MPN"
+F 6 "Mouser" H 8200 1550 50  0001 C CNN "SPR"
+F 7 "71-CRCW0402-10K-E3" H 8200 1550 50  0001 C CNN "SPN"
+F 8 "" H 8200 1550 50  0001 C CNN "SPURL"
+	1    10350 5400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9900 5200 10200 5200
+Wire Wire Line
+	10100 5400 10200 5400
+Connection ~ 10100 5400
+Text GLabel 10750 5200 2    60   Input ~ 0
+USB_DN
+Text GLabel 10750 5400 2    60   Input ~ 0
+USB_DP
+Wire Wire Line
+	7400 6200 7700 6200
+Wire Wire Line
+	7400 6100 7400 6200
+Wire Wire Line
+	10500 5200 10750 5200
+Wire Wire Line
+	10500 5400 10750 5400
+$Comp
+L mmdvm_hs-hat-rescue:LED-RESCUE-mmdvm_hs-hat D10
+U 1 1 5F7A0305
+P 6350 3300
+F 0 "D10" H 6350 3400 50  0000 C CNN
+F 1 "blue" H 6350 3200 50  0000 C CNN
+F 2 "LED_SMD:LED_0402_1005Metric" H 6350 3300 50  0001 C CNN
+F 3 "https://www.mouser.com/ds/2/216/APHHS1005QBC-D-54846.pdf" H 6350 3300 50  0001 C CNN
+F 4 "Kingbright" H -4100 -2900 50  0001 C CNN "MFR"
+F 5 "APHHS1005QBC/D" H -4100 -2900 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4100 -2900 50  0001 C CNN "SPR"
+F 7 "604-APHHS1005QBCD" H -4100 -2900 50  0001 C CNN "SPN"
+F 8 "" H -4100 -2900 50  0001 C CNN "SPURL"
+	1    6350 3300
+	-1   0    0    1   
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:R-RESCUE-mmdvm_hs-hat R20
+U 1 1 5F7A0314
+P 5950 3300
+F 0 "R20" V 6030 3300 50  0000 C CNN
+F 1 "1k" V 5950 3300 50  0000 C CNN
+F 2 "pkl_dipol:R_0402" V 5880 3300 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/315/AOA0000C291-1101061.pdf" H 5950 3300 50  0001 C CNN
+F 4 "Panasonic" H -4900 -2900 50  0001 C CNN "MFR"
+F 5 "ERJ-PA2D1001X" H -4900 -2900 50  0001 C CNN "MPN"
+F 6 "Mouser" H -4900 -2900 50  0001 C CNN "SPR"
+F 7 "667-ERJ-PA2D1001X" H -4900 -2900 50  0001 C CNN "SPN"
+F 8 "" H -4500 -2900 50  0001 C CNN "SPURL"
+	1    5950 3300
+	0    1    1    0   
+$EndComp
+Text GLabel 5700 3300 0    49   Input ~ 0
+POCSAG_LED
+Wire Wire Line
+	6200 3300 6100 3300
+Wire Wire Line
+	5800 3300 5700 3300
+Wire Wire Line
+	6500 3300 6600 3300
+Wire Wire Line
+	6600 3000 6600 3300
+Wire Wire Line
+	6600 3300 6600 3400
+Connection ~ 6600 3300
+Text GLabel 10300 3050 2    49   Input ~ 0
+POCSAG_LED
+Wire Wire Line
+	10200 3050 10300 3050
+Wire Wire Line
+	7350 2950 7450 2950
+Wire Wire Line
+	7750 2950 7900 2950
+Wire Notes Line
+	7250 4200 11200 4200
+Wire Notes Line
+	11200 4200 11200 6500
+Wire Notes Line
+	11200 6500 7250 6500
+Wire Notes Line
+	7250 6500 7250 4200
+Text Notes 9850 6400 0    98   ~ 20
+USB is optional.
+$Comp
+L pkl_misc:USBLC6-2 U4
+U 1 1 5F10FB4B
+P 9400 5300
+F 0 "U4" H 9400 5687 60  0000 C CNN
+F 1 "USBLC6-2" H 9400 5581 60  0000 C CNN
+F 2 "pkl_housings_sot:SOT-23-6" H 9400 5581 60  0001 C CNN
+F 3 "" H 9400 5300 60  0000 C CNN
+	1    9400 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8900 5300 8800 5300
+Wire Wire Line
+	8800 5300 8800 5600
+Wire Wire Line
+	9950 5300 9900 5300
+Wire Wire Line
+	9950 4700 9950 5300
+Wire Wire Line
+	7550 1950 7700 1950
+Wire Wire Line
+	7900 1950 8050 1950
+$Comp
+L power:VDD #PWR039
+U 1 1 5F4F1244
+P 10100 4700
+F 0 "#PWR039" H 10100 4550 50  0001 C CNN
+F 1 "VDD" H 10100 4850 50  0000 C CNN
+F 2 "" H 10100 4700 50  0001 C CNN
+F 3 "" H 10100 4700 50  0001 C CNN
+	1    10100 4700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L mmdvm_hs-hat-rescue:TLV70233_SOT23-5-Regulator_Linear U3
+U 1 1 5F1F0AB4
+P 4200 1000
+F 0 "U3" H 4200 1342 50  0000 C CNN
+F 1 "TLV70233_SOT23-5" H 4200 1251 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4200 1325 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv702.pdf" H 4200 1050 50  0001 C CNN
+	1    4200 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1300 4200 1400
+Wire Wire Line
+	3900 1000 3850 1000
+Wire Wire Line
+	3850 1000 3850 900 
+Connection ~ 3850 900 
+Wire Wire Line
+	3850 900  3900 900 
+Wire Wire Line
+	4500 900  5100 900 
+$EndSCHEMATC
